@@ -1,0 +1,1550 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16LF1459 ]
+"282 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c
+[e E3477 . `uc
+DETACHED_STATE 0
+ATTACHED_STATE 1
+POWERED_STATE 2
+DEFAULT_STATE 4
+ADR_PENDING_STATE 8
+ADDRESS_STATE 16
+CONFIGURED_STATE 32
+]
+"294
+[e E5 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"887
+[e E3249 . `ui
+EVENT_NONE 0
+EVENT_DEVICE_STACK_BASE 1
+EVENT_HOST_STACK_BASE 100
+EVENT_HUB_ATTACH 101
+EVENT_STALL 102
+EVENT_VBUS_SES_REQUEST 103
+EVENT_VBUS_OVERCURRENT 104
+EVENT_VBUS_REQUEST_POWER 105
+EVENT_VBUS_RELEASE_POWER 106
+EVENT_VBUS_POWER_AVAILABLE 107
+EVENT_UNSUPPORTED_DEVICE 108
+EVENT_CANNOT_ENUMERATE 109
+EVENT_CLIENT_INIT_ERROR 110
+EVENT_OUT_OF_MEMORY 111
+EVENT_UNSPECIFIED_ERROR 112
+EVENT_DETACH 113
+EVENT_TRANSFER 114
+EVENT_SOF 115
+EVENT_RESUME 116
+EVENT_SUSPEND 117
+EVENT_RESET 118
+EVENT_DATA_ISOC_READ 119
+EVENT_DATA_ISOC_WRITE 120
+EVENT_OVERRIDE_CLIENT_DRIVER_SELECTION 121
+EVENT_1MS 122
+EVENT_GENERIC_BASE 400
+EVENT_MSD_BASE 500
+EVENT_HID_BASE 600
+EVENT_PRINTER_BASE 700
+EVENT_CDC_BASE 800
+EVENT_CHARGER_BASE 900
+EVENT_AUDIO_BASE 1000
+EVENT_USER_BASE 10000
+EVENT_BUS_ERROR 32767
+]
+"2180
+[e E3486 . `uc
+EVENT_CONFIGURED 1
+EVENT_SET_DESCRIPTOR 2
+EVENT_EP0_REQUEST 3
+EVENT_ATTACH 4
+EVENT_TRANSFER_TERMINATED 5
+]
+"184 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c
+[e E3477 . `uc
+DETACHED_STATE 0
+ATTACHED_STATE 1
+POWERED_STATE 2
+DEFAULT_STATE 4
+ADR_PENDING_STATE 8
+ADDRESS_STATE 16
+CONFIGURED_STATE 32
+]
+"567
+[e E5 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"631
+[e E3249 . `ui
+EVENT_NONE 0
+EVENT_DEVICE_STACK_BASE 1
+EVENT_HOST_STACK_BASE 100
+EVENT_HUB_ATTACH 101
+EVENT_STALL 102
+EVENT_VBUS_SES_REQUEST 103
+EVENT_VBUS_OVERCURRENT 104
+EVENT_VBUS_REQUEST_POWER 105
+EVENT_VBUS_RELEASE_POWER 106
+EVENT_VBUS_POWER_AVAILABLE 107
+EVENT_UNSUPPORTED_DEVICE 108
+EVENT_CANNOT_ENUMERATE 109
+EVENT_CLIENT_INIT_ERROR 110
+EVENT_OUT_OF_MEMORY 111
+EVENT_UNSPECIFIED_ERROR 112
+EVENT_DETACH 113
+EVENT_TRANSFER 114
+EVENT_SOF 115
+EVENT_RESUME 116
+EVENT_SUSPEND 117
+EVENT_RESET 118
+EVENT_DATA_ISOC_READ 119
+EVENT_DATA_ISOC_WRITE 120
+EVENT_OVERRIDE_CLIENT_DRIVER_SELECTION 121
+EVENT_1MS 122
+EVENT_GENERIC_BASE 400
+EVENT_MSD_BASE 500
+EVENT_HID_BASE 600
+EVENT_PRINTER_BASE 700
+EVENT_CDC_BASE 800
+EVENT_CHARGER_BASE 900
+EVENT_AUDIO_BASE 1000
+EVENT_USER_BASE 10000
+EVENT_BUS_ERROR 32767
+]
+[e E3486 . `uc
+EVENT_CONFIGURED 1
+EVENT_SET_DESCRIPTOR 2
+EVENT_EP0_REQUEST 3
+EVENT_ATTACH 4
+EVENT_TRANSFER_TERMINATED 5
+]
+"467 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c
+[v _USBDeviceInit USBDeviceInit `(v  1 e 0 0 ]
+"669
+[v _USBDeviceTasks USBDeviceTasks `(v  1 e 0 0 ]
+"1056
+[v _USBEnableEndpoint USBEnableEndpoint `(v  1 e 0 0 ]
+"1173
+[v _USBTransferOnePacket USBTransferOnePacket `(*.4v  1 e 1 0 ]
+"1250
+[v _USBStallEndpoint USBStallEndpoint `(v  1 e 0 0 ]
+"1303
+[v _USBCancelIO USBCancelIO `(v  1 e 0 0 ]
+"1590
+[v _USBCtrlEPAllowStatusStage USBCtrlEPAllowStatusStage `(v  1 e 0 0 ]
+"1660
+[v _USBCtrlEPAllowDataStage USBCtrlEPAllowDataStage `(v  1 e 0 0 ]
+"1713
+[v _USBConfigureEndpoint USBConfigureEndpoint `(v  1 s 0 USBConfigureEndpoint ]
+"1786
+[v _USBCtrlEPServiceComplete USBCtrlEPServiceComplete `(v  1 s 0 USBCtrlEPServiceComplete ]
+"1938
+[v _USBCtrlTrfTxService USBCtrlTrfTxService `(v  1 s 0 USBCtrlTrfTxService ]
+"2019
+[v _USBCtrlTrfRxService USBCtrlTrfRxService `(v  1 s 0 USBCtrlTrfRxService ]
+"2132
+[v _USBStdSetCfgHandler USBStdSetCfgHandler `(v  1 s 0 USBStdSetCfgHandler ]
+"2207
+[v _USBStdGetDscHandler USBStdGetDscHandler `(v  1 s 0 USBStdGetDscHandler ]
+"2283
+[v _USBStdGetStatusHandler USBStdGetStatusHandler `(v  1 s 0 USBStdGetStatusHandler ]
+"2356
+[v _USBStallHandler USBStallHandler `(v  1 s 0 USBStallHandler ]
+"2399
+[v _USBSuspend USBSuspend `(v  1 s 0 USBSuspend ]
+"2456
+[v _USBWakeFromSuspend USBWakeFromSuspend `(v  1 s 0 USBWakeFromSuspend ]
+"2523
+[v _USBCtrlEPService USBCtrlEPService `(v  1 s 0 USBCtrlEPService ]
+"2623
+[v _USBCtrlTrfSetupHandler USBCtrlTrfSetupHandler `(v  1 s 0 USBCtrlTrfSetupHandler ]
+"2695
+[v _USBCtrlTrfOutHandler USBCtrlTrfOutHandler `(v  1 s 0 USBCtrlTrfOutHandler ]
+"2748
+[v _USBCtrlTrfInHandler USBCtrlTrfInHandler `(v  1 s 0 USBCtrlTrfInHandler ]
+"2839
+[v _USBCheckStdRequest USBCheckStdRequest `(v  1 s 0 USBCheckStdRequest ]
+"2907
+[v _USBStdFeatureReqHandler USBStdFeatureReqHandler `(v  1 s 0 USBStdFeatureReqHandler ]
+"248 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_function_generic.c
+[v _USBCheckVendorRequest USBCheckVendorRequest `(v  1 e 0 0 ]
+"36 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c
+[v _SendAsicData SendAsicData `(v  1 e 0 0 ]
+"58
+[v _Send32 Send32 `(v  1 e 0 0 ]
+"313
+[v _rotate rotate `(ul  1 e 4 0 ]
+"318
+[v _AsicPreCalc AsicPreCalc `(v  1 e 0 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\common\memset.c
+[v _memset memset `(*.39v  1 e 1 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\abdiv.c
+[v ___abdiv __abdiv `(c  1 e 1 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\abmod.c
+[v ___abmod __abmod `(c  1 e 1 0 ]
+"34 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\abtoft.c
+[v ___abtoft __abtoft `(f  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"43 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\altoft.c
+[v ___altoft __altoft `(f  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"38 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\attoft.c
+[v ___attoft __attoft `(f  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"33 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\bmul.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+[v i1___bmul __bmul `(uc  1 e 1 0 ]
+[v i1___bmul __bmul `(uc  1 e 1 0 ]
+"63 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"87 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"50 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"52 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"16 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"17 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"45 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"28 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"36 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lmul.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"31 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lttoft.c
+[v ___lttoft __lttoft `(f  1 e 3 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"29 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\tmul.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\wmul.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+[v i1___wmul __wmul `(ui  1 e 2 0 ]
+[v i1___wmul __wmul `(ui  1 e 2 0 ]
+"37 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\i2c.c
+[v _I2CRelay I2CRelay `(v  1 e 0 0 ]
+"47
+[v _I2CPoll I2CPoll `(v  1 e 0 0 ]
+"57
+[v _I2CDetect I2CDetect `(v  1 e 0 0 ]
+"65
+[v _I2CRead I2CRead `(v  1 e 0 0 ]
+"109
+[v _I2CWrite I2CWrite `(v  1 e 0 0 ]
+"130
+[v _I2CSlave I2CSlave `(v  1 e 0 0 ]
+"161
+[v _InitI2CSlave InitI2CSlave `(v  1 e 0 0 ]
+"175
+[v _InitI2CMaster InitI2CMaster `(v  1 e 0 0 ]
+"47 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c
+[v _ProcessCmd ProcessCmd `(v  1 e 0 0 ]
+"108
+[v _AsicPushWork AsicPushWork `(v  1 e 0 0 ]
+"120
+[v _DetectAsics DetectAsics `(v  1 e 0 0 ]
+"137
+[v _WorkTick WorkTick `(v  1 e 0 0 ]
+"164
+[v _ResultRx ResultRx `(v  1 e 0 0 ]
+"199
+[v _UpdateFanLevel UpdateFanLevel `(v  1 e 0 0 ]
+"221
+[v _InitFAN InitFAN `(v  1 e 0 0 ]
+"241
+[v _InitTempSensor InitTempSensor `(v  1 e 0 0 ]
+"255
+[v _InitWorkTick InitWorkTick `(v  1 e 0 0 ]
+"272
+[v _InitResultRx InitResultRx `(v  1 e 0 0 ]
+"289
+[v _UpdateClock UpdateClock `(v  1 e 0 0 ]
+"70 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c
+[v _ISRCode ISRCode `II(v  1 e 0 0 ]
+"98
+[v _main main `(i  1 e 2 0 ]
+"146
+[v _InitializeSystem InitializeSystem `(v  1 s 0 InitializeSystem ]
+"170
+[v _UserInit UserInit `(v  1 e 0 0 ]
+"182
+[v _ProcessIO ProcessIO `(v  1 e 0 0 ]
+"208
+[v _SendCmdReply SendCmdReply `(v  1 e 0 0 ]
+[v i1_SendCmdReply SendCmdReply `(v  1 e 0 0 ]
+[v i1_SendCmdReply SendCmdReply `(v  1 e 0 0 ]
+"264
+[v _USBCBSuspend USBCBSuspend `(v  1 e 0 0 ]
+"305
+[v _USBCBWakeFromSuspend USBCBWakeFromSuspend `(v  1 e 0 0 ]
+"335
+[v _USBCB_SOF_Handler USBCB_SOF_Handler `(v  1 e 0 0 ]
+"358
+[v _USBCBErrorHandler USBCBErrorHandler `(v  1 e 0 0 ]
+"409
+[v _USBCBCheckOtherReq USBCBCheckOtherReq `(v  1 e 0 0 ]
+"434
+[v _USBCBStdSetDscHandler USBCBStdSetDscHandler `(v  1 e 0 0 ]
+"460
+[v _USBCBInitEP USBCBInitEP `(v  1 e 0 0 ]
+"555
+[v _USBCBSendResume USBCBSendResume `(v  1 e 0 0 ]
+"630
+[v _USER_USB_CALLBACK_EVENT_HANDLER USER_USB_CALLBACK_EVENT_HANDLER `(E5  1 e 1 0 ]
+"282 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c
+[v _USBDeviceState USBDeviceState `E3477  1 e 1 0 ]
+"283
+[v _USBActiveConfiguration USBActiveConfiguration `uc  1 e 1 0 ]
+"284
+[v _USBAlternateInterface USBAlternateInterface `[1]uc  1 e 1 0 ]
+[s S27 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"285
+[s S36 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S43 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S47 _BD_STAT 1 `uc 1 Val 1 0 `S27 1 . 1 0 `S36 1 . 1 0 `S43 1 . 1 0 ]
+[s S52 . 4 `S47 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S57 . 4 `uc 1 filler1 1 0 :8:0 
+`uc 1 filler2 1 1 :8:0 
+`us 1 ADR 2 2 ]
+[u S61 __BDT 4 `S52 1 . 4 0 `S57 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v _pBDTEntryEP0OutCurrent pBDTEntryEP0OutCurrent `*.4VES61  1 e 1 0 ]
+"286
+[v _pBDTEntryEP0OutNext pBDTEntryEP0OutNext `*.4VES61  1 e 1 0 ]
+"287
+[v _pBDTEntryOut pBDTEntryOut `[2]*.4VES61  1 e 2 0 ]
+"288
+[v _pBDTEntryIn pBDTEntryIn `[2]*.4VES61  1 e 2 0 ]
+"289
+[v _shortPacketStatus shortPacketStatus `uc  1 e 1 0 ]
+"290
+[v _controlTransferState controlTransferState `uc  1 e 1 0 ]
+[u S66 . 2 `*.1uc 1 bRam 2 0 `*.1DCCuc 1 bRom 2 0 `*.1us 1 wRam 2 0 `*.1DCCus 1 wRom 2 0 ]
+"291
+[s S71 . 1 `uc 1 ctrl_trf_mem 1 0 :1:0 
+`uc 1 reserved 1 0 :5:1 
+`uc 1 includeZero 1 0 :1:6 
+`uc 1 busy 1 0 :1:7 
+]
+[u S76 . 1 `S71 1 bits 1 0 `uc 1 Val 1 0 ]
+[s S79 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S82 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S99 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S79 1 byte 2 0 `S82 1 bits 2 0 ]
+[s S104 . 5 `S66 1 pSrc 2 0 `S76 1 info 1 2 `S99 1 wCount 2 3 ]
+[v _inPipes inPipes `[1]S104  1 e 5 0 ]
+[u S108 . 2 `*.1uc 1 bRam 2 0 `*.1us 1 wRam 2 0 ]
+"292
+[s S111 . 1 `uc 1 reserved 1 0 :7:0 
+`uc 1 busy 1 0 :1:7 
+]
+[u S114 . 1 `S111 1 bits 1 0 `uc 1 Val 1 0 ]
+[s S118 . 6 `S108 1 pDst 2 0 `S114 1 info 1 2 `S99 1 wCount 2 3 `*.27(v 1 pFunc 1 5 ]
+[v _outPipes outPipes `[1]S118  1 e 6 0 ]
+"293
+[v _pDst pDst `*.4uc  1 e 1 0 ]
+"294
+[v _RemoteWakeup RemoteWakeup `E5  1 e 1 0 ]
+"295
+[v _USBBusIsSuspended USBBusIsSuspended `E5  1 e 1 0 ]
+[s S126 . 1 `uc 1 filler1 1 0 :1:0 
+`uc 1 ping_pong 1 0 :1:1 
+`uc 1 direction 1 0 :1:2 
+`uc 1 endpoint_number 1 0 :4:3 
+]
+"296
+[u S131 __USTAT 1 `S126 1 . 1 0 `uc 1 Val 1 0 ]
+[v _USTATcopy USTATcopy `S131  1 e 1 0 ]
+"297
+[v _endpoint_number endpoint_number `uc  1 e 1 0 ]
+"298
+[v _BothEP0OutUOWNsSet BothEP0OutUOWNsSet `E5  1 e 1 0 ]
+[s S134 . 1 `uc 1 ping_pong_state 1 0 :1:0 
+`uc 1 transfer_terminated 1 0 :1:1 
+]
+"299
+[u S137 . 1 `S134 1 bits 1 0 `uc 1 Val 1 0 ]
+[v _ep_data_in ep_data_in `[2]S137  1 e 2 0 ]
+"300
+[v _ep_data_out ep_data_out `[2]S137  1 e 2 0 ]
+"301
+[v _USBStatusStageTimeoutCounter USBStatusStageTimeoutCounter `uc  1 e 1 0 ]
+"302
+[v _USBDeferStatusStagePacket USBDeferStatusStagePacket `VEE5  1 e 1 0 ]
+"303
+[v _USBStatusStageEnabledFlag1 USBStatusStageEnabledFlag1 `VEE5  1 e 1 0 ]
+"304
+[v _USBStatusStageEnabledFlag2 USBStatusStageEnabledFlag2 `VEE5  1 e 1 0 ]
+"305
+[v _USBDeferINDataStagePackets USBDeferINDataStagePackets `VEE5  1 e 1 0 ]
+"306
+[v _USBDeferOUTDataStagePackets USBDeferOUTDataStagePackets `VEE5  1 e 1 0 ]
+"326
+[v _BDT BDT `VE[8]S61  1 e 32 @32 ]
+[s S140 . 8 `uc 1 bmRequestType 1 0 `uc 1 bRequest 1 1 `us 1 wValue 2 2 `us 1 wIndex 2 4 `us 1 wLength 2 6 ]
+"331
+[s S146 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`S99 1 W_Value 2 2 `S99 1 W_Index 2 4 `S99 1 W_Length 2 6 ]
+[s S152 . 8 `uc 1 Recipient 1 0 :5:0 
+`uc 1 RequestType 1 0 :2:5 
+`uc 1 DataDir 1 0 :1:7 
+`uc 1 . 1 1 :8:0 
+`uc 1 bFeature 1 2 `uc 1 . 1 3 :8:0 
+`uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S163 . 1 `uc 1 recipient 1 0 :5:0 
+`uc 1 type 1 0 :2:5 
+`uc 1 direction 1 0 :1:7 
+]
+[u S167 . 1 `uc 1 bmRequestType 1 0 `S163 1 . 1 0 ]
+[s S170 . 1 `S167 1 requestInfo 1 0 ]
+[s S172 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bDscIndex 1 2 `uc 1 bDescriptorType 1 3 `us 1 wLangID 2 4 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S180 . 1 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+]
+[u S189 . 1 `uc 1 Val 1 0 `S180 1 bits 1 0 ]
+[s S192 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`S189 1 bDevADR 1 2 `uc 1 bDevADRH 1 3 `uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S201 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bConfigurationValue 1 2 `uc 1 bCfgRSD 1 3 `uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S210 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bAltID 1 2 `uc 1 bAltID_H 1 3 `uc 1 bIntfID 1 4 `uc 1 bIntfID_H 1 5 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S219 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 . 1 2 :8:0 
+`uc 1 . 1 3 :8:0 
+`uc 1 bEPID 1 4 `uc 1 bEPID_H 1 5 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S228 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 . 1 2 :8:0 
+`uc 1 . 1 3 :8:0 
+`uc 1 EPNum 1 4 :4:0 
+`uc 1 . 1 4 :3:4 
+`uc 1 EPDir 1 4 :1:7 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[u S239 . 8 `S140 1 . 8 0 `S146 1 . 8 0 `S152 1 . 8 0 `S170 1 . 1 0 `S172 1 . 8 0 `S192 1 . 8 0 `S201 1 . 8 0 `S210 1 . 8 0 `S219 1 . 8 0 `S228 1 . 8 0 ]
+[v _SetupPkt SetupPkt `VES239  1 e 8 @64 ]
+"332
+[v _CtrlTrfData CtrlTrfData `VE[8]uc  1 e 8 @72 ]
+[s S444 _USB_DEVICE_DESCRIPTOR 18 `uc 1 bLength 1 0 `uc 1 bDescriptorType 1 1 `us 1 bcdUSB 2 2 `uc 1 bDeviceClass 1 4 `uc 1 bDeviceSubClass 1 5 `uc 1 bDeviceProtocol 1 6 `uc 1 bMaxPacketSize0 1 7 `us 1 idVendor 2 8 `us 1 idProduct 2 10 `us 1 bcdDevice 2 12 `uc 1 iManufacturer 1 14 `uc 1 iProduct 1 15 `uc 1 iSerialNumber 1 16 `uc 1 bNumConfigurations 1 17 ]
+"165 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/usb_descriptors.c
+[v _device_dsc device_dsc `DCCS444  1 e 18 0 ]
+"184
+[v _configDescriptor1 configDescriptor1 `DCC[32]uc  1 e 32 0 ]
+[s S1266 . 4 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[1]us 1 string 2 2 ]
+"224
+[v _sd000 sd000 `DCCS1266  1 e 4 0 ]
+[s S1270 . 52 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[25]us 1 string 50 2 ]
+"228
+[v _sd001 sd001 `DCCS1270  1 e 52 0 ]
+"234
+[v _sd002 sd002 `DCCS1270  1 e 52 0 ]
+"240
+[v _USB_CD_Ptr USB_CD_Ptr `DCC[1]*.24DCCuc  1 e 1 0 ]
+"245
+[v _USB_SD_Ptr USB_SD_Ptr `DCC[3]*.24DCCuc  1 e 3 0 ]
+"29 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c
+[v _PrecalcHashes PrecalcHashes `[6]ul  1 e 24 0 ]
+"31
+[v _send32_data send32_data `Yus  1 e 2 0 ]
+"32
+[v _send32_count send32_count `Yuc  1 e 1 0 ]
+"33
+[v _last_bit0 last_bit0 `Yuc  1 e 1 0 ]
+[v _last_bit1 last_bit1 `Yuc  1 e 1 0 ]
+[s S1912 . 1 `uc 1 IOCIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 IOCIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"355 C:\Program Files (x86)\Microchip\xc8\v1.21\include\pic16lf1459.h
+[s S1921 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S1926 . 1 `S1912 1 . 1 0 `S1921 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES1926  1 e 1 @11 ]
+[s S250 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ACTIE 1 0 :1:1 
+`uc 1 USBIE 1 0 :1:2 
+`uc 1 BCL1IE 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 C1IE 1 0 :1:5 
+`uc 1 C2IE 1 0 :1:6 
+`uc 1 OSFIE 1 0 :1:7 
+]
+"625
+[u S259 . 1 `S250 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES259  1 e 1 @18 ]
+"659
+[v _TMR0 TMR0 `VEuc  1 e 1 @21 ]
+"881
+[v _PR2 PR2 `VEuc  1 e 1 @27 ]
+[s S1707 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 T2OUTPS 1 0 :4:3 
+]
+"921
+[s S1711 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+[u S1719 . 1 `S1707 1 . 1 0 `S1711 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES1719  1 e 1 @28 ]
+[s S1602 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+]
+"982
+[u S1606 . 1 `S1602 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES1606  1 e 1 @140 ]
+[s S1460 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1010
+[u S1466 . 1 `S1460 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES1466  1 e 1 @141 ]
+"1051
+[v _TRISCbits TRISCbits `VES259  1 e 1 @142 ]
+"1168
+[v _PIE2bits PIE2bits `VES259  1 e 1 @146 ]
+[s S1786 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1225
+[s S1793 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S1800 . 1 `S1786 1 . 1 0 `S1793 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES1800  1 e 1 @149 ]
+"1398
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @152 ]
+"1461
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"1611
+[v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
+[s S1618 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :5:2 
+]
+"1655
+[s S1622 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADGO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+]
+[s S1630 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[u S1633 . 1 `S1618 1 . 1 0 `S1622 1 . 1 0 `S1630 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES1633  1 e 1 @157 ]
+[s S1737 . 1 `uc 1 ADPREF 1 0 :2:0 
+`uc 1 . 1 0 :2:2 
+`uc 1 ADCS 1 0 :3:4 
+`uc 1 ADFM 1 0 :1:7 
+]
+"1730
+[s S1742 . 1 `uc 1 ADPREF0 1 0 :1:0 
+`uc 1 ADPREF1 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 ADCS0 1 0 :1:4 
+`uc 1 ADCS1 1 0 :1:5 
+`uc 1 ADCS2 1 0 :1:6 
+]
+[u S1749 . 1 `S1737 1 . 1 0 `S1742 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES1749  1 e 1 @158 ]
+[s S1765 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TRIGSEL 1 0 :3:4 
+]
+"1791
+[s S1768 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TRIGSEL0 1 0 :1:4 
+`uc 1 TRIGSEL1 1 0 :1:5 
+`uc 1 TRIGSEL2 1 0 :1:6 
+]
+[u S1773 . 1 `S1765 1 . 1 0 `S1768 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES1773  1 e 1 @159 ]
+"1827
+[v _LATAbits LATAbits `VES1606  1 e 1 @268 ]
+"1879
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+"2455
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2483
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+[s S1872 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 ANSB4 1 0 :1:4 
+`uc 1 ANSB5 1 0 :1:5 
+]
+"2499
+[s S1876 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 ANSB 1 0 :4:4 
+]
+[u S1879 . 1 `S1872 1 . 1 0 `S1876 1 . 1 0 ]
+[v _ANSELBbits ANSELBbits `VES1879  1 e 1 @397 ]
+"2518
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"2738
+[v _RCREG RCREG `VEuc  1 e 1 @409 ]
+"2837
+[v _RCSTAbits RCSTAbits `VES259  1 e 1 @413 ]
+"2898
+[v _TXSTAbits TXSTAbits `VES259  1 e 1 @414 ]
+"2959
+[v _BAUDCONbits BAUDCONbits `VES259  1 e 1 @415 ]
+"3085
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @529 ]
+"3122
+[v _SSPADD SSPADD `VEuc  1 e 1 @530 ]
+"3268
+[v _SSPSTATbits SSPSTATbits `VES259  1 e 1 @532 ]
+[s S1425 . 1 `uc 1 SSP1M0 1 0 :1:0 
+`uc 1 SSP1M1 1 0 :1:1 
+`uc 1 SSP1M2 1 0 :1:2 
+`uc 1 SSP1M3 1 0 :1:3 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"3495
+[s S1434 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 . 1 0 :1:4 
+`uc 1 SSP1EN 1 0 :1:5 
+`uc 1 SSP1OV 1 0 :1:6 
+]
+[u S1439 . 1 `S1425 1 . 1 0 `S1434 1 . 1 0 ]
+[v _SSPCON1bits SSPCON1bits `VES1439  1 e 1 @533 ]
+"3631
+[v _SSPCON2bits SSPCON2bits `VES259  1 e 1 @534 ]
+"3752
+[v _SSPCON3bits SSPCON3bits `VES259  1 e 1 @535 ]
+[s S1890 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 IOCBP4 1 0 :1:4 
+`uc 1 IOCBP5 1 0 :1:5 
+`uc 1 IOCBP6 1 0 :1:6 
+`uc 1 IOCBP7 1 0 :1:7 
+]
+"3970
+[s S1896 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 IOCBP 1 0 :4:4 
+]
+[u S1899 . 1 `S1890 1 . 1 0 `S1896 1 . 1 0 ]
+[v _IOCBPbits IOCBPbits `VES1899  1 e 1 @916 ]
+"4046
+[v _IOCBF IOCBF `VEuc  1 e 1 @918 ]
+"4168
+[v _ACTCON ACTCON `VEuc  1 e 1 @923 ]
+"4214
+[v _PWM1DCL PWM1DCL `VEuc  1 e 1 @1553 ]
+"4249
+[v _PWM1DCH PWM1DCH `VEuc  1 e 1 @1554 ]
+"4318
+[v _PWM1CON PWM1CON `VEuc  1 e 1 @1555 ]
+"4859
+[v _UCON UCON `VEuc  1 e 1 @3726 ]
+[s S278 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 SUSPND 1 0 :1:1 
+`uc 1 RESUME 1 0 :1:2 
+`uc 1 USBEN 1 0 :1:3 
+`uc 1 PKTDIS 1 0 :1:4 
+`uc 1 SE0 1 0 :1:5 
+`uc 1 PPBRST 1 0 :1:6 
+]
+"4875
+[u S286 . 1 `S278 1 . 1 0 ]
+[v _UCONbits UCONbits `VES286  1 e 1 @3726 ]
+"4909
+[v _USTAT USTAT `VEuc  1 e 1 @3727 ]
+"4968
+[v _UIR UIR `VEuc  1 e 1 @3728 ]
+"4984
+[v _UIRbits UIRbits `VES286  1 e 1 @3728 ]
+"5023
+[v _UCFG UCFG `VEuc  1 e 1 @3729 ]
+"5076
+[v _UIE UIE `VEuc  1 e 1 @3730 ]
+"5092
+[v _UIEbits UIEbits `VES286  1 e 1 @3730 ]
+"5131
+[v _UEIR UEIR `VEuc  1 e 1 @3731 ]
+"5279
+[v _UADDR UADDR `VEuc  1 e 1 @3734 ]
+"5334
+[v _UEIE UEIE `VEuc  1 e 1 @3735 ]
+"5384
+[v _UEP0 UEP0 `VEuc  1 e 1 @3736 ]
+[s S478 . 1 `uc 1 EPSTALL 1 0 :1:0 
+`uc 1 EPINEN 1 0 :1:1 
+`uc 1 EPOUTEN 1 0 :1:2 
+`uc 1 EPCONDIS 1 0 :1:3 
+`uc 1 EPHSHK 1 0 :1:4 
+]
+"5398
+[u S484 . 1 `S478 1 . 1 0 ]
+[v _UEP0bits UEP0bits `VES484  1 e 1 @3736 ]
+"5427
+[v _UEP1 UEP1 `VEuc  1 e 1 @3737 ]
+"6325
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"6507
+[v _PWM1OE PWM1OE `VEb  1 e 0 @12446 ]
+"6581
+[v _RCIF RCIF `VEb  1 e 0 @141 ]
+"6631
+[v _SSP1EN SSP1EN `VEb  1 e 0 @4269 ]
+"6635
+[v _SSP1IF SSP1IF `VEb  1 e 0 @139 ]
+"6709
+[v _TMR0CS TMR0CS `VEb  1 e 0 @1197 ]
+"6713
+[v _TMR0IF TMR0IF `VEb  1 e 0 @90 ]
+"6735
+[v _TMR2IF TMR2IF `VEb  1 e 0 @137 ]
+"6737
+[v _TMR2ON TMR2ON `VEb  1 e 0 @226 ]
+[s S1339 _i2c 1 `uc 1 Next 1 0 :5:0 
+`uc 1 Slave 1 0 :1:5 
+`uc 1 Master 1 0 :1:6 
+]
+"29 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\i2c.c
+[v _I2CState I2CState `S1339  1 e 1 0 ]
+"30
+[v _I2CCmd I2CCmd `uc  1 e 1 0 ]
+[v _I2CAddr I2CAddr `uc  1 e 1 0 ]
+[v _I2CCount I2CCount `uc  1 e 1 0 ]
+"31
+[v _I2CInBuf I2CInBuf `*.1uc  1 e 1 0 ]
+"33
+[v _ptr ptr `uc  1 e 1 0 ]
+"34
+[v _buf buf `[16]uc  1 e 16 0 ]
+[s S1386 _id 12 `uc 1 version 1 0 `[7]uc 1 product 7 1 `ul 1 serial 4 8 ]
+"25 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c
+[v _ID ID `DCCS1386  1 e 12 0 ]
+"28
+[v _BankRanges BankRanges `[8]ul  1 e 32 0 ]
+"29
+[v _BankSize BankSize `uc  1 e 1 0 ]
+[v _WorkNow WorkNow `uc  1 e 1 0 ]
+[v _ResultQC ResultQC `uc  1 e 1 0 ]
+[v _SlowTick SlowTick `uc  1 e 1 0 ]
+[v _VerySlowTick VerySlowTick `uc  1 e 1 0 ]
+[v _TimeOut TimeOut `uc  1 e 1 0 ]
+[v _TempTarget TempTarget `uc  1 e 1 0 ]
+[v _LastTemp LastTemp `uc  1 e 1 0 ]
+[v _FanLevel FanLevel `uc  1 e 1 0 ]
+"30
+[v _SlaveAddress SlaveAddress `uc  1 e 1 0 ]
+"31
+[v _HashTime HashTime `uc  1 e 1 0 ]
+[s S1396 _workstatus 13 `uc 1 State 1 0 `uc 1 ChipCount 1 1 `uc 1 SlaveCount 1 2 `uc 1 WorkQC 1 3 `uc 1 WorkID 1 4 `uc 1 Temp 1 5 `uc 1 FanSpeed 1 6 `uc 1 ErrorCount 1 7 `us 1 HashCount 2 8 `us 1 MaxCount 2 10 `uc 1 Noise 1 12 ]
+"32
+[v _Status Status `VES1396  1 e 13 0 ]
+[s S1390 _workcfg 6 `us 1 HashClock 2 0 `uc 1 TempTarget 1 2 `uc 1 Future1 1 3 `uc 1 Future2 1 4 `uc 1 Future3 1 5 ]
+"33
+[v _Cfg Cfg `S1390  1 e 6 0 ]
+[s S1300 _worktask 45 `uc 1 WorkID 1 0 `[8]ul 1 MidState 32 1 `[3]ul 1 Merkle 12 33 ]
+"34
+[v _WorkQue WorkQue `[4]S1300  1 e 180 @9020 ]
+"35
+[v _ResultQue ResultQue `VE[6]uc  1 e 6 0 ]
+"36
+[v _CLOCK_LOW_CHG CLOCK_LOW_CHG `ul  1 e 4 0 ]
+"37
+[v _ClockCfg ClockCfg `[2]ul  1 e 8 0 ]
+"39
+[v _Step Step `s  1 e 2 0 ]
+[v _Error Error `s  1 e 2 0 ]
+[v _LastError LastError `s  1 e 2 0 ]
+"41
+[v _NonceRanges NonceRanges `[8]ul  1 e 32 0 ]
+"47 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c
+[v _INPacket INPacket `[64]uc  1 e 64 @544 ]
+"48
+[v _OUTPacket OUTPacket `[64]uc  1 e 64 @672 ]
+"50
+[v _USBGenericOutHandle USBGenericOutHandle `*.4v  1 e 1 0 ]
+"51
+[v _USBGenericInHandle USBGenericInHandle `*.4v  1 e 1 0 ]
+"53
+[v _WQI WQI `uc  1 e 1 0 ]
+[v _WQX WQX `uc  1 e 1 0 ]
+"98
+[v _main main `(i  1 e 2 0 ]
+{
+"143
+} 0
+"182
+[v _ProcessIO ProcessIO `(v  1 e 0 0 ]
+{
+"205
+} 0
+"47 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c
+[v _ProcessCmd ProcessCmd `(v  1 e 0 0 ]
+{
+[v ProcessCmd@cmd cmd `*.6uc  1 a 1 22 ]
+[v ProcessCmd@cmd cmd `*.6uc  1 a 1 22 ]
+"105
+} 0
+"208 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c
+[v _SendCmdReply SendCmdReply `(v  1 e 0 0 ]
+{
+"212
+[v SendCmdReply@n n `uc  1 a 1 19 ]
+"208
+[v SendCmdReply@cmd cmd `*.39uc  1 p 2 14 ]
+[v SendCmdReply@data data `*.26uc  1 p 2 16 ]
+[v SendCmdReply@count count `uc  1 p 1 18 ]
+"223
+} 0
+"3 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\bmul.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+{
+[v ___bmul@multiplier multiplier `uc  1 a 1 11 ]
+"4
+[v ___bmul@product product `uc  1 a 1 10 ]
+"3
+[v ___bmul@multiplier multiplier `uc  1 a 1 11 ]
+[v ___bmul@multiplicand multiplicand `uc  1 p 1 8 ]
+"13
+} 0
+"108 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c
+[v _AsicPushWork AsicPushWork `(v  1 e 0 0 ]
+{
+"117
+} 0
+"3 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\wmul.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"4
+[v ___wmul@product product `ui  1 a 2 12 ]
+"3
+[v ___wmul@multiplier multiplier `ui  1 p 2 8 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 10 ]
+"13
+} 0
+"318 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c
+[v _AsicPreCalc AsicPreCalc `(v  1 e 0 0 ]
+{
+"321
+[v AsicPreCalc@m m `[8]ul  1 a 32 24 ]
+"319
+[v AsicPreCalc@K K `[3]ul  1 a 12 12 ]
+"320
+[v AsicPreCalc@x x `ul  1 a 4 64 ]
+[v AsicPreCalc@y y `ul  1 a 4 60 ]
+[v AsicPreCalc@z z `ul  1 a 4 56 ]
+"322
+[v AsicPreCalc@n n `uc  1 a 1 68 ]
+[s S1300 _worktask 45 `uc 1 WorkID 1 0 `[8]ul 1 MidState 32 1 `[3]ul 1 Merkle 12 33 ]
+"318
+[v AsicPreCalc@work work `*.39S1300  1 p 2 0 ]
+"319
+[v AsicPreCalc@F3344 F3344 `[3]ul  1 s 12 F3344 ]
+"356
+} 0
+"313
+[v _rotate rotate `(ul  1 e 4 0 ]
+{
+[v rotate@x x `ul  1 p 4 8 ]
+[v rotate@y y `uc  1 p 1 12 ]
+"315
+} 0
+"36
+[v _SendAsicData SendAsicData `(v  1 e 0 0 ]
+{
+[s S1300 _worktask 45 `uc 1 WorkID 1 0 `[8]ul 1 MidState 32 1 `[3]ul 1 Merkle 12 33 ]
+[v SendAsicData@work work `*.39S1300  1 p 2 14 ]
+"55
+} 0
+"58
+[v _Send32 Send32 `(v  1 e 0 0 ]
+{
+"308
+} 0
+"146 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c
+[v _InitializeSystem InitializeSystem `(v  1 s 0 InitializeSystem ]
+{
+"166
+} 0
+"170
+[v _UserInit UserInit `(v  1 e 0 0 ]
+{
+"179
+} 0
+"272 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c
+[v _InitResultRx InitResultRx `(v  1 e 0 0 ]
+{
+"286
+} 0
+"255
+[v _InitWorkTick InitWorkTick `(v  1 e 0 0 ]
+{
+"269
+} 0
+"289
+[v _UpdateClock UpdateClock `(v  1 e 0 0 ]
+{
+"290
+[v UpdateClock@CLOCK_OD_VALUE CLOCK_OD_VALUE `ul  1 a 4 12 ]
+[v UpdateClock@CLOCK_F_VALUE CLOCK_F_VALUE `ul  1 a 4 8 ]
+[v UpdateClock@CLOCK_R_VALUE CLOCK_R_VALUE `ul  1 a 4 4 ]
+"289
+[v UpdateClock@SPEED SPEED `ul  1 p 4 62 ]
+"332
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"6
+[v ___lwdiv@quotient quotient `ui  1 a 2 13 ]
+"7
+[v ___lwdiv@counter counter `uc  1 a 1 15 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 8 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 10 ]
+"26
+} 0
+"3 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lmul.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"4
+[v ___lmul@product product `ul  1 a 4 16 ]
+"3
+[v ___lmul@multiplier multiplier `ul  1 p 4 8 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 12 ]
+"13
+} 0
+"36 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+{
+"37
+[v ___lltoft@exp exp `uc  1 a 1 21 ]
+"36
+[v ___lltoft@c c `ul  1 p 4 16 ]
+"46
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"6
+[v ___lldiv@quotient quotient `ul  1 a 4 8 ]
+"7
+[v ___lldiv@counter counter `uc  1 a 1 12 ]
+"5
+[v ___lldiv@divisor divisor `ul  1 p 4 0 ]
+[v ___lldiv@dividend dividend `ul  1 p 4 4 ]
+"26
+} 0
+"50 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"52
+[v ___ftdiv@f3 f3 `f  1 a 3 43 ]
+"51
+[v ___ftdiv@sign sign `uc  1 a 1 47 ]
+[v ___ftdiv@exp exp `uc  1 a 1 46 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 42 ]
+"50
+[v ___ftdiv@f2 f2 `f  1 p 3 32 ]
+[v ___ftdiv@f1 f1 `f  1 p 3 35 ]
+"78
+} 0
+"241 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c
+[v _InitTempSensor InitTempSensor `(v  1 e 0 0 ]
+{
+"252
+} 0
+"221
+[v _InitFAN InitFAN `(v  1 e 0 0 ]
+{
+"238
+} 0
+"120
+[v _DetectAsics DetectAsics `(v  1 e 0 0 ]
+{
+"128
+[v DetectAsics@x x `uc  1 a 1 2 ]
+"133
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"6
+[v ___awdiv@quotient quotient `i  1 a 2 15 ]
+"7
+[v ___awdiv@sign sign `uc  1 a 1 14 ]
+[v ___awdiv@counter counter `uc  1 a 1 13 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 8 ]
+[v ___awdiv@dividend dividend `i  1 p 2 10 ]
+"37
+} 0
+"137 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c
+[v _WorkTick WorkTick `(v  1 e 0 0 ]
+{
+"161
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"6
+[v ___awmod@sign sign `uc  1 a 1 14 ]
+[v ___awmod@counter counter `uc  1 a 1 13 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 8 ]
+[v ___awmod@dividend dividend `i  1 p 2 10 ]
+"30
+} 0
+"199 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c
+[v _UpdateFanLevel UpdateFanLevel `(v  1 e 0 0 ]
+{
+"217
+} 0
+"45 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 57 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 61 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 56 ]
+"45
+[v ___fttol@f1 f1 `f  1 p 3 48 ]
+"73
+} 0
+"16 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+{
+[v ___ftneg@f1 f1 `f  1 p 3 16 ]
+"20
+} 0
+"52 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"54
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 11 ]
+"53
+[v ___ftmul@sign sign `uc  1 a 1 15 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 14 ]
+[v ___ftmul@exp exp `uc  1 a 1 10 ]
+"52
+[v ___ftmul@f1 f1 `f  1 p 3 0 ]
+[v ___ftmul@f2 f2 `f  1 p 3 3 ]
+"84
+} 0
+"33 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+{
+"34
+[v ___awtoft@sign sign `uc  1 a 1 21 ]
+"33
+[v ___awtoft@c c `i  1 p 2 16 ]
+"42
+} 0
+"669 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c
+[v _USBDeviceTasks USBDeviceTasks `(v  1 e 0 0 ]
+{
+"670
+[v USBDeviceTasks@i i `uc  1 a 1 20 ]
+"1004
+} 0
+"2523
+[v _USBCtrlEPService USBCtrlEPService `(v  1 s 0 USBCtrlEPService ]
+{
+"2551
+[v USBCtrlEPService@setup_cnt setup_cnt `uc  1 a 1 17 ]
+"2580
+} 0
+"2748
+[v _USBCtrlTrfInHandler USBCtrlTrfInHandler `(v  1 s 0 USBCtrlTrfInHandler ]
+{
+"2749
+[v USBCtrlTrfInHandler@lastDTS lastDTS `uc  1 a 1 13 ]
+"2819
+} 0
+"2695
+[v _USBCtrlTrfOutHandler USBCtrlTrfOutHandler `(v  1 s 0 USBCtrlTrfOutHandler ]
+{
+"2722
+} 0
+"2019
+[v _USBCtrlTrfRxService USBCtrlTrfRxService `(v  1 s 0 USBCtrlTrfRxService ]
+{
+"2020
+[v USBCtrlTrfRxService@byteToRead byteToRead `uc  1 a 1 13 ]
+"2021
+[v USBCtrlTrfRxService@i i `uc  1 a 1 12 ]
+"2110
+} 0
+"2623
+[v _USBCtrlTrfSetupHandler USBCtrlTrfSetupHandler `(v  1 s 0 USBCtrlTrfSetupHandler ]
+{
+"2671
+} 0
+"2839
+[v _USBCheckStdRequest USBCheckStdRequest `(v  1 s 0 USBCheckStdRequest ]
+{
+"2885
+} 0
+"2907
+[v _USBStdFeatureReqHandler USBStdFeatureReqHandler `(v  1 s 0 USBStdFeatureReqHandler ]
+{
+"2913
+[v USBStdFeatureReqHandler@pUEP pUEP `*.39uc  1 a 2 8 ]
+[s S27 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"2908
+[s S36 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S43 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S47 _BD_STAT 1 `uc 1 Val 1 0 `S27 1 . 1 0 `S36 1 . 1 0 `S43 1 . 1 0 ]
+[s S52 . 4 `S47 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S57 . 4 `uc 1 filler1 1 0 :8:0 
+`uc 1 filler2 1 1 :8:0 
+`us 1 ADR 2 2 ]
+[u S61 __BDT 4 `S52 1 . 4 0 `S57 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBStdFeatureReqHandler@p p `*.4S61  1 a 1 11 ]
+[s S134 . 1 `uc 1 ping_pong_state 1 0 :1:0 
+`uc 1 transfer_terminated 1 0 :1:1 
+]
+"2909
+[u S137 . 1 `S134 1 bits 1 0 `uc 1 Val 1 0 ]
+[v USBStdFeatureReqHandler@current_ep_data current_ep_data `S137  1 a 1 10 ]
+"3131
+} 0
+"2283
+[v _USBStdGetStatusHandler USBStdGetStatusHandler `(v  1 s 0 USBStdGetStatusHandler ]
+{
+[s S27 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"2314
+[s S36 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S43 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S47 _BD_STAT 1 `uc 1 Val 1 0 `S27 1 . 1 0 `S36 1 . 1 0 `S43 1 . 1 0 ]
+[s S52 . 4 `S47 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S57 . 4 `uc 1 filler1 1 0 :8:0 
+`uc 1 filler2 1 1 :8:0 
+`us 1 ADR 2 2 ]
+[u S61 __BDT 4 `S52 1 . 4 0 `S57 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBStdGetStatusHandler@p p `*.4S61  1 a 1 9 ]
+"2337
+} 0
+"2207
+[v _USBStdGetDscHandler USBStdGetDscHandler `(v  1 s 0 USBStdGetDscHandler ]
+{
+"2265
+} 0
+"2132
+[v _USBStdSetCfgHandler USBStdSetCfgHandler `(v  1 s 0 USBStdSetCfgHandler ]
+{
+"2139
+[v USBStdSetCfgHandler@p p `*.39uc  1 a 2 7 ]
+[v USBStdSetCfgHandler@i_1089 i `uc  1 a 1 9 ]
+"2133
+[v USBStdSetCfgHandler@i i `uc  1 a 1 10 ]
+"2187
+} 0
+"10 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\common\memset.c
+[v _memset memset `(*.39v  1 e 1 0 ]
+{
+"15
+[v memset@p p `*.39uc  1 a 2 15 ]
+"10
+[v memset@p1 p1 `*.39v  1 p 2 8 ]
+[v memset@c c `i  1 p 2 10 ]
+[v memset@n n `ui  1 p 2 12 ]
+"22
+} 0
+"1786 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c
+[v _USBCtrlEPServiceComplete USBCtrlEPServiceComplete `(v  1 s 0 USBCtrlEPServiceComplete ]
+{
+"1914
+} 0
+"1660
+[v _USBCtrlEPAllowDataStage USBCtrlEPAllowDataStage `(v  1 e 0 0 ]
+{
+"1687
+} 0
+"1938
+[v _USBCtrlTrfTxService USBCtrlTrfTxService `(v  1 s 0 USBCtrlTrfTxService ]
+{
+"1939
+[v USBCtrlTrfTxService@byteToSend byteToSend `uc  1 a 1 10 ]
+"1991
+} 0
+"1590
+[v _USBCtrlEPAllowStatusStage USBCtrlEPAllowStatusStage `(v  1 e 0 0 ]
+{
+"1630
+} 0
+"2356
+[v _USBStallHandler USBStallHandler `(v  1 s 0 USBStallHandler ]
+{
+"2380
+} 0
+"2399
+[v _USBSuspend USBSuspend `(v  1 s 0 USBSuspend ]
+{
+"2438
+} 0
+"2456
+[v _USBWakeFromSuspend USBWakeFromSuspend `(v  1 s 0 USBWakeFromSuspend ]
+{
+"2499
+} 0
+"630 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c
+[v _USER_USB_CALLBACK_EVENT_HANDLER USER_USB_CALLBACK_EVENT_HANDLER `(E5  1 e 1 0 ]
+{
+[v USER_USB_CALLBACK_EVENT_HANDLER@event event `i  1 p 2 0 ]
+[v USER_USB_CALLBACK_EVENT_HANDLER@pdata pdata `*.39v  1 p 2 2 ]
+[v USER_USB_CALLBACK_EVENT_HANDLER@size size `us  1 p 2 4 ]
+"671
+} 0
+"460
+[v _USBCBInitEP USBCBInitEP `(v  1 e 0 0 ]
+{
+"465
+} 0
+"1173 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c
+[v _USBTransferOnePacket USBTransferOnePacket `(*.4v  1 e 1 0 ]
+{
+[v USBTransferOnePacket@ep ep `uc  1 a 1 17 ]
+[s S27 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"1174
+[s S36 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S43 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S47 _BD_STAT 1 `uc 1 Val 1 0 `S27 1 . 1 0 `S36 1 . 1 0 `S43 1 . 1 0 ]
+[s S52 . 4 `S47 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S57 . 4 `uc 1 filler1 1 0 :8:0 
+`uc 1 filler2 1 1 :8:0 
+`us 1 ADR 2 2 ]
+[u S61 __BDT 4 `S52 1 . 4 0 `S57 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBTransferOnePacket@handle handle `*.4VES61  1 a 1 18 ]
+"1173
+[v USBTransferOnePacket@ep ep `uc  1 a 1 17 ]
+[v USBTransferOnePacket@dir dir `uc  1 p 1 12 ]
+[v USBTransferOnePacket@data data `*.6uc  1 p 1 13 ]
+[v USBTransferOnePacket@len len `uc  1 p 1 14 ]
+"1223
+} 0
+"1056
+[v _USBEnableEndpoint USBEnableEndpoint `(v  1 e 0 0 ]
+{
+[v USBEnableEndpoint@ep ep `uc  1 a 1 20 ]
+"1057
+[v USBEnableEndpoint@p p `*.39uc  1 a 2 18 ]
+"1056
+[v USBEnableEndpoint@ep ep `uc  1 a 1 20 ]
+[v USBEnableEndpoint@options options `uc  1 p 1 15 ]
+"1079
+} 0
+"1713
+[v _USBConfigureEndpoint USBConfigureEndpoint `(v  1 s 0 USBConfigureEndpoint ]
+{
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 13 ]
+[s S27 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"1714
+[s S36 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S43 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S47 _BD_STAT 1 `uc 1 Val 1 0 `S27 1 . 1 0 `S36 1 . 1 0 `S43 1 . 1 0 ]
+[s S52 . 4 `S47 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S57 . 4 `uc 1 filler1 1 0 :8:0 
+`uc 1 filler2 1 1 :8:0 
+`us 1 ADR 2 2 ]
+[u S61 __BDT 4 `S52 1 . 4 0 `S57 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBConfigureEndpoint@handle handle `*.4VES61  1 a 1 14 ]
+"1713
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 13 ]
+[v USBConfigureEndpoint@direction direction `uc  1 p 1 8 ]
+"1754
+} 0
+"434 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c
+[v _USBCBStdSetDscHandler USBCBStdSetDscHandler `(v  1 e 0 0 ]
+{
+"436
+} 0
+"409
+[v _USBCBCheckOtherReq USBCBCheckOtherReq `(v  1 e 0 0 ]
+{
+"411
+} 0
+"248 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_function_generic.c
+[v _USBCheckVendorRequest USBCheckVendorRequest `(v  1 e 0 0 ]
+{
+"296
+} 0
+"358 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c
+[v _USBCBErrorHandler USBCBErrorHandler `(v  1 e 0 0 ]
+{
+"377
+} 0
+"335
+[v _USBCB_SOF_Handler USBCB_SOF_Handler `(v  1 e 0 0 ]
+{
+"338
+} 0
+"305
+[v _USBCBWakeFromSuspend USBCBWakeFromSuspend `(v  1 e 0 0 ]
+{
+"314
+} 0
+"264
+[v _USBCBSuspend USBCBSuspend `(v  1 e 0 0 ]
+{
+"281
+} 0
+"467 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c
+[v _USBDeviceInit USBDeviceInit `(v  1 e 0 0 ]
+{
+"481
+[v USBDeviceInit@p p `*.39uc  1 a 2 10 ]
+[v USBDeviceInit@i_718 i `uc  1 a 1 12 ]
+"468
+[v USBDeviceInit@i i `uc  1 a 1 13 ]
+"552
+} 0
+"87 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+{
+"88
+[v ___ftadd@exp1 exp1 `uc  1 a 1 31 ]
+[v ___ftadd@exp2 exp2 `uc  1 a 1 30 ]
+[v ___ftadd@sign sign `uc  1 a 1 29 ]
+"87
+[v ___ftadd@f1 f1 `f  1 p 3 19 ]
+[v ___ftadd@f2 f2 `f  1 p 3 22 ]
+"148
+} 0
+"63 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 8 ]
+[v ___ftpack@exp exp `uc  1 p 1 11 ]
+[v ___ftpack@sign sign `uc  1 p 1 12 ]
+"86
+} 0
+"70 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c
+[v _ISRCode ISRCode `II(v  1 e 0 0 ]
+{
+"95
+} 0
+"164 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c
+[v _ResultRx ResultRx `(v  1 e 0 0 ]
+{
+"194
+} 0
+"208 S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c
+[v i1_SendCmdReply SendCmdReply `(v  1 e 0 0 ]
+{
+[v i1SendCmdReply@n SendCmdReply `uc  1 a 1 11 ]
+[v i1SendCmdReply@cmd cmd `*.39uc  1 p 2 6 ]
+[v i1SendCmdReply@data data `*.26uc  1 p 2 8 ]
+[v i1SendCmdReply@count count `uc  1 p 1 10 ]
+"223
+} 0
+"3 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\bmul.c
+[v i1___bmul __bmul `(uc  1 e 1 0 ]
+{
+[v i1___bmul@multiplier multiplier `uc  1 a 1 2 ]
+[v i1___bmul@product __bmul `uc  1 a 1 3 ]
+[v i1___bmul@multiplier multiplier `uc  1 a 1 2 ]
+[v i1___bmul@multiplicand multiplicand `uc  1 p 1 0 ]
+"13
+} 0
+"3 C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\wmul.c
+[v i1___wmul __wmul `(ui  1 e 2 0 ]
+{
+[v i1___wmul@product __wmul `ui  1 a 2 4 ]
+[v i1___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v i1___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"13
+} 0

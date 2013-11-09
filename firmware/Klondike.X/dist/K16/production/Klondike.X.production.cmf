@@ -1,0 +1,2486 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\form\AppData\Local\Temp\s69k.obj
+end_init CODE 0 13 13 2 2
+reset_vec CODE 0 0 0 2 2
+config CONFIG 0 8007 8007 2 2
+$dist/K16/production\Klondike.X.production.obj
+cinit CODE 0 15 15 7C 2
+intentry CODE 0 4 4 F 2
+text70 CODE 0 1A44 1A44 20 2
+text69 CODE 0 1928 1928 12 2
+text68 CODE 0 14E0 14E0 92 2
+text67 CODE 0 1E87 1E87 5C 2
+text65 CODE 0 1F9F 1F9F 61 2
+text64 CODE 0 CD0 CD0 104 2
+text63 CODE 0 1756 1756 AA 2
+text62 CODE 0 18F3 18F3 1 2
+text61 CODE 0 18F4 18F4 1 2
+text60 CODE 0 1000 1000 1 2
+text59 CODE 0 2 2 1 2
+text58 CODE 0 3 3 1 2
+text57 CODE 0 7FC 7FC 3 2
+text56 CODE 0 7FF 7FF 1 2
+text55 CODE 0 1C62 1C62 40 2
+text54 CODE 0 1B09 1B09 25 2
+text53 CODE 0 8AF 8AF 4E 2
+text52 CODE 0 19D2 19D2 1C 2
+text51 CODE 0 1C23 1C23 3F 2
+text50 CODE 0 19B7 19B7 1B 2
+text49 CODE 0 19EE 19EE 1C 2
+text48 CODE 0 1AC5 1AC5 22 2
+text47 CODE 0 1064 1064 64 2
+text46 CODE 0 13C3 13C3 8E 2
+text45 CODE 0 1CEA 1CEA 50 2
+text44 CODE 0 10C8 10C8 79 2
+text43 CODE 0 1A64 1A64 20 2
+text42 CODE 0 1451 1451 8F 2
+text41 CODE 0 1237 1237 7F 2
+text40 CODE 0 1D8B 1D8B 53 2
+text39 CODE 0 EE5 EE5 11B 2
+swtext1 CONST 0 1800 1800 1A 2
+text38 CODE 0 1EE3 1EE3 5E 2
+text37 CODE 0 1D3A 1D3A 51 2
+text36 CODE 0 1606 1606 A8 2
+text35 CODE 0 1B58 1B58 2D 2
+text34 CODE 0 1001 1001 63 2
+text33 CODE 0 11BB 11BB 7C 2
+text32 CODE 0 BD9 BD9 F7 2
+text31 CODE 0 1AE7 1AE7 22 2
+text30 CODE 0 B17 B17 C2 2
+text29 CODE 0 18FB 18FB 9 2
+text28 CODE 0 133C 133C 87 2
+text27 CODE 0 6A7 6A7 148 2
+text26 CODE 0 1CA2 1CA2 48 2
+text25 CODE 0 1F41 1F41 5E 2
+text24 CODE 0 1DDE 1DDE 54 2
+text23 CODE 0 9A9 9A9 B7 2
+text22 CODE 0 1A0A 1A0A 1C 2
+text21 CODE 0 1972 1972 17 2
+text20 CODE 0 A60 A60 B7 2
+text19 CODE 0 1E32 1E32 55 2
+text18 CODE 0 1B2E 1B2E 2A 2
+text17 CODE 0 1B85 1B85 30 2
+text16 CODE 0 1BB5 1BB5 37 2
+text15 CODE 0 491 491 216 2
+text14 CODE 0 1AA4 1AA4 21 2
+text13 CODE 0 194C 194C 13 2
+text12 CODE 0 195F 195F 13 2
+text11 CODE 0 1989 1989 17 2
+text10 CODE 0 8FD 8FD AC 2
+text9 CODE 0 1572 1572 94 2
+text8 CODE 0 1BEC 1BEC 37 2
+text7 CODE 0 91 91 400 2
+text6 CODE 0 1A26 1A26 1E 2
+text5 CODE 0 12B6 12B6 86 2
+text4 CODE 0 193A 193A 12 2
+text3 CODE 0 16AE 16AE A8 2
+text2 CODE 0 DD4 DD4 111 2
+text1 CODE 0 1141 1141 7A 2
+maintext CODE 0 19A0 19A0 17 2
+cstackBANK0 BANK0 1 50 50 18 1
+cstackCOMMON COMMON 1 70 70 E 1
+cstackBANK1 BANK1 1 A0 A0 4E 1
+cstackBANK2 BANK2 1 144 144 1F 1
+inittext CODE 0 1904 1904 C 2
+clrtext CODE 0 1910 1910 C 2
+dataBANK6 BANK6 1 340 340 20 1
+bssBANK6 BANK6 1 320 320 20 1
+bssBANK5 BANK5 1 2E0 2E0 10 1
+dataBANK4 BANK4 1 260 260 C 1
+dataBANK3 BANK3 1 1E2 1E2 6 1
+bssBANK3 BANK3 1 1A0 1A0 42 1
+dataBANK2 BANK2 1 163 163 D 1
+bssBANK2 BANK2 1 120 120 24 1
+bssBANK1 BANK1 1 EE EE 2 1
+bssBANK0 BANK0 1 68 68 8 1
+nvBANK3 BANK3 1 1E8 1E8 2 1
+strings STRING 0 800 800 AF 2
+idataBANK6 CODE 0 1A84 1A84 20 2
+idataBANK4 CODE 0 191C 191C C 2
+idataBANK3 CODE 0 18F5 18F5 6 2
+idataBANK2 CODE 0 7EF 7EF D 2
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+BANK10 00520-0053B 1
+BANK3 001EA-001EF 1
+BANK4 0026C-0026F 1
+BANK6 00360-0036F 1
+BANK7 003A0-003EF 1
+BANK8 00420-0046F 1
+BANK9 004A0-004EF 1
+BIGRAM 02000-023EF 1
+CODE 0181A-018F2 2
+CONST 0181A-018F2 2
+ENTRY 0181A-018F2 2
+IDLOC 08000-08003 2
+RAM 001EA-001EF 1
+RAM 0026C-0026F 1
+RAM 00360-0036F 1
+RAM 003A0-003EF 1
+RAM 00420-0046F 1
+RAM 004A0-004EF 1
+RAM 00520-0053B 1
+SFR0 00000-0001F 1
+SFR1 00080-0009F 1
+SFR10 00500-0051F 1
+SFR11 00580-0059F 1
+SFR12 00600-0061F 1
+SFR13 00680-006EF 1
+SFR14 00700-0076F 1
+SFR15 00780-007EF 1
+SFR16 00800-0086F 1
+SFR17 00880-008EF 1
+SFR18 00900-0096F 1
+SFR19 00980-009EF 1
+SFR2 00100-0011F 1
+SFR20 00A00-00A6F 1
+SFR21 00A80-00AEF 1
+SFR22 00B00-00B6F 1
+SFR23 00B80-00BEF 1
+SFR24 00C00-00C6F 1
+SFR25 00C80-00CEF 1
+SFR26 00D00-00D6F 1
+SFR27 00D80-00DEF 1
+SFR28 00E00-00E6F 1
+SFR29 00E80-00EEF 1
+SFR3 00180-0019F 1
+SFR30 00F00-00F6F 1
+SFR31 00F80-00FEF 1
+SFR4 00200-0021F 1
+SFR5 00280-0029F 1
+SFR6 00300-0031F 1
+SFR7 00380-0039F 1
+SFR8 00400-0041F 1
+SFR9 00480-0049F 1
+STRCODE 0181A-018F2 2
+STRING 0181A-018F2 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <file name>:<line number> <address> <psect name> <class name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/K16/production\Klondike.X.production.obj
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":377 2 text59 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_function_generic.c":296 3 text58 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":70 4 intentry CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":72 8 intentry CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":73 C intentry CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":95 F intentry CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3293 15 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3294 16 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3295 17 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3296 18 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3297 19 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3298 1A cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3299 1B cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3300 1C cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3301 1D cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3305 20 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3306 21 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3307 22 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3308 23 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3309 24 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3310 25 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3311 26 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3312 27 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3316 28 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3317 29 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3318 2A cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3322 2B cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3323 2C cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3324 2D cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3325 2E cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3326 2F cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3327 30 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3328 31 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3329 32 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3330 33 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3334 36 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3335 37 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3336 38 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3337 39 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3338 3A cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3339 3B cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3340 3C cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3341 3D cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3342 3E cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3346 41 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3347 42 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3348 43 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3349 44 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3350 45 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3351 46 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3352 47 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3353 48 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3354 49 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3358 4C cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3359 4D cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3360 4E cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3361 4F cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3362 50 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3363 51 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3364 52 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3365 53 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3366 54 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3387 57 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3388 58 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3389 59 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3390 5A cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3391 5B cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3392 5C cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3393 5D cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3394 5E cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3395 5F cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3396 60 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3397 61 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3398 62 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3402 65 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3403 66 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3404 67 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3405 68 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3406 69 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3407 6A cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3408 6B cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3409 6C cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3410 6D cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3411 6E cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3412 6F cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3413 70 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3417 73 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3418 74 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3419 75 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3420 76 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3421 77 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3422 78 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3423 79 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3424 7A cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3425 7B cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3426 7C cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3427 7D cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3428 7E cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3432 81 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3433 82 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3434 83 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3435 84 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3436 85 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3437 86 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3438 87 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3439 88 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3440 89 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3441 8A cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3442 8B cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3443 8C cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3450 8E cinit CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3451 8F cinit CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":319 91 text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":324 9F text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":325 A5 text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":324 D3 text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":327 DB text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":329 E0 text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":330 116 text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":331 13A text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":332 15E text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":333 171 text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":334 18C text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":335 1A1 text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":336 1D0 text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":337 1FF text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":338 213 text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":339 242 text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":340 256 text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":341 277 text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":342 2B6 text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":343 2E5 text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":344 314 text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":345 328 text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":346 357 text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":347 36B text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":348 3A2 text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":349 3C7 text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":350 3FE text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":351 412 text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":353 436 text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":354 461 text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":327 48C text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":307 491 text15 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":356 491 text7 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":309 4B2 text15 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":310 4BB text15 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":311 50D text15 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":314 515 text15 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":316 526 text15 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":317 52F text15 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":318 581 text15 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":322 589 text15 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":324 60A text15 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":326 67E text15 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":327 686 text15 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":328 68E text15 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":332 6A6 text15 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":200 6A7 text27 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":201 6C1 text27 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":203 76C text27 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":204 79A text27 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":205 7A1 text27 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":206 7A2 text27 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":207 7B9 text27 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":209 7BB text27 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":210 7D2 text27 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":213 7D8 text27 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":214 7DF text27 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":216 7E5 text27 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":217 7EE text27 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":410 7FC text57 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":411 7FE text57 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":436 7FF text56 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":28 800 strings STRING
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/usb_descriptors.c":245 801 strings STRING
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/usb_descriptors.c":240 804 strings STRING
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/usb_descriptors.c":228 805 strings STRING
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/usb_descriptors.c":234 839 strings STRING
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/usb_descriptors.c":184 86D strings STRING
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/usb_descriptors.c":165 88D strings STRING
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":25 89F strings STRING
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/usb_descriptors.c":224 8AB strings STRING
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1177 8AF text53 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1180 8B4 text53 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1185 8B9 text53 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1190 8C2 text53 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1192 8C5 text53 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1206 8C7 text53 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1207 8D3 text53 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1208 8DA text53 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1209 8E1 text53 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1212 8E8 text53 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1215 8EB text53 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1220 8F2 text53 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1222 8FB text53 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":60 8FD text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1223 8FD text53 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":61 8FE text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":62 8FF text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":63 900 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":64 901 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":68 902 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":69 903 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":70 904 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":71 905 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":72 906 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":75 907 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":76 908 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":77 909 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":78 90A text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":79 90B text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":82 90C text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":83 90D text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":84 90E text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":85 90F text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":86 910 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":89 911 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":90 912 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":91 913 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":92 914 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":93 915 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":96 916 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":97 917 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":98 918 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":99 919 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":100 91A text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":103 91B text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":104 91C text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":105 91D text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":106 91E text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":107 91F text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":110 920 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":111 921 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":112 922 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":113 923 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":114 924 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":117 925 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":118 926 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":119 927 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":120 928 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":121 929 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":124 92A text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":127 92B text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":128 92C text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":129 92D text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":130 92E text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":131 92F text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":134 930 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":135 931 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":136 932 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":137 933 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":138 934 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":141 935 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":142 936 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":143 937 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":144 938 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":145 939 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":148 93A text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":149 93B text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":150 93C text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":151 93D text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":152 93E text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":155 93F text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":156 940 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":157 941 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":158 942 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":159 943 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":162 944 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":163 945 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":164 946 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":165 947 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":166 948 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":169 949 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":170 94A text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":171 94B text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":172 94C text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":173 94D text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":176 94E text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":177 94F text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":178 950 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":179 951 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":180 952 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":183 953 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":186 954 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":187 955 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":188 956 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":189 957 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":190 958 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":193 959 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":194 95A text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":195 95B text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":196 95C text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":197 95D text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":200 95E text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":201 95F text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":202 960 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":203 961 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":204 962 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":207 963 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":208 964 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":209 965 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":210 966 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":211 967 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":214 968 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":215 969 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":216 96A text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":217 96B text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":218 96C text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":221 96D text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":222 96E text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":223 96F text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":224 970 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":225 971 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":228 972 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":229 973 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":230 974 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":231 975 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":232 976 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":235 977 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":236 978 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":237 979 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":238 97A text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":239 97B text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":242 97C text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":245 97D text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":246 97E text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":247 97F text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":248 980 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":249 981 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":252 982 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":253 983 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":254 984 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":255 985 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":256 986 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":259 987 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":260 988 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":261 989 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":262 98A text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":263 98B text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":266 98C text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":267 98D text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":268 98E text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":269 98F text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":270 990 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":273 991 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":274 992 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":275 993 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":276 994 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":277 995 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":280 996 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":281 997 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":282 998 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":283 999 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":284 99A text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":287 99B text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":288 99C text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":289 99D text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":290 99E text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":291 99F text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":294 9A0 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":295 9A1 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":296 9A2 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":297 9A3 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":298 9A4 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":301 9A5 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":304 9A6 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":305 9A7 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":308 9A8 text10 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":121 9A9 text23 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":124 9AF text23 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":125 9C6 text23 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":127 9FB text23 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":128 A04 text23 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":129 A0D text23 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":128 A51 text23 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":131 A57 text23 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":132 A5D text23 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":133 A5F text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftdiv.c":55 A60 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftdiv.c":56 A70 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftdiv.c":57 A77 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftdiv.c":58 A86 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftdiv.c":59 A8D text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftdiv.c":60 A93 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftdiv.c":61 A98 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftdiv.c":62 AA8 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftdiv.c":63 AB8 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftdiv.c":64 ABC text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftdiv.c":65 ABD text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftdiv.c":66 AC3 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftdiv.c":67 AC4 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftdiv.c":68 ACA text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftdiv.c":70 ACE text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftdiv.c":71 AD4 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftdiv.c":72 AE0 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftdiv.c":73 AE6 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftdiv.c":75 AE7 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftdiv.c":76 AED text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftdiv.c":77 AF1 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftmul.c":56 B17 text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftdiv.c":78 B17 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftmul.c":57 B27 text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftmul.c":58 B2E text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftmul.c":59 B3D text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftmul.c":60 B44 text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftmul.c":61 B49 text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftmul.c":62 B59 text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftmul.c":63 B69 text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftmul.c":64 B6D text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftmul.c":66 B6E text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftmul.c":67 B6F text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftmul.c":68 B75 text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftmul.c":69 B7B text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftmul.c":71 B7F text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftmul.c":72 B81 text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftmul.c":73 B87 text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftmul.c":74 B8D text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftmul.c":75 B93 text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftmul.c":76 B97 text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftmul.c":78 B9B text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftmul.c":79 B9D text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftmul.c":80 BA3 text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftmul.c":81 BA9 text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftmul.c":82 BAF text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftmul.c":83 BB3 text30 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftmul.c":84 BD9 text30 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":757 BD9 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":760 BDD text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":763 BDF text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":767 BE0 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":770 BE6 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":773 BEA text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":781 BED text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":792 BF1 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":794 BF4 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":796 BF5 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":798 BF6 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":799 BF7 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":800 BF8 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":818 BFD text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":820 C01 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":824 C07 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":831 C0A text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":833 C0D text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":834 C0F text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":847 C10 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":849 C13 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":855 C16 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":865 C1B text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":871 C20 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":877 C23 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":880 C26 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":883 C2C text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":885 C2E text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":887 C30 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":889 C40 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":914 C46 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":916 C4A text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":923 C4C text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":925 C4F text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":930 C52 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":932 C56 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":935 C59 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":937 C5D text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":938 C6D text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":953 C6F text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":955 C74 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":956 C76 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":962 C77 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":964 C7A text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":969 C7D text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":970 C82 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":972 C8B text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":977 C91 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":979 C94 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":983 C98 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":989 CA9 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":991 CAD text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":992 CB0 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":995 CB1 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":964 CC1 text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":966 CCA text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1003 CCD text32 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1004 CCF text32 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":90 CD0 text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":91 CDD text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":92 CE9 text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":93 CF8 text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":94 CFF text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":96 D0E text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":97 D12 text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":98 D13 text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":99 D14 text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":100 D15 text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":101 D16 text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":102 D17 text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":103 D1D text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":104 D1E text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":106 D24 text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":110 D28 text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":111 D2E text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":112 D30 text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":114 D3B text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":115 D41 text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":113 D45 text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":117 D4A text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":121 D4E text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":122 D54 text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":123 D56 text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":125 D61 text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":126 D67 text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":124 D6B text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":129 D6F text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":131 D71 text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":132 D77 text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":134 D81 text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":136 D83 text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":137 D89 text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":139 D93 text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":140 D94 text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":141 D9A text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":142 D9C text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":143 DA2 text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":144 DAC text64 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":146 DAE text64 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":47 DD4 text2 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftadd.c":148 DD4 text64 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":50 DD6 text2 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":52 DD7 text2 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":53 DDB text2 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":54 E0E text2 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":55 E12 text2 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":57 E15 text2 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":62 E16 text2 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":63 E18 text2 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":68 E1A text2 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":69 E2C text2 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":71 E2D text2 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":75 E2F text2 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":76 E38 text2 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":77 E47 text2 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":78 E4F text2 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":79 E53 text2 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":80 E5A text2 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":81 E5E text2 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":82 E6A text2 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":83 E6E text2 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":85 E75 text2 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":87 E7B text2 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":88 E8E text2 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":90 E8F text2 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":91 EA1 text2 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":92 EB4 text2 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":93 EC6 text2 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":103 EC9 text2 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":50 ECA text2 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":104 EE2 text2 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":105 EE4 text2 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2952 EE5 text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2954 EEF text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2955 EF1 text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2956 EF6 text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2958 EFA text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2965 EFC text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2969 F16 text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2972 F18 text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2974 F1B text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2975 F26 text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2979 F2B text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2980 F36 text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2987 F42 text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2989 F44 text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2990 F48 text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2993 F49 text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2999 F4A text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":3001 F4D text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":3005 F58 text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":3009 F64 text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":3011 F69 text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":3015 F6F text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":3017 F72 text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":3021 F76 text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":3026 F7D text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":3027 F85 text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":3033 F86 text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":3035 F8B text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":3039 F90 text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":3040 F97 text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":3041 F9B text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":3042 FAA text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":3046 FAB text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":3051 FB0 text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":3057 FB5 text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":3059 FBC text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":3061 FBF text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":3065 FC3 text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":3068 FCA text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":3071 FD2 text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":3072 FE1 text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":3076 FE2 text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":3124 FEA text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":3128 FF7 text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":3129 FFF text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":338 1000 text60 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":3131 1000 text39 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2751 1001 text34 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2754 1009 text34 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2759 100D text34 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2761 1012 text34 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2762 1016 text34 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2764 1019 text34 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2768 101B text34 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2773 1021 text34 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2775 1026 text34 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2776 1032 text34 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2782 1035 text34 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2786 103A text34 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2787 1042 text34 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2790 1043 text34 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2792 1047 text34 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2793 104E text34 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2796 104F text34 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2799 1056 text34 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2805 1057 text34 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2807 105A text34 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2809 105D text34 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2811 1060 text34 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2814 1061 text34 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1596 1064 text47 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2819 1064 text34 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1598 1068 text47 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1599 106E text47 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1601 1071 text47 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1605 1077 text47 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1607 107C text47 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1608 1080 text47 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1609 1087 text47 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1610 1088 text47 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1612 108C text47 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1617 108E text47 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1618 1096 text47 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1619 10A2 text47 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1620 10A9 text47 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1624 10AC text47 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1625 10B4 text47 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1626 10C0 text47 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1628 10C7 text47 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1630 10C8 text47 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1791 10C8 text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1797 10CA text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1799 10CD text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1801 10D0 text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1812 10D5 text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1814 10D9 text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1819 10DB text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1820 10DD text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1821 10DE text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1828 10DF text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1829 10E7 text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1830 10F3 text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1831 10FA text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1833 1101 text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1836 1102 text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1838 1105 text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1852 1107 text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1854 110B text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1877 110E text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1878 1110 text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1879 1111 text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1881 1115 text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1883 1117 text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1896 1118 text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1899 111D text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1900 1124 text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1901 1130 text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1904 1137 text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1905 1139 text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1906 113A text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1908 113E text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1910 1140 text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":184 1141 text1 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1914 1141 text44 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":193 1149 text1 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":197 1160 text1 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":198 1164 text1 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":201 117A text1 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":202 1194 text1 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":203 11B5 text1 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":205 11BB text1 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2528 11BB text33 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2532 11C1 text33 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2536 11C6 text33 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2544 11D4 text33 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2546 11DA text33 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2549 11E0 text33 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2557 11E9 text33 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2559 11EF text33 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2560 1205 text33 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2557 120F text33 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2562 1218 text33 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2565 1226 text33 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2566 1228 text33 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2570 1229 text33 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2572 122B text33 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2573 122C text33 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2577 1234 text33 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2578 1236 text33 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2208 1237 text41 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2580 1237 text33 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2210 123C text41 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2212 1241 text41 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2218 1242 text41 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2220 1247 text41 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2221 124B text41 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2226 124C text41 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2232 125A text41 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2233 126D text41 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2234 1280 text41 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2239 1281 text41 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2242 1286 text41 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2244 1293 text41 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2245 12A2 text41 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2257 12A3 text41 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2259 12A5 text41 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2261 12A6 text41 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2263 12A8 text41 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2212 12A9 text41 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2263 12B5 text41 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":109 12B6 text5 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2265 12B6 text41 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":110 12DB text5 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":111 1302 text5 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":112 1326 text5 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":113 132E text5 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":114 1330 text5 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":115 1333 text5 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":116 1339 text5 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":117 133B text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\fttol.c":49 133C text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\fttol.c":50 134C text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\fttol.c":51 1355 text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\fttol.c":52 1365 text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\fttol.c":53 1366 text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\fttol.c":54 136C text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\fttol.c":55 1373 text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\fttol.c":56 1375 text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\fttol.c":57 1377 text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\fttol.c":58 137C text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\fttol.c":60 1385 text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\fttol.c":61 138C text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\fttol.c":63 1393 text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\fttol.c":64 1397 text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\fttol.c":66 13A0 text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\fttol.c":67 13A7 text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\fttol.c":65 13A9 text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\fttol.c":70 13AC text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\fttol.c":71 13AF text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\fttol.c":72 13BA text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\fttol.c":73 13C3 text28 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1943 13C3 text46 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1944 13C8 text46 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1946 13D0 text46 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1953 13D5 text46 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1955 13D9 text46 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1956 13DB text46 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1957 13DC text46 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1959 13E0 text46 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1965 13E6 text46 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1970 13FD text46 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1974 1405 text46 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1975 140A text46 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1979 140D text46 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1980 1427 text46 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1977 142A text46 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1987 142F text46 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1988 1449 text46 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1985 144C text46 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1991 1451 text46 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2136 1451 text42 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2139 1453 text42 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2142 146C text42 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2145 147C text42 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2150 147E text42 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2152 1484 text42 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2153 148A text42 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2150 1490 text42 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2157 1498 text42 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2160 14A8 text42 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2162 14AA text42 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2165 14B0 text42 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2166 14B6 text42 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2169 14BC text42 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2172 14C2 text42 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2175 14C5 text42 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2176 14CA text42 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2180 14CB text42 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2185 14DA text42 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":209 14E0 text68 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2187 14E0 text42 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":210 150C text68 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":211 1523 text68 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":212 1538 text68 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":213 153D text68 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":212 1564 text68 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":214 1569 text68 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":37 1572 text9 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":223 1572 text68 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":38 1573 text9 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":39 157F text9 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":40 1589 text9 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":41 158C text9 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":42 159C text9 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":43 159F text9 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":44 15AA text9 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":45 15AD text9 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":46 15BD text9 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":47 15C0 text9 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":48 15C7 text9 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":49 15CA text9 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":50 15D2 text9 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":51 15DC text9 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":52 15DE text9 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":53 15E1 text9 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":54 15E2 text9 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":55 1605 text9 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2025 1606 text36 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2031 160C text36 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2033 161A text36 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2036 161F text36 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2040 1636 text36 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2042 163C text36 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2040 164E text36 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2047 1654 text36 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2049 165D text36 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2050 1664 text36 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2051 1670 text36 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2053 1675 text36 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2054 167C text36 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2057 167D text36 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2059 1684 text36 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2065 1685 text36 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2066 168C text36 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2070 1698 text36 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2077 169F text36 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2084 16A3 text36 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2090 16A6 text36 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2104 16A7 text36 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2106 16AB text36 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2107 16AD text36 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":209 16AE text3 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2110 16AE text36 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":210 16E2 text3 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":211 16FB text3 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":212 1711 text3 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":213 1717 text3 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":212 1747 text3 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":214 174D text3 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":223 1756 text3 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":470 1756 text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":473 1758 text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":476 175A text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":479 175B text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":481 175C text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":483 1775 text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":492 177C text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":494 1782 text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":492 1793 text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":498 179B text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":501 179D text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":504 179E text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":507 179F text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":510 17A0 text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":512 17A3 text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":514 17A9 text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":515 17AB text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":516 17AD text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":510 17AF text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":521 17B0 text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":522 17B6 text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":524 17BC text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":525 17BD text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":526 17BE text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":530 17C0 text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":532 17C6 text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":533 17CB text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":534 17D1 text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":535 17D7 text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":530 17DD text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":539 17E5 text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":541 17E9 text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":543 17EC text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":544 17F5 text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":545 17F7 text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":548 17FB text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":551 17FD text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":552 17FF text63 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2842 1800 swtext1 CONST
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":281 18F3 text62 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":314 18F4 text61 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftneg.c":17 18FB text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftneg.c":18 1901 text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftneg.c":20 1903 text29 CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3371 1904 inittext CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3373 1905 inittext CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3374 1906 inittext CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3375 1907 inittext CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3376 1908 inittext CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3377 1909 inittext CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3378 190A inittext CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3379 190B inittext CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3380 190C inittext CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3381 190D inittext CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3383 190E inittext CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3382 190F inittext CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3277 1910 clrtext CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3279 1911 clrtext CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3280 1912 clrtext CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3281 1913 clrtext CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3282 1914 clrtext CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3283 1915 clrtext CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3284 1916 clrtext CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3285 1917 clrtext CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3286 1918 clrtext CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3287 1919 clrtext CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3289 191A clrtext CODE
+"C:\Users\form\AppData\Local\Temp\s69k.":3288 191B clrtext CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\bmul.c":3 1928 text69 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\bmul.c":4 1929 text69 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\bmul.c":7 192A text69 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\bmul.c":8 192C text69 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\bmul.c":9 1930 text69 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\bmul.c":10 1932 text69 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\bmul.c":11 1934 text69 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\bmul.c":12 1937 text69 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\bmul.c":3 193A text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\bmul.c":13 193A text69 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\bmul.c":4 193C text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\bmul.c":7 193D text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\bmul.c":8 193F text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\bmul.c":9 1943 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\bmul.c":10 1945 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\bmul.c":11 1947 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\bmul.c":12 194A text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\bmul.c":13 194C text4 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":273 194C text13 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":274 194E text13 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":275 1950 text13 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":276 1951 text13 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":277 1952 text13 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":278 1953 text13 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":279 1954 text13 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":280 1955 text13 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":281 1957 text13 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":282 1958 text13 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":283 1959 text13 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":284 195A text13 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":285 195C text13 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":286 195E text13 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":171 195F text12 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":172 1963 text12 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":173 1966 text12 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":174 1969 text12 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":176 196C text12 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":177 196F text12 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":179 1971 text12 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":242 1972 text21 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":245 1974 text21 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":246 1978 text21 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":247 1979 text21 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":248 197A text21 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":249 197E text21 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":250 1980 text21 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":251 1982 text21 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":252 1988 text21 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":148 1989 text11 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":149 198B text11 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":150 198C text11 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":153 198E text11 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":154 1990 text11 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":155 1992 text11 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":158 1995 text11 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":159 1997 text11 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":160 1998 text11 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":162 199A text11 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":164 199D text11 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":166 199F text11 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":99 19A0 maintext CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":119 19A3 maintext CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":133 19A6 maintext CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":134 19A8 maintext CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":136 19AB maintext CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":137 19B0 maintext CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":140 19B3 maintext CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":101 19B6 maintext CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":143 19B7 maintext CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2457 19B7 text50 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2463 19B9 text50 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2470 19C8 text50 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2475 19CA text50 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2496 19CB text50 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2499 19D1 text50 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":462 19D2 text52 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":464 19DB text52 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":465 19ED text52 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2423 19EE text49 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2424 19F0 text49 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2427 19F6 text49 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2430 19F7 text49 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2437 19FA text49 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2438 1A09 text49 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":222 1A0A text22 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":223 1A0C text22 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":224 1A0E text22 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":225 1A11 text22 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":226 1A14 text22 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":227 1A19 text22 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":228 1A1A text22 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":229 1A1C text22 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":230 1A20 text22 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":231 1A21 text22 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":232 1A23 text22 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":238 1A25 text22 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\wmul.c":4 1A26 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\wmul.c":7 1A29 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\wmul.c":8 1A2B text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\wmul.c":9 1A2F text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\wmul.c":10 1A34 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\wmul.c":11 1A39 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\wmul.c":12 1A3D text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\wmul.c":4 1A44 text70 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\wmul.c":13 1A44 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\wmul.c":7 1A46 text70 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\wmul.c":8 1A4A text70 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\wmul.c":9 1A4E text70 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\wmul.c":10 1A53 text70 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\wmul.c":11 1A58 text70 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\wmul.c":12 1A5C text70 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\wmul.c":13 1A64 text70 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\common\memset.c":18 1A64 text43 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\common\memset.c":19 1A6B text43 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\common\memset.c":20 1A77 text43 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\common\memset.c":19 1A83 text43 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\common\memset.c":22 1A84 text43 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":256 1AA4 text14 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":257 1AAF text14 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":258 1AB1 text14 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":259 1AB2 text14 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":260 1AB4 text14 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":262 1AB8 text14 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":263 1ABA text14 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":264 1ABB text14 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":265 1ABC text14 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":266 1ABD text14 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":267 1AC0 text14 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":268 1AC2 text14 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":269 1AC4 text14 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2368 1AC5 text48 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2371 1AC8 text48 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2374 1AD7 text48 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2376 1ADE text48 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2379 1AE0 text48 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2380 1AE6 text48 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awtoft.c":36 1AE7 text31 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awtoft.c":37 1AE9 text31 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awtoft.c":38 1AEB text31 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awtoft.c":39 1AF0 text31 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awtoft.c":41 1AF2 text31 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awtoft.c":42 1B09 text31 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1061 1B09 text54 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1063 1B0D text54 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1065 1B12 text54 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1067 1B15 text54 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1076 1B1A text54 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1078 1B25 text54 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1079 1B2D text54 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lltoft.c":38 1B2E text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lltoft.c":41 1B33 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lltoft.c":42 1B37 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lltoft.c":43 1B3E text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lltoft.c":41 1B42 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lltoft.c":45 1B43 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lltoft.c":46 1B58 text18 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2696 1B58 text35 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2698 1B5D text35 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2699 1B5F text35 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2704 1B60 text35 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2711 1B62 text35 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2713 1B66 text35 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2714 1B6E text35 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2715 1B7A text35 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2716 1B81 text35 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2719 1B82 text35 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2720 1B84 text35 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lmul.c":4 1B85 text17 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2722 1B85 text35 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lmul.c":7 1B8E text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lmul.c":8 1B90 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lmul.c":9 1B98 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lmul.c":10 1B9F text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lmul.c":11 1BA6 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lmul.c":12 1BAC text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lwdiv.c":9 1BB5 text16 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lmul.c":13 1BB5 text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lwdiv.c":10 1BB8 text16 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lwdiv.c":11 1BBC text16 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lwdiv.c":12 1BBE text16 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lwdiv.c":13 1BC0 text16 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lwdiv.c":14 1BC5 text16 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lwdiv.c":12 1BC9 text16 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lwdiv.c":17 1BCA text16 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lwdiv.c":18 1BCF text16 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lwdiv.c":19 1BD7 text16 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lwdiv.c":20 1BDB text16 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lwdiv.c":22 1BDC text16 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lwdiv.c":23 1BE1 text16 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lwdiv.c":25 1BE5 text16 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lwdiv.c":26 1BEC text16 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":314 1BEC text8 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":315 1C23 text8 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":631 1C23 text51 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":637 1C24 text51 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":638 1C26 text51 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":640 1C27 text51 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":641 1C29 text51 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":643 1C2A text51 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":644 1C2C text51 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":646 1C2D text51 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":647 1C2F text51 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":649 1C30 text51 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":650 1C32 text51 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":652 1C33 text51 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":653 1C35 text51 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":655 1C36 text51 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":669 1C38 text51 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":631 1C39 text51 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":671 1C61 text51 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1718 1C62 text55 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1719 1C68 text55 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1721 1C81 text55 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1726 1C85 text55 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1728 1C88 text55 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1732 1C90 text55 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1736 1C98 text55 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1737 1C9C text55 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1754 1CA1 text55 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awmod.c":8 1CA2 text26 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awmod.c":9 1CA4 text26 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awmod.c":10 1CA6 text26 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awmod.c":11 1CAB text26 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awmod.c":13 1CAD text26 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awmod.c":14 1CAF text26 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awmod.c":15 1CB4 text26 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awmod.c":16 1CB8 text26 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awmod.c":17 1CBA text26 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awmod.c":18 1CBC text26 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awmod.c":19 1CC1 text26 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awmod.c":17 1CC5 text26 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awmod.c":22 1CC6 text26 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awmod.c":23 1CCE text26 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awmod.c":24 1CD2 text26 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awmod.c":25 1CD7 text26 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awmod.c":27 1CDB text26 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awmod.c":28 1CDE text26 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awmod.c":29 1CE3 text26 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awmod.c":30 1CEA text26 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1661 1CEA text45 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1662 1CEC text45 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1664 1CED text45 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1667 1CF2 text45 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1668 1CF9 text45 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1669 1D05 text45 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1670 1D0C text45 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1675 1D0D text45 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1677 1D19 text45 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1679 1D22 text45 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1684 1D25 text45 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1685 1D32 text45 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":1687 1D3A text45 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2627 1D3A text37 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2628 1D3C text37 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2629 1D3E text37 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2630 1D40 text37 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2631 1D41 text37 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2632 1D43 text37 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2641 1D45 text37 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2642 1D4F text37 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2643 1D54 text37 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2644 1D5E text37 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2645 1D63 text37 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2647 1D6D text37 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2648 1D6F text37 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2649 1D71 text37 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2650 1D73 text37 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2656 1D75 text37 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2657 1D78 text37 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2670 1D88 text37 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2671 1D8A text37 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2284 1D8B text40 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2285 1D8D text40 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2287 1D8F text40 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2290 1D90 text40 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2297 1D92 text40 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2300 1D94 text40 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2302 1D99 text40 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2304 1D9B text40 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2306 1D9C text40 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2307 1D9E text40 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2309 1D9F text40 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2316 1DA1 text40 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2318 1DA4 text40 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2322 1DAB text40 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2325 1DB4 text40 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2326 1DBE text40 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2329 1DC2 text40 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2287 1DC3 text40 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2331 1DCF text40 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2333 1DD2 text40 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2334 1DD6 text40 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2335 1DD7 text40 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awdiv.c":9 1DDE text24 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2337 1DDE text40 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awdiv.c":10 1DE0 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awdiv.c":11 1DE2 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awdiv.c":12 1DE7 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awdiv.c":14 1DE9 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awdiv.c":15 1DEB text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awdiv.c":16 1DF0 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awdiv.c":18 1DF4 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awdiv.c":19 1DF6 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awdiv.c":20 1DFA text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awdiv.c":21 1DFC text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awdiv.c":22 1DFE text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awdiv.c":23 1E03 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awdiv.c":21 1E07 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awdiv.c":26 1E08 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awdiv.c":27 1E0D text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awdiv.c":28 1E15 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awdiv.c":29 1E19 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awdiv.c":31 1E1A text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awdiv.c":32 1E1F text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awdiv.c":34 1E23 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awdiv.c":35 1E26 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awdiv.c":36 1E2B text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lldiv.c":9 1E32 text19 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\awdiv.c":37 1E32 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lldiv.c":10 1E3B text19 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lldiv.c":11 1E41 text19 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lldiv.c":12 1E43 text19 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lldiv.c":13 1E45 text19 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lldiv.c":14 1E4C text19 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lldiv.c":12 1E52 text19 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lldiv.c":17 1E53 text19 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lldiv.c":18 1E5A text19 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lldiv.c":19 1E6A text19 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lldiv.c":20 1E72 text19 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lldiv.c":22 1E73 text19 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lldiv.c":23 1E7A text19 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lldiv.c":25 1E7E text19 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\lldiv.c":26 1E87 text19 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":165 1E87 text67 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":167 1E89 text67 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":168 1E8E text67 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":169 1E91 text67 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":170 1EA1 text67 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":172 1EA3 text67 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":173 1EAC text67 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":174 1EB1 text67 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":176 1EB2 text67 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":177 1EB4 text67 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":178 1EB9 text67 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":180 1EBD text67 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":184 1EBE text67 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":185 1EC2 text67 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":186 1EC7 text67 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":187 1ECD text67 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":191 1EDB text67 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":192 1EDE text67 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":193 1EE0 text67 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":194 1EE2 text67 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2840 1EE3 text38 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2845 1EEB text38 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2846 1EED text38 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2848 1EF2 text38 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2850 1EF3 text38 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2851 1EF5 text38 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2853 1EF6 text38 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2854 1EF8 text38 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2856 1EF9 text38 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2857 1EFE text38 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2858 1EFF text38 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2859 1F01 text38 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2860 1F02 text38 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2862 1F03 text38 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2863 1F05 text38 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2866 1F06 text38 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2867 1F08 text38 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2869 1F09 text38 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2870 1F10 text38 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2871 1F11 text38 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2872 1F13 text38 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2873 1F14 text38 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2875 1F15 text38 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2876 1F17 text38 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2877 1F24 text38 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2879 1F25 text38 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2884 1F34 text38 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2842 1F35 text38 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2/USB/usb_device.c":2885 1F40 text38 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":138 1F41 text25 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":139 1F48 text25 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":141 1F49 text25 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":142 1F61 text25 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":143 1F64 text25 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":146 1F66 text25 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":150 1F6C text25 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":151 1F74 text25 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":152 1F76 text25 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":153 1F7C text25 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":154 1F7E text25 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":155 1F9C text25 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":156 1F9E text25 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\float.c":64 1F9F text65 CODE
+"S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\klondike.c":161 1F9F text25 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\float.c":65 1FA8 text65 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\float.c":67 1FAF text65 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\float.c":68 1FB3 text65 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\float.c":66 1FB9 text65 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\float.c":71 1FBE text65 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\float.c":72 1FC2 text65 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\float.c":73 1FCC text65 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\float.c":70 1FD2 text65 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\float.c":76 1FD7 text65 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\float.c":77 1FD9 text65 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\float.c":75 1FDF text65 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\float.c":79 1FE1 text65 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\float.c":80 1FE3 text65 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\float.c":81 1FE9 text65 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\float.c":82 1FEB text65 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\float.c":83 1FFB text65 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\float.c":84 1FFE text65 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\float.c":86 1FFF text65 CODE
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+__size_of_UserInit 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+___lwdiv@dividend 5A 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+_USBDeviceTasks 17B2 0 CODE 0 text32 dist/K16/production\Klondike.X.production.obj
+___lldiv@counter AC 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+___awdiv@counter 5D 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+___lwdiv@counter 5F 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+___lltoft@c 60 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+_ID 113E 0 STRING 0 strings dist/K16/production\Klondike.X.production.obj
+___awtoft@c 60 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+_USBStdFeatureReqHandler 1DCA 0 CODE 0 text39 dist/K16/production\Klondike.X.production.obj
+__end_of___ftneg 3208 0 CODE 0 text29 dist/K16/production\Klondike.X.production.obj
+__end_of_ResultRx 3DC6 0 CODE 0 text67 dist/K16/production\Klondike.X.production.obj
+USBStdFeatureReqHandler@p AB 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+__size_of_UpdateFanLevel 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_PR2 1B 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__S0 8009 0 ABS 0 - -
+__S1 360 0 ABS 0 - -
+?_SendCmdReply 5E 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+_RemoteWakeup 129 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
+_GIE 5F 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_UIE E92 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_endpoint_number 134 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
+_BDT 20 0 ABS 1 - dist/K16/production\Klondike.X.production.obj
+_WQI 142 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
+_UIR E90 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__Hintentry 26 0 CODE 0 intentry -
+__Lintentry 8 0 CODE 0 intentry -
+_WQX 143 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
+__end_of_configDescriptor1 111A 0 STRING 0 strings dist/K16/production\Klondike.X.production.obj
+__pintentry 8 0 CODE 0 intentry dist/K16/production\Klondike.X.production.obj
+_Cfg 1E2 0 BANK3 1 dataBANK3 dist/K16/production\Klondike.X.production.obj
+USBEnableEndpoint@p 62 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+___ftadd@f1 B3 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+_buf 2E0 0 BANK5 1 bssBANK5 dist/K16/production\Klondike.X.production.obj
+__end_of___awdiv 3C64 0 CODE 0 text24 dist/K16/production\Klondike.X.production.obj
+_ptr 6F 0 BANK0 1 bssBANK0 dist/K16/production\Klondike.X.production.obj
+__CFG_PWRTE$ON 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_UEP0 E98 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_UEP1 E99 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_TMR0 15 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__size_of_USBCBStdSetDscHandler 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+i1_SendCmdReply 29C0 0 CODE 0 text68 dist/K16/production\Klondike.X.production.obj
+_UCFG E91 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_UEIE E97 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_RCIF 8D 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_LATC 10E 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+USBEnableEndpoint@ep 64 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+___ftneg@f1 B0 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+_UCON E8E 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_UEIR E93 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+?_AsicPreCalc A0 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+___ftadd@f2 B6 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+USBStdSetCfgHandler@i AA 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+_ClockCfg 1D2 0 BANK3 1 bssBANK3 dist/K16/production\Klondike.X.production.obj
+USBStdSetCfgHandler@p A7 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+__end_of_USB_CD_Ptr 100A 0 STRING 0 strings dist/K16/production\Klondike.X.production.obj
+__size_of_USBCtrlEPAllowDataStage 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_USBStallHandler 358A 0 CODE 0 text48 dist/K16/production\Klondike.X.production.obj
+_main 3340 0 CODE 0 maintext dist/K16/production\Klondike.X.production.obj
+_Step 120 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
+__end_of_sd001 1072 0 STRING 0 strings dist/K16/production\Klondike.X.production.obj
+_I2CInBuf 1B4 0 BANK3 1 bssBANK3 dist/K16/production\Klondike.X.production.obj
+_pDst 137 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
+btemp 7E 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_sd000 1156 0 STRING 0 strings dist/K16/production\Klondike.X.production.obj
+_sd001 100A 0 STRING 0 strings dist/K16/production\Klondike.X.production.obj
+_sd002 1072 0 STRING 0 strings dist/K16/production\Klondike.X.production.obj
+start 26 0 CODE 0 init C:\Users\form\AppData\Local\Temp\s69k.obj
+__end_of_USBCheckVendorRequest 8 0 CODE 0 text58 dist/K16/production\Klondike.X.production.obj
+__size_of_USBCBWakeFromSuspend 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+?___ftadd B3 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+___fttol@f1 D0 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+___ftmul@f1 A0 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+___fttol@lval D9 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+USBCtrlTrfTxService@byteToSend 5A 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+___ftdiv@f1 C3 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+_USBDeferINDataStagePackets 12C 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
+_IOCBF 396 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+?i1_SendCmdReply 76 0 COMMON 1 cstackCOMMON dist/K16/production\Klondike.X.production.obj
+_USBBusIsSuspended 1B8 0 BANK3 1 bssBANK3 dist/K16/production\Klondike.X.production.obj
+_RCREG 199 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_USBWakeFromSuspend 336E 0 CODE 0 text50 dist/K16/production\Klondike.X.production.obj
+reset_vec 0 0 CODE 0 reset_vec C:\Users\form\AppData\Local\Temp\s69k.obj
+__size_of_USBWakeFromSuspend 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_UADDR E96 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_HashTime 126 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
+wtemp0 7E 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_USTAT E8F 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+___ftmul@f2 A3 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+USBCtrlTrfRxService@i 5C 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+_WorkTick 3E82 0 CODE 0 text25 dist/K16/production\Klondike.X.production.obj
+___ftdiv@f2 C0 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+_I2CState 128 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
+_SlowTick 1B6 0 BANK3 1 bssBANK3 dist/K16/production\Klondike.X.production.obj
+__size_of_SendCmdReply 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__Hconfig 10012 0 CONFIG 0 config -
+__Lconfig 1000E 0 CONFIG 0 config -
+?___ftneg B0 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+_CLOCK_LOW_CHG 1A6 0 BANK3 1 bssBANK3 dist/K16/production\Klondike.X.production.obj
+___ftpack 3F3E 0 CODE 0 text65 dist/K16/production\Klondike.X.production.obj
+USBConfigureEndpoint@direction 58 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+__size_of_USBDeviceInit 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+?___awmod 58 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+AsicPreCalc@F3344 260 0 BANK4 1 dataBANK4 dist/K16/production\Klondike.X.production.obj
+__end_of__stringtab 1002 0 STRING 0 strings dist/K16/production\Klondike.X.production.obj
+__size_of_WorkTick 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+___ftdiv@f3 CB 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+__Hbigram 0 0 ABS 0 bigram -
+__Lbigram 0 0 ABS 0 bigram -
+_BankSize 13F 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
+_FanLevel 1E8 0 BANK3 1 nvBANK3 dist/K16/production\Klondike.X.production.obj
+UpdateClock@CLOCK_F_VALUE 14C 0 BANK2 1 cstackBANK2 dist/K16/production\Klondike.X.production.obj
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+UpdateClock@CLOCK_R_VALUE 148 0 BANK2 1 cstackBANK2 dist/K16/production\Klondike.X.production.obj
+__size_ofi1_SendCmdReply 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__end_of_USBCtrlTrfInHandler 20C8 0 CODE 0 text34 dist/K16/production\Klondike.X.production.obj
+__HidataBANK6 0 0 ABS 0 idataBANK6 -
+__LidataBANK6 0 0 ABS 0 idataBANK6 -
+_Error 1E0 0 BANK3 1 bssBANK3 dist/K16/production\Klondike.X.production.obj
+__pidataBANK6 3508 0 CODE 0 idataBANK6 dist/K16/production\Klondike.X.production.obj
+_InitTempSensor 32E4 0 CODE 0 text21 dist/K16/production\Klondike.X.production.obj
+i1SendCmdReply@cmd 76 0 COMMON 1 cstackCOMMON dist/K16/production\Klondike.X.production.obj
+___ftmul@cntr AE 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+__size_of___ftadd 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_LastTemp 1B5 0 BANK3 1 bssBANK3 dist/K16/production\Klondike.X.production.obj
+___ftdiv@cntr CA 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+__Hfunctab 0 0 CODE 0 functab -
+__Lfunctab 0 0 CODE 0 functab -
+_INPacket 220 0 ABS 1 - dist/K16/production\Klondike.X.production.obj
+__end_of_UpdateFanLevel FDE 0 CODE 0 text27 dist/K16/production\Klondike.X.production.obj
+_ResultRx 3D0E 0 CODE 0 text67 dist/K16/production\Klondike.X.production.obj
+_SetupPkt 40 0 ABS 1 - dist/K16/production\Klondike.X.production.obj
+i1___bmul 3250 0 CODE 0 text69 dist/K16/production\Klondike.X.production.obj
+__end_of_USBTransferOnePacket 11FA 0 CODE 0 text53 dist/K16/production\Klondike.X.production.obj
+_Send32 11FA 0 CODE 0 text10 dist/K16/production\Klondike.X.production.obj
+AsicPreCalc@work A0 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+__end_of_WorkTick 3F3E 0 CODE 0 text25 dist/K16/production\Klondike.X.production.obj
+_UserInit 32BE 0 CODE 0 text12 dist/K16/production\Klondike.X.production.obj
+_outPipes 1A0 0 BANK3 1 bssBANK3 dist/K16/production\Klondike.X.production.obj
+__Hcommon 0 0 ABS 0 common -
+__Lcommon 0 0 ABS 0 common -
+?___fttol D0 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+_pBDTEntryOut 122 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
+_PIE2bits 92 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+SendCmdReply@n 63 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+_UEP0bits E98 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__size_of_USBConfigureEndpoint 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_PIR2bits 12 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+i1___wmul 3488 0 CODE 0 text70 dist/K16/production\Klondike.X.production.obj
+i1SendCmdReply@count 7A 0 COMMON 1 cstackCOMMON dist/K16/production\Klondike.X.production.obj
+?___ftmul A0 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+_LATAbits 10C 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_SSPADD 212 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__end_of_InitTempSensor 3312 0 CODE 0 text21 dist/K16/production\Klondike.X.production.obj
+_TMR0IF 5A 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_SSP1IF 8B 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_TMR2IF 89 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_ANSELA 18C 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_UCONbits E8E 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_PWM1OE 309E 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_ANSELB 18D 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+?___lldiv A0 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+_ANSELC 18E 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+?___ftdiv C0 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+?___awdiv 58 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+___lltoft 365C 0 CODE 0 text18 dist/K16/production\Klondike.X.production.obj
+_SSP1EN 10AD 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_I2CCount 127 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
+___awtoft 35CE 0 CODE 0 text31 dist/K16/production\Klondike.X.production.obj
+?___lwdiv 58 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+SendAsicData@work 5E 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+?_USBConfigureEndpoint 58 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+_TMR0CS 4AD 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_pBDTEntryEP0OutNext 6E 0 BANK0 1 bssBANK0 dist/K16/production\Klondike.X.production.obj
+_SSPBUF 211 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_ADRESH 9C 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_TMR2ON E2 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_OSCCON 99 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__Habs1 0 0 ABS 0 abs1 -
+__Labs1 0 0 ABS 0 abs1 -
+_ACTCON 39B 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__size_of_USBCtrlTrfSetupHandler 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__size_of_ProcessIO 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__end_of_USBCBErrorHandler 6 0 CODE 0 text59 dist/K16/production\Klondike.X.production.obj
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+_USBDeferOUTDataStagePackets 12D 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Hsfr4 0 0 ABS 0 sfr4 -
+__Lsfr4 0 0 ABS 0 sfr4 -
+__Hsfr5 0 0 ABS 0 sfr5 -
+___ftmul@f3_as_product AB 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+__Lsfr5 0 0 ABS 0 sfr5 -
+__Hsfr6 0 0 ABS 0 sfr6 -
+__Lsfr6 0 0 ABS 0 sfr6 -
+__Hsfr7 0 0 ABS 0 sfr7 -
+__Lsfr7 0 0 ABS 0 sfr7 -
+__Hsfr8 0 0 ABS 0 sfr8 -
+__Lsfr8 0 0 ABS 0 sfr8 -
+__size_of_InitFAN 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__Hsfr9 0 0 ABS 0 sfr9 -
+_USBCBInitEP 33A4 0 CODE 0 text52 dist/K16/production\Klondike.X.production.obj
+USBDeviceInit@i_718 5C 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+__Lsfr9 0 0 ABS 0 sfr9 -
+__size_of_ResultRx 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__size_of_DetectAsics 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+USBEnableEndpoint@options 5F 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+_SendAsicData 2AE4 0 CODE 0 text9 dist/K16/production\Klondike.X.production.obj
+__size_of_ProcessCmd 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+USBStdSetCfgHandler@i_1089 A9 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+__end_of_UserInit 32E4 0 CODE 0 text12 dist/K16/production\Klondike.X.production.obj
+__end_of___ftpack 4000 0 CODE 0 text65 dist/K16/production\Klondike.X.production.obj
+_ResultQue 1DA 0 BANK3 1 bssBANK3 dist/K16/production\Klondike.X.production.obj
+_USBCtrlTrfSetupHandler 3A74 0 CODE 0 text37 dist/K16/production\Klondike.X.production.obj
+?___ftpack 58 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+USBTransferOnePacket@data 5D 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+__end_of_sd002 10DA 0 STRING 0 strings dist/K16/production\Klondike.X.production.obj
+__end_of_USBStdGetDscHandler 256C 0 CODE 0 text41 dist/K16/production\Klondike.X.production.obj
+_I2CCmd 6A 0 BANK0 1 bssBANK0 dist/K16/production\Klondike.X.production.obj
+USBDeviceTasks@i B4 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+__size_of_InitResultRx 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__size_of___ftpack 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_USBCtrlEPService 2376 0 CODE 0 text33 dist/K16/production\Klondike.X.production.obj
+__end_of_memset 3508 0 CODE 0 text43 dist/K16/production\Klondike.X.production.obj
+__size_of___fttol 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+USBDeviceInit@p 5A 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+__end_of___awmod 39D4 0 CODE 0 text26 dist/K16/production\Klondike.X.production.obj
+__size_of_USBCtrlEPService 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_SlaveAddress 12B 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
+___ftadd@sign BD 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+__end_of_USBCBWakeFromSuspend 31EA 0 CODE 0 text61 dist/K16/production\Klondike.X.production.obj
+__Hcode 0 0 ABS 0 code -
+__Lcode 0 0 ABS 0 code -
+i1___bmul@product 73 0 COMMON 1 cstackCOMMON dist/K16/production\Klondike.X.production.obj
+_ProcessCmd 1BA8 0 CODE 0 text2 dist/K16/production\Klondike.X.production.obj
+_rotate 37D8 0 CODE 0 text8 dist/K16/production\Klondike.X.production.obj
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+_DetectAsics 1352 0 CODE 0 text23 dist/K16/production\Klondike.X.production.obj
+i1___wmul@product 74 0 COMMON 1 cstackCOMMON dist/K16/production\Klondike.X.production.obj
+__size_of_USBStallHandler 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__pcstackBANK0 50 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+___awmod@sign 5E 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+___bmul 3274 0 CODE 0 text4 dist/K16/production\Klondike.X.production.obj
+___lmul 370A 0 CODE 0 text17 dist/K16/production\Klondike.X.production.obj
+__Hinit 26 0 CODE 0 init -
+__Linit 26 0 CODE 0 init -
+___wmul 344C 0 CODE 0 text6 dist/K16/production\Klondike.X.production.obj
+_memset 34C8 0 CODE 0 text43 dist/K16/production\Klondike.X.production.obj
+__end_of_main 336E 0 CODE 0 maintext dist/K16/production\Klondike.X.production.obj
+__end_of_USER_USB_CALLBACK_EVENT_HANDLER 38C4 0 CODE 0 text51 dist/K16/production\Klondike.X.production.obj
+__Htext 0 0 ABS 0 text -
+__Ltext 0 0 ABS 0 text -
+_Status 163 0 BANK2 1 dataBANK2 dist/K16/production\Klondike.X.production.obj
+___bmul@multiplier 5B 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+___lmul@multiplier 58 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+___wmul@multiplier 58 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+__end_of_ID 1156 0 STRING 0 strings dist/K16/production\Klondike.X.production.obj
+__end_of_USBCtrlEPAllowDataStage 3A74 0 CODE 0 text45 dist/K16/production\Klondike.X.production.obj
+__size_of___ftneg 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__end_of_USBStdFeatureReqHandler 2000 0 CODE 0 text39 dist/K16/production\Klondike.X.production.obj
+___ftmul@sign AF 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+end_of_initialization 11C 0 CODE 0 cinit dist/K16/production\Klondike.X.production.obj
+_NonceRanges 320 0 BANK6 1 bssBANK6 dist/K16/production\Klondike.X.production.obj
+___ftdiv@sign CF 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+___awdiv@sign 5E 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+__end_of_USBCBStdSetDscHandler 1000 0 CODE 0 text56 dist/K16/production\Klondike.X.production.obj
+__end_of_DetectAsics 14C0 0 CODE 0 text23 dist/K16/production\Klondike.X.production.obj
+_OUTPacket 2A0 0 ABS 1 - dist/K16/production\Klondike.X.production.obj
+___bmul@multiplicand 58 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+___lmul@multiplicand 5C 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+AsicPreCalc@x E0 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+___wmul@multiplicand 5A 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+?i1___bmul 70 0 COMMON 1 cstackCOMMON dist/K16/production\Klondike.X.production.obj
+UpdateClock@SPEED DE 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+__Hsfr10 0 0 ABS 0 sfr10 -
+__Lsfr10 0 0 ABS 0 sfr10 -
+__Hsfr20 0 0 ABS 0 sfr20 -
+__Lsfr20 0 0 ABS 0 sfr20 -
+__Hsfr30 0 0 ABS 0 sfr30 -
+__Hsfr11 0 0 ABS 0 sfr11 -
+__Lsfr30 0 0 ABS 0 sfr30 -
+__Lsfr11 0 0 ABS 0 sfr11 -
+__Hsfr21 0 0 ABS 0 sfr21 -
+__Lsfr21 0 0 ABS 0 sfr21 -
+__stringtab 1000 0 STRING 0 strings dist/K16/production\Klondike.X.production.obj
+__Hsfr31 0 0 ABS 0 sfr31 -
+__Hsfr12 0 0 ABS 0 sfr12 -
+__Lsfr31 0 0 ABS 0 sfr31 -
+__Lsfr12 0 0 ABS 0 sfr12 -
+__Hsfr22 0 0 ABS 0 sfr22 -
+__Lsfr22 0 0 ABS 0 sfr22 -
+__size_of_USBCtrlTrfOutHandler 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__Hsfr13 0 0 ABS 0 sfr13 -
+ProcessCmd@cmd 15A 0 BANK2 1 cstackBANK2 dist/K16/production\Klondike.X.production.obj
+__Lsfr13 0 0 ABS 0 sfr13 -
+__Hsfr23 0 0 ABS 0 sfr23 -
+__Lsfr23 0 0 ABS 0 sfr23 -
+__size_of_USBStdGetStatusHandler 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__Hsfr14 0 0 ABS 0 sfr14 -
+__Lsfr14 0 0 ABS 0 sfr14 -
+__end_of_InitWorkTick 358A 0 CODE 0 text14 dist/K16/production\Klondike.X.production.obj
+__end_of_SendCmdReply 2EAC 0 CODE 0 text3 dist/K16/production\Klondike.X.production.obj
+__Hsfr24 0 0 ABS 0 sfr24 -
+_USBGenericOutHandle 12F 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
+__Lsfr24 0 0 ABS 0 sfr24 -
+__Hsfr15 0 0 ABS 0 sfr15 -
+__size_of___awtoft 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__Lsfr15 0 0 ABS 0 sfr15 -
+__Hsfr25 0 0 ABS 0 sfr25 -
+__Lsfr25 0 0 ABS 0 sfr25 -
+__Hsfr16 0 0 ABS 0 sfr16 -
+__Lsfr16 0 0 ABS 0 sfr16 -
+__end_of_USBCtrlEPAllowStatusStage 2190 0 CODE 0 text47 dist/K16/production\Klondike.X.production.obj
+__Hsfr26 0 0 ABS 0 sfr26 -
+__Lsfr26 0 0 ABS 0 sfr26 -
+__Hsfr17 0 0 ABS 0 sfr17 -
+__Lsfr17 0 0 ABS 0 sfr17 -
+__Hsfr27 0 0 ABS 0 sfr27 -
+__Lsfr27 0 0 ABS 0 sfr27 -
+__Hsfr18 0 0 ABS 0 sfr18 -
+__Lsfr18 0 0 ABS 0 sfr18 -
+__Hsfr28 0 0 ABS 0 sfr28 -
+__Lsfr28 0 0 ABS 0 sfr28 -
+__Hsfr19 0 0 ABS 0 sfr19 -
+__Lsfr19 0 0 ABS 0 sfr19 -
+__Hsfr29 0 0 ABS 0 sfr29 -
+__HnvBANK3 0 0 ABS 0 nvBANK3 -
+__Lsfr29 0 0 ABS 0 sfr29 -
+__LnvBANK3 0 0 ABS 0 nvBANK3 -
+?i1___wmul 70 0 COMMON 1 cstackCOMMON dist/K16/production\Klondike.X.production.obj
+__pnvBANK3 1E8 0 BANK3 1 nvBANK3 dist/K16/production\Klondike.X.production.obj
+_TRISAbits 8C 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_RCSTAbits 19D 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_TRISBbits 8D 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_send32_count 138 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
+__end_of___ftadd 1BA8 0 CODE 0 text64 dist/K16/production\Klondike.X.production.obj
+__end_of___lltoft 36B0 0 CODE 0 text18 dist/K16/production\Klondike.X.production.obj
+_TRISCbits 8E 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_PWM1DCH 612 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_TXSTAbits 19E 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_IOCBPbits 394 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__Hstrings 0 0 ABS 0 strings -
+_T2CONbits 1C 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__Lstrings 0 0 ABS 0 strings -
+__pstrings 1000 0 STRING 0 strings dist/K16/production\Klondike.X.production.obj
+_PrecalcHashes 1BA 0 BANK3 1 bssBANK3 dist/K16/production\Klondike.X.production.obj
+_PWM1DCL 611 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+AsicPreCalc@m B8 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+?___lltoft 60 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+_USBCtrlEPServiceComplete 2190 0 CODE 0 text44 dist/K16/production\Klondike.X.production.obj
+_USBCheckVendorRequest 6 0 CODE 0 text58 dist/K16/production\Klondike.X.production.obj
+?___awtoft 60 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+__HdataBANK2 0 0 ABS 0 dataBANK2 -
+__LdataBANK2 0 0 ABS 0 dataBANK2 -
+_OSCTUNE 98 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__end_of_USBCtrlTrfSetupHandler 3B16 0 CODE 0 text37 dist/K16/production\Klondike.X.production.obj
+_LastError 1AC 0 BANK3 1 bssBANK3 dist/K16/production\Klondike.X.production.obj
+__size_of_InitTempSensor 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__pdataBANK2 163 0 BANK2 1 dataBANK2 dist/K16/production\Klondike.X.production.obj
+__end_ofi1___wmul 34C8 0 CODE 0 text70 dist/K16/production\Klondike.X.production.obj
+USBStdGetStatusHandler@p 59 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+_PWM1CON 613 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__pbssBIGRAM 233C 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__size_of___lltoft 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__Hbank0 0 0 ABS 0 bank0 -
+__Lbank0 0 0 ABS 0 bank0 -
+__size_of_rotate 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__Hbank1 0 0 ABS 0 bank1 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Lbank2 0 0 ABS 0 bank2 -
+_InitFAN 3414 0 CODE 0 text22 dist/K16/production\Klondike.X.production.obj
+__Hbank3 0 0 ABS 0 bank3 -
+__Lbank3 0 0 ABS 0 bank3 -
+___latbits 2 0 ABS 0 - C:\Users\form\AppData\Local\Temp\s69k.obj
+___ftmul@exp AA 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+_UpdateClock$2776 144 0 BANK2 1 cstackBANK2 dist/K16/production\Klondike.X.production.obj
+__Hbank4 0 0 ABS 0 bank4 -
+__Lbank4 0 0 ABS 0 bank4 -
+AsicPreCalc@y DC 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+__end_of___lmul 376A 0 CODE 0 text17 dist/K16/production\Klondike.X.production.obj
+_USBCtrlTrfOutHandler 36B0 0 CODE 0 text35 dist/K16/production\Klondike.X.production.obj
+___ftdiv@exp CE 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+__Hbank5 0 0 ABS 0 bank5 -
+__Lbank5 0 0 ABS 0 bank5 -
+__size_of_USBDeviceTasks 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__Hpowerup 0 0 CODE 0 powerup -
+__Lpowerup 0 0 CODE 0 powerup -
+__Hbank6 0 0 ABS 0 bank6 -
+__Lbank6 0 0 ABS 0 bank6 -
+_USBStdSetCfgHandler 28A2 0 CODE 0 text42 dist/K16/production\Klondike.X.production.obj
+__Hbank7 0 0 ABS 0 bank7 -
+USBTransferOnePacket@ep 61 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+__Lbank7 0 0 ABS 0 bank7 -
+__end_of_Send32 1352 0 CODE 0 text10 dist/K16/production\Klondike.X.production.obj
+__Hbank8 0 0 ABS 0 bank8 -
+_device_dsc 111A 0 STRING 0 strings dist/K16/production\Klondike.X.production.obj
+__Lbank8 0 0 ABS 0 bank8 -
+__Hbank9 0 0 ABS 0 bank9 -
+_SSPCON1bits 215 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__Lbank9 0 0 ABS 0 bank9 -
+_ProcessIO$2311 161 0 BANK2 1 cstackBANK2 dist/K16/production\Klondike.X.production.obj
+_USBAlternateInterface 141 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
+_SSPCON2bits 216 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__ptext1 2282 0 CODE 0 text1 dist/K16/production\Klondike.X.production.obj
+_SSPCON3bits 217 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_USTATcopy EF 0 BANK1 1 bssBANK1 dist/K16/production\Klondike.X.production.obj
+__ptext2 1BA8 0 CODE 0 text2 dist/K16/production\Klondike.X.production.obj
+__HdataBANK3 0 0 ABS 0 dataBANK3 -
+__LdataBANK3 0 0 ABS 0 dataBANK3 -
+__ptext3 2D5C 0 CODE 0 text3 dist/K16/production\Klondike.X.production.obj
+_USBCtrlEPAllowStatusStage 20C8 0 CODE 0 text47 dist/K16/production\Klondike.X.production.obj
+_ProcessIO$2277 15F 0 BANK2 1 cstackBANK2 dist/K16/production\Klondike.X.production.obj
+__pdataBANK3 1E2 0 BANK3 1 dataBANK3 dist/K16/production\Klondike.X.production.obj
+__ptext4 3274 0 CODE 0 text4 dist/K16/production\Klondike.X.production.obj
+__size_of_USBCB_SOF_Handler 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_USBGenericInHandle 12E 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
+__ptext5 256C 0 CODE 0 text5 dist/K16/production\Klondike.X.production.obj
+__ptext6 344C 0 CODE 0 text6 dist/K16/production\Klondike.X.production.obj
+?_SendAsicData 5E 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+__ptext7 122 0 CODE 0 text7 dist/K16/production\Klondike.X.production.obj
+_USBDeviceInit 2EAC 0 CODE 0 text63 dist/K16/production\Klondike.X.production.obj
+__HcstackBANK1 0 0 ABS 0 cstackBANK1 -
+__LcstackBANK1 0 0 ABS 0 cstackBANK1 -
+__ptext8 37D8 0 CODE 0 text8 dist/K16/production\Klondike.X.production.obj
+__ptext9 2AE4 0 CODE 0 text9 dist/K16/production\Klondike.X.production.obj
+__pcstackBANK1 A0 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+__end_of_AsicPushWork 2678 0 CODE 0 text5 dist/K16/production\Klondike.X.production.obj
+__Hclrtext 0 0 ABS 0 clrtext -
+_USBSuspend 33DC 0 CODE 0 text49 dist/K16/production\Klondike.X.production.obj
+__Lclrtext 0 0 ABS 0 clrtext -
+_pBDTEntryEP0OutCurrent 6D 0 BANK0 1 bssBANK0 dist/K16/production\Klondike.X.production.obj
+AsicPreCalc@K AC 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+_USBCBStdSetDscHandler FFE 0 CODE 0 text56 dist/K16/production\Klondike.X.production.obj
+__size_of_USBStdFeatureReqHandler 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__end_of_USBCtrlTrfOutHandler 370A 0 CODE 0 text35 dist/K16/production\Klondike.X.production.obj
+__size_of_USBEnableEndpoint 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+AsicPreCalc@n E4 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+__end_of_USBCtrlEPServiceComplete 2282 0 CODE 0 text44 dist/K16/production\Klondike.X.production.obj
+_USBCtrlEPAllowDataStage 39D4 0 CODE 0 text45 dist/K16/production\Klondike.X.production.obj
+__HdataBANK4 0 0 ABS 0 dataBANK4 -
+__LdataBANK4 0 0 ABS 0 dataBANK4 -
+__pdataBANK4 260 0 BANK4 1 dataBANK4 dist/K16/production\Klondike.X.production.obj
+__end_of_USBSuspend 3414 0 CODE 0 text49 dist/K16/production\Klondike.X.production.obj
+__end_of__initialization 11C 0 CODE 0 cinit dist/K16/production\Klondike.X.production.obj
+memset@c 5A 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+_USBCtrlTrfInHandler 2002 0 CODE 0 text34 dist/K16/production\Klondike.X.production.obj
+__end_of_SendAsicData 2C0C 0 CODE 0 text9 dist/K16/production\Klondike.X.production.obj
+__end_of_USBStdSetCfgHandler 29C0 0 CODE 0 text42 dist/K16/production\Klondike.X.production.obj
+_BAUDCONbits 19F 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+AsicPreCalc@z D8 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+__end_of___lwdiv 37D8 0 CODE 0 text16 dist/K16/production\Klondike.X.production.obj
+_SendCmdReply 2D5C 0 CODE 0 text3 dist/K16/production\Klondike.X.production.obj
+USER_USB_CALLBACK_EVENT_HANDLER@event A0 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+__end_of_USBStdGetStatusHandler 3BBC 0 CODE 0 text40 dist/K16/production\Klondike.X.production.obj
+_SSPSTATbits 214 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__size_of_UpdateClock 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+USBCBSendResume@delay_count 1AA 0 BANK3 1 bssBANK3 dist/K16/production\Klondike.X.production.obj
+_AsicPreCalc 122 0 CODE 0 text7 dist/K16/production\Klondike.X.production.obj
+__size_of_memset 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+memset@n 5C 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+_ISRCode 8 0 CODE 0 intentry dist/K16/production\Klondike.X.production.obj
+__end_of_USBCBInitEP 33DC 0 CODE 0 text52 dist/K16/production\Klondike.X.production.obj
+__end_of_USBWakeFromSuspend 33A4 0 CODE 0 text50 dist/K16/production\Klondike.X.production.obj
+memset@p 5F 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+__size_of_SendAsicData 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+___ftadd 19A0 0 CODE 0 text64 dist/K16/production\Klondike.X.production.obj
+rotate@x 58 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+_I2CAddr 1B3 0 BANK3 1 bssBANK3 dist/K16/production\Klondike.X.production.obj
+__Hidloc 0 0 IDLOC 0 idloc -
+rotate@y 5C 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+_ep_data_in 1AE 0 BANK3 1 bssBANK3 dist/K16/production\Klondike.X.production.obj
+__size_of_AsicPreCalc 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__Lidloc 0 0 IDLOC 0 idloc -
+_WorkQue 233C 0 ABS 1 - dist/K16/production\Klondike.X.production.obj
+___ftneg 31F6 0 CODE 0 text29 dist/K16/production\Klondike.X.production.obj
+__end_of_device_dsc 113E 0 STRING 0 strings dist/K16/production\Klondike.X.production.obj
+__end_of___lldiv 3D0E 0 CODE 0 text19 dist/K16/production\Klondike.X.production.obj
+___awmod 3944 0 CODE 0 text26 dist/K16/production\Klondike.X.production.obj
+?_rotate 58 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+__size_of_USBCBErrorHandler 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+init_ram 3208 0 CODE 0 inittext dist/K16/production\Klondike.X.production.obj
+__HdataBANK6 0 0 ABS 0 dataBANK6 -
+___ftpack@sign 5C 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+_AsicPushWork 256C 0 CODE 0 text5 dist/K16/production\Klondike.X.production.obj
+__LdataBANK6 0 0 ABS 0 dataBANK6 -
+__pdataBANK6 340 0 BANK6 1 dataBANK6 dist/K16/production\Klondike.X.production.obj
+USBTransferOnePacket@handle 62 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+_USB_CD_Ptr 1008 0 STRING 0 strings dist/K16/production\Klondike.X.production.obj
+___ftadd@exp1 BF 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+SendCmdReply@cmd 5E 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+?___bmul 58 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+_USBCheckStdRequest 3DC6 0 CODE 0 text38 dist/K16/production\Klondike.X.production.obj
+_inPipes 13A 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
+_USB_SD_Ptr 1002 0 STRING 0 strings dist/K16/production\Klondike.X.production.obj
+?___lmul 58 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+___fttol 2678 0 CODE 0 text28 dist/K16/production\Klondike.X.production.obj
+_TimeOut 1B7 0 BANK3 1 bssBANK3 dist/K16/production\Klondike.X.production.obj
+?___wmul 58 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+__Hcinit 122 0 CODE 0 cinit -
+___ftmul 162E 0 CODE 0 text30 dist/K16/production\Klondike.X.production.obj
+__Lcinit 2A 0 CODE 0 cinit -
+_WorkNow 133 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
+_UIEbits E92 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+?_memset 58 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+___lldiv 3C64 0 CODE 0 text19 dist/K16/production\Klondike.X.production.obj
+_UIRbits E90 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__end_of_InitializeSystem 3340 0 CODE 0 text11 dist/K16/production\Klondike.X.production.obj
+___ftdiv 14C0 0 CODE 0 text20 dist/K16/production\Klondike.X.production.obj
+___awdiv 3BBC 0 CODE 0 text24 dist/K16/production\Klondike.X.production.obj
+__size_of_InitializeSystem 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+___lwdiv 376A 0 CODE 0 text16 dist/K16/production\Klondike.X.production.obj
+__size_of_main 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__size_ofi1___bmul 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_UpdateFanLevel$2775 E2 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+_ProcessCmd$1977 158 0 BANK2 1 cstackBANK2 dist/K16/production\Klondike.X.production.obj
+__size_of_USBCBCheckOtherReq 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_CtrlTrfData 48 0 ABS 1 - dist/K16/production\Klondike.X.production.obj
+___fttol@exp1 DD 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+__HcstackBANK2 0 0 ABS 0 cstackBANK2 -
+__LcstackBANK2 0 0 ABS 0 cstackBANK2 -
+__size_of___ftdiv 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_USBStdGetDscHandler 246E 0 CODE 0 text41 dist/K16/production\Klondike.X.production.obj
+__CFG_MCLRE$OFF 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_USER_USB_CALLBACK_EVENT_HANDLER 3846 0 CODE 0 text51 dist/K16/production\Klondike.X.production.obj
+_shortPacketStatus 139 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
+__pcstackBANK2 144 0 BANK2 1 cstackBANK2 dist/K16/production\Klondike.X.production.obj
+__end_of_USBCtrlTrfRxService 2D5C 0 CODE 0 text36 dist/K16/production\Klondike.X.production.obj
+__end_of_USBCtrlTrfTxService 28A2 0 CODE 0 text46 dist/K16/production\Klondike.X.production.obj
+SendCmdReply@data 60 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+__size_of_USBCtrlEPAllowStatusStage 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+___awtoft@sign 65 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+clear_ram0 3220 0 CODE 0 clrtext dist/K16/production\Klondike.X.production.obj
+___ftpack@arg 58 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+__end_of_USBEnableEndpoint 365C 0 CODE 0 text54 dist/K16/production\Klondike.X.production.obj
+__end_ofi1_SendCmdReply 2AE4 0 CODE 0 text68 dist/K16/production\Klondike.X.production.obj
+_BankRanges 340 0 BANK6 1 dataBANK6 dist/K16/production\Klondike.X.production.obj
+__size_of___lwdiv 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+___ftadd@exp2 BE 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+__Hbank10 0 0 ABS 0 bank10 -
+__pbssBANK0 68 0 BANK0 1 bssBANK0 dist/K16/production\Klondike.X.production.obj
+__Lbank10 0 0 ABS 0 bank10 -
+_send32_data 124 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
+__Hbank20 0 0 BANK20 1 bank20 -
+__Lbank20 0 0 BANK20 1 bank20 -
+__size_of_USBCtrlTrfRxService 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__size_of_USBCtrlTrfTxService 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__Hbank30 0 0 BANK30 1 bank30 -
+__Hbank11 0 0 ABS 0 bank11 -
+__Lbank30 0 0 BANK30 1 bank30 -
+__Lbank11 0 0 ABS 0 bank11 -
+__Hbank21 0 0 BANK21 1 bank21 -
+i1___bmul@multiplier 72 0 COMMON 1 cstackCOMMON dist/K16/production\Klondike.X.production.obj
+__Lbank21 0 0 BANK21 1 bank21 -
+__size_of_USBCBSuspend 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+USBCtrlTrfInHandler@lastDTS 5D 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+__CFG_FCMEN$OFF 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__Hbank31 0 0 BANK31 1 bank31 -
+__Hbank12 0 0 ABS 0 bank12 -
+__Lbank31 0 0 BANK31 1 bank31 -
+__Lbank12 0 0 ABS 0 bank12 -
+_USBStatusStageEnabledFlag1 130 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
+__Hbank22 0 0 BANK22 1 bank22 -
+__Lbank22 0 0 BANK22 1 bank22 -
+__Hbank13 0 0 BANK13 1 bank13 -
+__Lbank13 0 0 BANK13 1 bank13 -
+USBConfigureEndpoint@EPNum 5D 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+_USBEnableEndpoint 3612 0 CODE 0 text54 dist/K16/production\Klondike.X.production.obj
+__HbssBANK1 0 0 ABS 0 bssBANK1 -
+__LbssBANK1 0 0 ABS 0 bssBANK1 -
+__Hbank23 0 0 BANK23 1 bank23 -
+__Lbank23 0 0 BANK23 1 bank23 -
+__Hbank14 0 0 BANK14 1 bank14 -
+__size_of_USBCtrlTrfInHandler 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__pbssBANK1 EE 0 BANK1 1 bssBANK1 dist/K16/production\Klondike.X.production.obj
+_last_bit0 135 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
+__Lbank14 0 0 BANK14 1 bank14 -
+i1___wmul@multiplier 70 0 COMMON 1 cstackCOMMON dist/K16/production\Klondike.X.production.obj
+__Hbank24 0 0 BANK24 1 bank24 -
+__Lbank24 0 0 BANK24 1 bank24 -
+__size_of_AsicPushWork 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__ptext10 11FA 0 CODE 0 text10 dist/K16/production\Klondike.X.production.obj
+__Hbank15 0 0 BANK15 1 bank15 -
+__Lbank15 0 0 BANK15 1 bank15 -
+_TempTarget 1E9 0 BANK3 1 nvBANK3 dist/K16/production\Klondike.X.production.obj
+__ptext20 14C0 0 CODE 0 text20 dist/K16/production\Klondike.X.production.obj
+__Hbank25 0 0 BANK25 1 bank25 -
+__Lbank25 0 0 BANK25 1 bank25 -
+USBStdFeatureReqHandler@current_ep_data AA 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+_InitResultRx 3298 0 CODE 0 text13 dist/K16/production\Klondike.X.production.obj
+__ptext11 3312 0 CODE 0 text11 dist/K16/production\Klondike.X.production.obj
+__ptext30 162E 0 CODE 0 text30 dist/K16/production\Klondike.X.production.obj
+__end_of_rotate 3846 0 CODE 0 text8 dist/K16/production\Klondike.X.production.obj
+__Hbank16 0 0 BANK16 1 bank16 -
+_last_bit1 136 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
+__Lbank16 0 0 BANK16 1 bank16 -
+_USBStatusStageEnabledFlag2 131 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
+__ptext21 32E4 0 CODE 0 text21 dist/K16/production\Klondike.X.production.obj
+__ptext40 3B16 0 CODE 0 text40 dist/K16/production\Klondike.X.production.obj
+__Hbank26 0 0 BANK26 1 bank26 -
+__Lbank26 0 0 BANK26 1 bank26 -
+__CFG_CPUDIV$NOCLKDIV 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__ptext12 32BE 0 CODE 0 text12 dist/K16/production\Klondike.X.production.obj
+__ptext31 35CE 0 CODE 0 text31 dist/K16/production\Klondike.X.production.obj
+__ptext50 336E 0 CODE 0 text50 dist/K16/production\Klondike.X.production.obj
+__Hbank17 0 0 BANK17 1 bank17 -
+__Lbank17 0 0 BANK17 1 bank17 -
+__HbssBANK2 0 0 ABS 0 bssBANK2 -
+__ptext22 3414 0 CODE 0 text22 dist/K16/production\Klondike.X.production.obj
+__ptext41 246E 0 CODE 0 text41 dist/K16/production\Klondike.X.production.obj
+__ptext60 2000 0 CODE 0 text60 dist/K16/production\Klondike.X.production.obj
+__LbssBANK2 0 0 ABS 0 bssBANK2 -
+__Hbank27 0 0 BANK27 1 bank27 -
+__Lbank27 0 0 BANK27 1 bank27 -
+__ptext13 3298 0 CODE 0 text13 dist/K16/production\Klondike.X.production.obj
+__ptext32 17B2 0 CODE 0 text32 dist/K16/production\Klondike.X.production.obj
+__ptext51 3846 0 CODE 0 text51 dist/K16/production\Klondike.X.production.obj
+__ptext70 3488 0 CODE 0 text70 dist/K16/production\Klondike.X.production.obj
+__Hbank18 0 0 BANK18 1 bank18 -
+__pbssBANK2 120 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
+__Lbank18 0 0 BANK18 1 bank18 -
+USBTransferOnePacket@len 5E 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+_ADCON0bits 9D 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+DetectAsics@x A2 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+_ADCON1bits 9E 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__ptext23 1352 0 CODE 0 text23 dist/K16/production\Klondike.X.production.obj
+__ptext42 28A2 0 CODE 0 text42 dist/K16/production\Klondike.X.production.obj
+__ptext61 31E8 0 CODE 0 text61 dist/K16/production\Klondike.X.production.obj
+__Hbank28 0 0 BANK28 1 bank28 -
+__size_of___awdiv 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__Lbank28 0 0 BANK28 1 bank28 -
+i1SendCmdReply@n 7B 0 COMMON 1 cstackCOMMON dist/K16/production\Klondike.X.production.obj
+__size_of_USBCBInitEP 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_ADCON2bits 9F 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__end_of_ProcessIO 2376 0 CODE 0 text1 dist/K16/production\Klondike.X.production.obj
+__ptext14 3548 0 CODE 0 text14 dist/K16/production\Klondike.X.production.obj
+__ptext33 2376 0 CODE 0 text33 dist/K16/production\Klondike.X.production.obj
+__ptext52 33A4 0 CODE 0 text52 dist/K16/production\Klondike.X.production.obj
+__Hbank19 0 0 BANK19 1 bank19 -
+__Lbank19 0 0 BANK19 1 bank19 -
+__ptext24 3BBC 0 CODE 0 text24 dist/K16/production\Klondike.X.production.obj
+__ptext43 34C8 0 CODE 0 text43 dist/K16/production\Klondike.X.production.obj
+__ptext62 31E6 0 CODE 0 text62 dist/K16/production\Klondike.X.production.obj
+__Hbank29 0 0 BANK29 1 bank29 -
+__Lbank29 0 0 BANK29 1 bank29 -
+__ptext15 922 0 CODE 0 text15 dist/K16/production\Klondike.X.production.obj
+__ptext34 2002 0 CODE 0 text34 dist/K16/production\Klondike.X.production.obj
+__ptext53 115E 0 CODE 0 text53 dist/K16/production\Klondike.X.production.obj
+USBTransferOnePacket@dir 5C 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+__ptext25 3E82 0 CODE 0 text25 dist/K16/production\Klondike.X.production.obj
+__ptext44 2190 0 CODE 0 text44 dist/K16/production\Klondike.X.production.obj
+__ptext63 2EAC 0 CODE 0 text63 dist/K16/production\Klondike.X.production.obj
+__end_of_ProcessCmd 1DCA 0 CODE 0 text2 dist/K16/production\Klondike.X.production.obj
+_USBCB_SOF_Handler 2000 0 CODE 0 text60 dist/K16/production\Klondike.X.production.obj
+__ptext16 376A 0 CODE 0 text16 dist/K16/production\Klondike.X.production.obj
+__ptext35 36B0 0 CODE 0 text35 dist/K16/production\Klondike.X.production.obj
+__ptext54 3612 0 CODE 0 text54 dist/K16/production\Klondike.X.production.obj
+__HbssBANK3 0 0 ABS 0 bssBANK3 -
+__ptext26 3944 0 CODE 0 text26 dist/K16/production\Klondike.X.production.obj
+__ptext45 39D4 0 CODE 0 text45 dist/K16/production\Klondike.X.production.obj
+__ptext64 19A0 0 CODE 0 text64 dist/K16/production\Klondike.X.production.obj
+__LbssBANK3 0 0 ABS 0 bssBANK3 -
+__size_of_USBCheckStdRequest 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__ptext17 370A 0 CODE 0 text17 dist/K16/production\Klondike.X.production.obj
+__ptext36 2C0C 0 CODE 0 text36 dist/K16/production\Klondike.X.production.obj
+__ptext55 38C4 0 CODE 0 text55 dist/K16/production\Klondike.X.production.obj
+__pbssBANK3 1A0 0 BANK3 1 bssBANK3 dist/K16/production\Klondike.X.production.obj
+___awmod@divisor 58 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+_ANSELBbits 18D 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__ptext27 D4E 0 CODE 0 text27 dist/K16/production\Klondike.X.production.obj
+__ptext46 2786 0 CODE 0 text46 dist/K16/production\Klondike.X.production.obj
+__ptext65 3F3E 0 CODE 0 text65 dist/K16/production\Klondike.X.production.obj
+__ptext18 365C 0 CODE 0 text18 dist/K16/production\Klondike.X.production.obj
+__ptext37 3A74 0 CODE 0 text37 dist/K16/production\Klondike.X.production.obj
+__ptext56 FFE 0 CODE 0 text56 dist/K16/production\Klondike.X.production.obj
+_DetectAsics$2774 A0 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+__end_of_InitResultRx 32BE 0 CODE 0 text13 dist/K16/production\Klondike.X.production.obj
+__ptext28 2678 0 CODE 0 text28 dist/K16/production\Klondike.X.production.obj
+__ptext47 20C8 0 CODE 0 text47 dist/K16/production\Klondike.X.production.obj
+___fttol@sign1 D8 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+?_USBTransferOnePacket 5C 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+__ptext19 3C64 0 CODE 0 text19 dist/K16/production\Klondike.X.production.obj
+__ptext38 3DC6 0 CODE 0 text38 dist/K16/production\Klondike.X.production.obj
+__ptext57 FF8 0 CODE 0 text57 dist/K16/production\Klondike.X.production.obj
+__ptext29 31F6 0 CODE 0 text29 dist/K16/production\Klondike.X.production.obj
+__ptext48 358A 0 CODE 0 text48 dist/K16/production\Klondike.X.production.obj
+__ptext67 3D0E 0 CODE 0 text67 dist/K16/production\Klondike.X.production.obj
+__ptext39 1DCA 0 CODE 0 text39 dist/K16/production\Klondike.X.production.obj
+__ptext58 6 0 CODE 0 text58 dist/K16/production\Klondike.X.production.obj
+__ptext49 33DC 0 CODE 0 text49 dist/K16/production\Klondike.X.production.obj
+__ptext68 29C0 0 CODE 0 text68 dist/K16/production\Klondike.X.production.obj
+_INTCONbits B 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_ep_data_out 1B0 0 BANK3 1 bssBANK3 dist/K16/production\Klondike.X.production.obj
+__ptext59 4 0 CODE 0 text59 dist/K16/production\Klondike.X.production.obj
+_InitializeSystem 3312 0 CODE 0 text11 dist/K16/production\Klondike.X.production.obj
+_controlTransferState 6C 0 BANK0 1 bssBANK0 dist/K16/production\Klondike.X.production.obj
+__end_of_AsicPreCalc 922 0 CODE 0 text7 dist/K16/production\Klondike.X.production.obj
+__size_of_USBCtrlEPServiceComplete 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__ptext69 3250 0 CODE 0 text69 dist/K16/production\Klondike.X.production.obj
+__Hend_init 2A 0 CODE 0 end_init -
+__Lend_init 26 0 CODE 0 end_init -
+__end_of_USBConfigureEndpoint 3944 0 CODE 0 text55 dist/K16/production\Klondike.X.production.obj
+_USBActiveConfiguration 140 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
+__pswtext1 3000 0 CONST 0 swtext1 dist/K16/production\Klondike.X.production.obj
+_USBCtrlTrfRxService 2C0C 0 CODE 0 text36 dist/K16/production\Klondike.X.production.obj
+__end_of_InitFAN 344C 0 CODE 0 text22 dist/K16/production\Klondike.X.production.obj
+___lldiv@divisor A0 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+___ftpack@exp 5B 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+__size_of___lldiv 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+___awdiv@divisor 58 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+___lwdiv@divisor 58 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+_pBDTEntryIn 68 0 BANK0 1 bssBANK0 dist/K16/production\Klondike.X.production.obj
+__HbssBANK5 0 0 ABS 0 bssBANK5 -
+__LbssBANK5 0 0 ABS 0 bssBANK5 -
+__pbssBANK5 2E0 0 BANK5 1 bssBANK5 dist/K16/production\Klondike.X.production.obj
+i1___bmul@multiplicand 70 0 COMMON 1 cstackCOMMON dist/K16/production\Klondike.X.production.obj
+_InitWorkTick 3548 0 CODE 0 text14 dist/K16/production\Klondike.X.production.obj
+__end_of___ftmul 17B2 0 CODE 0 text30 dist/K16/production\Klondike.X.production.obj
+_USBDeferStatusStagePacket 6B 0 BANK0 1 bssBANK0 dist/K16/production\Klondike.X.production.obj
+__end_ofi1___bmul 3274 0 CODE 0 text69 dist/K16/production\Klondike.X.production.obj
+_USBStatusStageTimeoutCounter 132 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
+i1___wmul@multiplicand 72 0 COMMON 1 cstackCOMMON dist/K16/production\Klondike.X.production.obj
+__end_of_USBDeviceInit 3000 0 CODE 0 text63 dist/K16/production\Klondike.X.production.obj
+__HbssBANK6 0 0 ABS 0 bssBANK6 -
+__LbssBANK6 0 0 ABS 0 bssBANK6 -
+__size_of___wmul 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+memset@p1 58 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+__Hreset_vec 4 0 CODE 0 reset_vec -
+__pbssBANK6 320 0 BANK6 1 bssBANK6 dist/K16/production\Klondike.X.production.obj
+__Lreset_vec 0 0 CODE 0 reset_vec -
+__HidataBANK2 0 0 ABS 0 idataBANK2 -
+__LidataBANK2 0 0 ABS 0 idataBANK2 -
+__pidataBANK2 FDE 0 CODE 0 idataBANK2 dist/K16/production\Klondike.X.production.obj
+__size_of_USBStdSetCfgHandler 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__size_of_USBStdGetDscHandler 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__end_of_USB_SD_Ptr 1008 0 STRING 0 strings dist/K16/production\Klondike.X.production.obj
+_USBCBErrorHandler 4 0 CODE 0 text59 dist/K16/production\Klondike.X.production.obj
+_USBCBCheckOtherReq FF8 0 CODE 0 text57 dist/K16/production\Klondike.X.production.obj
+_UpdateFanLevel D4E 0 CODE 0 text27 dist/K16/production\Klondike.X.production.obj
+__size_of_USER_USB_CALLBACK_EVENT_HANDLER 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__end_of_USBCB_SOF_Handler 2002 0 CODE 0 text60 dist/K16/production\Klondike.X.production.obj
+__size_ofi1___wmul 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__end_of_USBCBSuspend 31E8 0 CODE 0 text62 dist/K16/production\Klondike.X.production.obj
+_VerySlowTick 1B9 0 BANK3 1 bssBANK3 dist/K16/production\Klondike.X.production.obj
+intlevel0 0 0 CODE 0 functab C:\Users\form\AppData\Local\Temp\s69k.obj
+__CFG_WDTE$OFF 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__size_of_ISRCode 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_configDescriptor1 10DA 0 STRING 0 strings dist/K16/production\Klondike.X.production.obj
+intlevel1 0 0 CODE 0 functab C:\Users\form\AppData\Local\Temp\s69k.obj
+_USBCBSuspend 31E6 0 CODE 0 text62 dist/K16/production\Klondike.X.production.obj
+_ProcessIO 2282 0 CODE 0 text1 dist/K16/production\Klondike.X.production.obj
+intlevel2 0 0 CODE 0 functab C:\Users\form\AppData\Local\Temp\s69k.obj
+__end_of___awtoft 3612 0 CODE 0 text31 dist/K16/production\Klondike.X.production.obj
+___lltoft@exp 65 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+__end_of_USBCBCheckOtherReq FFE 0 CODE 0 text57 dist/K16/production\Klondike.X.production.obj
+intlevel3 0 0 CODE 0 functab C:\Users\form\AppData\Local\Temp\s69k.obj
+__size_of_InitWorkTick 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__size_of___lmul 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+i1SendCmdReply@data 78 0 COMMON 1 cstackCOMMON dist/K16/production\Klondike.X.production.obj
+_USBCtrlTrfTxService 2786 0 CODE 0 text46 dist/K16/production\Klondike.X.production.obj
+__end_of_UpdateClock D4E 0 CODE 0 text15 dist/K16/production\Klondike.X.production.obj
+USBDeviceInit@i 5D 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+intlevel4 0 0 CODE 0 functab C:\Users\form\AppData\Local\Temp\s69k.obj
+USBStdFeatureReqHandler@pUEP A8 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+intlevel5 0 0 CODE 0 functab C:\Users\form\AppData\Local\Temp\s69k.obj
+__size_of_Send32 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_ResultQC 12A 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
+__size_of_USBSuspend 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__HidataBANK3 0 0 ABS 0 idataBANK3 -
+__LidataBANK3 0 0 ABS 0 idataBANK3 -
+USBConfigureEndpoint@handle 5E 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__pidataBANK3 31EA 0 CODE 0 idataBANK3 dist/K16/production\Klondike.X.production.obj
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/K16/production\Klondike.X.production.obj
+__end_of___wmul 3488 0 CODE 0 text6 dist/K16/production\Klondike.X.production.obj
+_USBConfigureEndpoint 38C4 0 CODE 0 text55 dist/K16/production\Klondike.X.production.obj
+start_initialization 2A 0 CODE 0 cinit dist/K16/production\Klondike.X.production.obj
+__end_of_sd000 115E 0 STRING 0 strings dist/K16/production\Klondike.X.production.obj
+__end_of_ISRCode 26 0 CODE 0 intentry dist/K16/production\Klondike.X.production.obj
+?_USBEnableEndpoint 5F 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+___lldiv@quotient A8 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+___awdiv@quotient 5F 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+___lwdiv@quotient 5D 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+_BothEP0OutUOWNsSet 1B2 0 BANK3 1 bssBANK3 dist/K16/production\Klondike.X.production.obj
+USBCtrlTrfRxService@byteToRead 5D 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+_USBTransferOnePacket 115E 0 CODE 0 text53 dist/K16/production\Klondike.X.production.obj
+__Hmaintext 0 0 ABS 0 maintext -
+__Lmaintext 0 0 ABS 0 maintext -
+__CFG_IESO$OFF 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__pmaintext 3340 0 CODE 0 maintext dist/K16/production\Klondike.X.production.obj
+?_UpdateClock DE 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+__end_of___fttol 2786 0 CODE 0 text28 dist/K16/production\Klondike.X.production.obj
+_OPTION_REGbits 95 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__end_of_USBCtrlEPService 246E 0 CODE 0 text33 dist/K16/production\Klondike.X.production.obj
+__Hinittext 0 0 ABS 0 inittext -
+__CFG_FOSC$INTOSC 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__Linittext 0 0 ABS 0 inittext -
+__size_of___awmod 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+UpdateClock@CLOCK_OD_VALUE 150 0 BANK2 1 cstackBANK2 dist/K16/production\Klondike.X.production.obj
+__end_of_USBStallHandler 35CE 0 CODE 0 text48 dist/K16/production\Klondike.X.production.obj
+__size_of_USBCheckVendorRequest 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_USBCBWakeFromSuspend 31E8 0 CODE 0 text61 dist/K16/production\Klondike.X.production.obj
+__end_of_USBDeviceTasks 19A0 0 CODE 0 text32 dist/K16/production\Klondike.X.production.obj
+__initialization 2A 0 CODE 0 cinit dist/K16/production\Klondike.X.production.obj
+_UpdateClock 922 0 CODE 0 text15 dist/K16/production\Klondike.X.production.obj
+_USBStdGetStatusHandler 3B16 0 CODE 0 text40 dist/K16/production\Klondike.X.production.obj
+___awmod@dividend 5A 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+___bmul@product 5A 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+SendCmdReply@count 62 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+__end_of_USBCheckStdRequest 3E82 0 CODE 0 text38 dist/K16/production\Klondike.X.production.obj
+___lmul@product 60 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+___awmod@counter 5D 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+__HidataBANK4 0 0 ABS 0 idataBANK4 -
+___wmul@product 5C 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+__LidataBANK4 0 0 ABS 0 idataBANK4 -
+__pidataBANK4 3238 0 CODE 0 idataBANK4 dist/K16/production\Klondike.X.production.obj
+__size_of___ftmul 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+_USBDeviceState EE 0 BANK1 1 bssBANK1 dist/K16/production\Klondike.X.production.obj
+__CFG_LVP$OFF 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__size_of___bmul 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__size_of_USBTransferOnePacket 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
+__end_of___bmul 3298 0 CODE 0 text4 dist/K16/production\Klondike.X.production.obj
+__end_of___ftdiv 162E 0 CODE 0 text20 dist/K16/production\Klondike.X.production.obj
+USBCtrlEPService@setup_cnt B1 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+?_USER_USB_CALLBACK_EVENT_HANDLER A0 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+___lldiv@dividend A4 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
+___awdiv@dividend 5A 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 620 30
+- 1 5A0 50
+- 1 53C 34
+_BDT 1 20 20
+_CtrlTrfData 1 48 8
+_SetupPkt 1 40 8
+_INPacket 1 220 40
+_OUTPacket 1 2A0 40
+_WorkQue 1 233C 0
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta> <class name>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+reset_vec 0 0 0 3 2 CODE
+intentry 0 4 8 7FC 2 CODE
+config 0 8007 1000E 2 2 CONFIG
+cstackCOMMON 1 70 70 E 1 COMMON
+cstackBANK1 1 A0 A0 50 1 BANK1
+bssBANK3 1 1A0 1A0 4A 1 BANK3
+bssBANK2 1 120 120 50 1 BANK2
+bssBANK6 1 320 320 40 1 BANK6
+cstackBANK0 1 50 50 20 1 BANK0
+bssBANK5 1 2E0 2E0 10 1 BANK5
+dataBANK4 1 260 260 C 1 BANK4
+text39 0 EE5 1DCA 11C 2 CODE
+text2 0 DD4 1BA8 111 2 CODE
+text64 0 CD0 19A0 104 2 CODE
+text32 0 BD9 17B2 F7 2 CODE
+text30 0 B17 162E C2 2 CODE
+text20 0 A60 14C0 B7 2 CODE
+text23 0 9A9 1352 B7 2 CODE
+strings 0 800 1000 AF 2 STRING
+text10 0 8FD 11FA AC 2 CODE
+text63 0 1756 2EAC AA 2 CODE
+text3 0 16AE 2D5C A8 2 CODE
+text36 0 1606 2C0C A8 2 CODE
+text9 0 1572 2AE4 94 2 CODE
+text68 0 14E0 29C0 92 2 CODE
+text42 0 1451 28A2 8F 2 CODE
+text46 0 13C3 2786 8E 2 CODE
+text28 0 133C 2678 87 2 CODE
+text5 0 12B6 256C 86 2 CODE
+text41 0 1237 246E 7F 2 CODE
+text33 0 11BB 2376 7C 2 CODE
+text1 0 1141 2282 7A 2 CODE
+text44 0 10C8 2190 79 2 CODE
+text47 0 1064 20C8 64 2 CODE
+text34 0 1001 2002 63 2 CODE
+text65 0 1F9F 3F3E 61 2 CODE
+text25 0 1F41 3E82 5E 2 CODE
+text38 0 1EE3 3DC6 5E 2 CODE
+text67 0 1E87 3D0E 5C 2 CODE
+text19 0 1E32 3C64 55 2 CODE
+text24 0 1DDE 3BBC 54 2 CODE
+text40 0 1D8B 3B16 53 2 CODE
+text37 0 1D3A 3A74 51 2 CODE
+text45 0 1CEA 39D4 50 2 CODE
+text53 0 8AF 115E 4E 2 CODE
+text26 0 1CA2 3944 48 2 CODE
+text55 0 1C62 38C4 40 2 CODE
+text51 0 1C23 3846 3F 2 CODE
+text8 0 1BEC 37D8 37 2 CODE
+text16 0 1BB5 376A 37 2 CODE
+text17 0 1B85 370A 30 2 CODE
+text35 0 1B58 36B0 2D 2 CODE
+text18 0 1B2E 365C 2A 2 CODE
+text54 0 1B09 3612 25 2 CODE
+text31 0 1AE7 35CE 22 2 CODE
+text48 0 1AC5 358A 22 2 CODE
+text14 0 1AA4 3548 21 2 CODE
+idataBANK6 0 1A84 3508 20 2 CODE
+text43 0 1A64 34C8 20 2 CODE
+text70 0 1A44 3488 20 2 CODE
+text6 0 1A26 344C 1E 2 CODE
+text22 0 1A0A 3414 1C 2 CODE
+text49 0 19EE 33DC 1C 2 CODE
+text52 0 19D2 33A4 1C 2 CODE
+text50 0 19B7 336E 1B 2 CODE
+swtext1 0 1800 3000 1A 2 CONST
+maintext 0 19A0 3340 17 2 CODE
+text11 0 1989 3312 17 2 CODE
+text21 0 1972 32E4 17 2 CODE
+text12 0 195F 32BE 13 2 CODE
+text13 0 194C 3298 13 2 CODE
+text4 0 193A 3274 12 2 CODE
+text69 0 1928 3250 12 2 CODE
+idataBANK4 0 191C 3238 C 2 CODE
+clrtext 0 1910 3220 C 2 CODE
+inittext 0 1904 3208 C 2 CODE
+text29 0 18FB 31F6 9 2 CODE
+idataBANK3 0 18F5 31EA 6 2 CODE
+text58 0 3 6 1 2 CODE
+text61 0 18F4 31E8 1 2 CODE
+text62 0 18F3 31E6 1 2 CODE
