@@ -5,7 +5,7 @@ Linker command line:
 -W9 --edf=C:\Program Files (x86)\Microchip\xc8\v1.21\dat\en_msgs.txt -cs \
   -h+dist/K16/production\Klondike.X.production.sym \
   --cmf=dist/K16/production\Klondike.X.production.cmf -z -Q16LF1459 \
-  -oC:\Users\form\AppData\Local\Temp\s69k.6 \
+  -oC:\Users\form\AppData\Local\Temp\s4o8.6 \
   -Mdist/K16/production/Klondike.X.production.map -E1 -ver=XC8 \
   -ACONST=00h-0FFhx32 -ACODE=00h-07FFhx4 -ASTRCODE=00h-01FFFh \
   -AENTRY=00h-0FFhx32 -ASTRING=00h-0FFhx32 -ACOMMON=070h-07Fh \
@@ -30,7 +30,7 @@ Linker command line:
   -ppowerup=CODE -pcinit=CODE -pfunctab=CODE -ACONFIG=08007h-08008h \
   -pconfig=CONFIG -DCONFIG=2 -AIDLOC=08000h-08003h -pidloc=IDLOC -DIDLOC=2 \
   -DCODE=2 -DSTRCODE=2 -DSTRING=2 -DCONST=2 -DENTRY=2 -k \
-  C:\Users\form\AppData\Local\Temp\s69k.obj \
+  C:\Users\form\AppData\Local\Temp\s4o8.obj \
   dist/K16/production\Klondike.X.production.obj 
 
 Object code version is 3.11
@@ -40,7 +40,7 @@ Machine type is 16LF1459
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\form\AppData\Local\Temp\s69k.obj
+C:\Users\form\AppData\Local\Temp\s4o8.obj
                 end_init                             13       13        2        8       0
                 reset_vec                             0        0        2        0       0
                 config                             8007     8007        2    1000E       0

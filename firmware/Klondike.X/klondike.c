@@ -327,7 +327,7 @@ void UpdateClock(DWORD SPEED)
     ClockCfg[1] = CLOCK_HIGH_CFG;
     HashTime = 256 - ((WORD)TICK_TOTAL/Cfg.HashClock);
 
-// use this for direct-control of timeout-value controlled by cgminer (via temperature value)
+// for testing: use this for direct-control of timeout-value controlled by cgminer (via temperature value)
 //    HashTime = Cfg.TempTarget;
 }
 

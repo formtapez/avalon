@@ -39,7 +39,7 @@ extern "C" {
 
 #define CLOCK_HIGH_CFG      0x00
 #define MIN_HASH_CLOCK      62
-#define MAX_HASH_CLOCK      1337
+#define MAX_HASH_CLOCK      5000
 
 
 // default temp/fan values

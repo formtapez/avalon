@@ -3519,12 +3519,12 @@ Version 3.2 HI-TECH Software Intermediate Code
 "78
 [e = . _Cfg 0 -> -> 62 `i `us ]
 [e :U 369 ]
-[; ;klondike.c: 79: if(Cfg.HashClock > 1337)
+[; ;klondike.c: 79: if(Cfg.HashClock > 5000)
 "79
-[e $ ! > -> . _Cfg 0 `ui -> -> 1337 `i `ui 370  ]
-[; ;klondike.c: 80: Cfg.HashClock = 1337;
+[e $ ! > -> . _Cfg 0 `ui -> -> 5000 `i `ui 370  ]
+[; ;klondike.c: 80: Cfg.HashClock = 5000;
 "80
-[e = . _Cfg 0 -> -> 1337 `i `us ]
+[e = . _Cfg 0 -> -> 5000 `i `us ]
 [e :U 370 ]
 [; ;klondike.c: 81: UpdateClock(Cfg.HashClock);
 "81

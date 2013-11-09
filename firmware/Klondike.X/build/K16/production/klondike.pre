@@ -4180,8 +4180,8 @@ if( *(WORD *)&cmd[2] != 0 ) {
 Cfg = *(WORKCFG *)(cmd+2);
 if(Cfg.HashClock < 62)
 Cfg.HashClock = 62;
-if(Cfg.HashClock > 1337)
-Cfg.HashClock = 1337;
+if(Cfg.HashClock > 5000)
+Cfg.HashClock = 5000;
 UpdateClock(Cfg.HashClock);
 if(Cfg.TempTarget != 0)
 TempTarget = Cfg.TempTarget;

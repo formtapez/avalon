@@ -1,7 +1,7 @@
 
 
 Microchip Technology PIC LITE Macro Assembler V1.21 build 54009 
-                                                                                               Fri Nov 08 22:51:49 2013
+                                                                                               Sat Nov 09 13:52:27 2013
 
 Microchip Technology Omniscient Code Generator (Lite mode) build 54009
      1                           	processor	16LF1459
@@ -3327,19 +3327,19 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 54009
   3304  0E52  00E3               	movwf	(_Cfg^(0+384)+1)
   3305  0E53                     l679:	
   3306                           
-  3307                           ;klondike.c: 79: if(Cfg.HashClock > 1337)
-  3308  0E53  3005               	movlw	5
+  3307                           ;klondike.c: 79: if(Cfg.HashClock > 5000)
+  3308  0E53  3013               	movlw	19
   3309  0E54  0263               	subwf	(_Cfg+1)^(0+384),w
-  3310  0E55  303A               	movlw	58
+  3310  0E55  3089               	movlw	137
   3311  0E56  1903               	skipnz
   3312  0E57  0262               	subwf	_Cfg^(0+384),w
   3313  0E58  1C03               	skipc
   3314  0E59  2E5E               	goto	l7671
   3315                           
-  3316                           ;klondike.c: 80: Cfg.HashClock = 1337;
-  3317  0E5A  3039               	movlw	57
+  3316                           ;klondike.c: 80: Cfg.HashClock = 5000;
+  3317  0E5A  3088               	movlw	136
   3318  0E5B  00E2               	movwf	_Cfg^(0+384)
-  3319  0E5C  3005               	movlw	5
+  3319  0E5C  3013               	movlw	19
   3320  0E5D  00E3               	movwf	(_Cfg^(0+384)+1)
   3321  0E5E                     l7671:	
   3322                           
@@ -17005,7 +17005,7 @@ SFR31                0      0       0      32        0.0%
 
 
 Microchip Technology PIC Macro Assembler V1.21 build 54009 
-Symbol Table                                                                                   Fri Nov 08 22:51:49 2013
+Symbol Table                                                                                   Sat Nov 09 13:52:27 2013
 
                               _USB_SD_Ptr 0801                                         pc 0002  
                           ___bmul@product 005A                               _SSPSTATbits 0214  

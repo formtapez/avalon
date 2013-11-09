@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\form\AppData\Local\Temp\s69k.obj
+$C:\Users\form\AppData\Local\Temp\s4o8.obj
 end_init CODE 0 13 13 2 2
 reset_vec CODE 0 0 0 2 2
 config CONFIG 0 8007 8007 2 2
@@ -190,112 +190,112 @@ $dist/K16/production\Klondike.X.production.obj
 "S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":72 8 intentry CODE
 "S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":73 C intentry CODE
 "S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\main.c":95 F intentry CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3293 15 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3294 16 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3295 17 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3296 18 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3297 19 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3298 1A cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3299 1B cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3300 1C cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3301 1D cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3305 20 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3306 21 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3307 22 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3308 23 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3309 24 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3310 25 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3311 26 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3312 27 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3316 28 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3317 29 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3318 2A cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3322 2B cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3323 2C cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3324 2D cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3325 2E cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3326 2F cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3327 30 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3328 31 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3329 32 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3330 33 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3334 36 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3335 37 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3336 38 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3337 39 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3338 3A cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3339 3B cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3340 3C cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3341 3D cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3342 3E cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3346 41 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3347 42 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3348 43 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3349 44 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3350 45 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3351 46 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3352 47 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3353 48 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3354 49 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3358 4C cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3359 4D cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3360 4E cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3361 4F cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3362 50 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3363 51 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3364 52 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3365 53 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3366 54 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3387 57 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3388 58 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3389 59 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3390 5A cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3391 5B cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3392 5C cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3393 5D cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3394 5E cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3395 5F cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3396 60 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3397 61 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3398 62 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3402 65 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3403 66 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3404 67 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3405 68 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3406 69 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3407 6A cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3408 6B cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3409 6C cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3410 6D cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3411 6E cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3412 6F cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3413 70 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3417 73 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3418 74 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3419 75 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3420 76 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3421 77 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3422 78 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3423 79 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3424 7A cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3425 7B cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3426 7C cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3427 7D cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3428 7E cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3432 81 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3433 82 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3434 83 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3435 84 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3436 85 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3437 86 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3438 87 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3439 88 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3440 89 cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3441 8A cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3442 8B cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3443 8C cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3450 8E cinit CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3451 8F cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3293 15 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3294 16 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3295 17 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3296 18 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3297 19 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3298 1A cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3299 1B cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3300 1C cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3301 1D cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3305 20 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3306 21 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3307 22 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3308 23 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3309 24 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3310 25 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3311 26 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3312 27 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3316 28 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3317 29 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3318 2A cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3322 2B cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3323 2C cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3324 2D cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3325 2E cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3326 2F cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3327 30 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3328 31 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3329 32 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3330 33 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3334 36 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3335 37 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3336 38 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3337 39 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3338 3A cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3339 3B cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3340 3C cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3341 3D cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3342 3E cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3346 41 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3347 42 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3348 43 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3349 44 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3350 45 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3351 46 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3352 47 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3353 48 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3354 49 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3358 4C cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3359 4D cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3360 4E cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3361 4F cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3362 50 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3363 51 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3364 52 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3365 53 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3366 54 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3387 57 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3388 58 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3389 59 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3390 5A cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3391 5B cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3392 5C cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3393 5D cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3394 5E cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3395 5F cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3396 60 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3397 61 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3398 62 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3402 65 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3403 66 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3404 67 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3405 68 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3406 69 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3407 6A cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3408 6B cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3409 6C cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3410 6D cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3411 6E cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3412 6F cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3413 70 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3417 73 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3418 74 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3419 75 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3420 76 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3421 77 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3422 78 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3423 79 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3424 7A cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3425 7B cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3426 7C cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3427 7D cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3428 7E cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3432 81 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3433 82 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3434 83 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3435 84 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3436 85 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3437 86 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3438 87 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3439 88 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3440 89 cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3441 8A cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3442 8B cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3443 8C cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3450 8E cinit CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3451 8F cinit CODE
 "S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":319 91 text7 CODE
 "S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":324 9F text7 CODE
 "S:\Media\Elektronik\Avalon\Software\Firmware.zipiju2\Klondike.X\asic.c":325 A5 text7 CODE
@@ -1087,30 +1087,30 @@ $dist/K16/production\Klondike.X.production.obj
 "C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftneg.c":17 18FB text29 CODE
 "C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftneg.c":18 1901 text29 CODE
 "C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\ftneg.c":20 1903 text29 CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3371 1904 inittext CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3373 1905 inittext CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3374 1906 inittext CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3375 1907 inittext CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3376 1908 inittext CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3377 1909 inittext CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3378 190A inittext CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3379 190B inittext CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3380 190C inittext CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3381 190D inittext CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3383 190E inittext CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3382 190F inittext CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3277 1910 clrtext CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3279 1911 clrtext CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3280 1912 clrtext CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3281 1913 clrtext CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3282 1914 clrtext CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3283 1915 clrtext CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3284 1916 clrtext CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3285 1917 clrtext CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3286 1918 clrtext CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3287 1919 clrtext CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3289 191A clrtext CODE
-"C:\Users\form\AppData\Local\Temp\s69k.":3288 191B clrtext CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3371 1904 inittext CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3373 1905 inittext CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3374 1906 inittext CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3375 1907 inittext CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3376 1908 inittext CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3377 1909 inittext CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3378 190A inittext CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3379 190B inittext CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3380 190C inittext CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3381 190D inittext CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3383 190E inittext CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3382 190F inittext CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3277 1910 clrtext CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3279 1911 clrtext CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3280 1912 clrtext CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3281 1913 clrtext CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3282 1914 clrtext CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3283 1915 clrtext CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3284 1916 clrtext CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3285 1917 clrtext CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3286 1918 clrtext CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3287 1919 clrtext CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3289 191A clrtext CODE
+"C:\Users\form\AppData\Local\Temp\s4o8.":3288 191B clrtext CODE
 "C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\bmul.c":3 1928 text69 CODE
 "C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\bmul.c":4 1929 text69 CODE
 "C:\Program Files (x86)\Microchip\xc8\v1.21\sources\pic\bmul.c":7 192A text69 CODE
@@ -1605,7 +1605,7 @@ btemp 7E 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
 _sd000 1156 0 STRING 0 strings dist/K16/production\Klondike.X.production.obj
 _sd001 100A 0 STRING 0 strings dist/K16/production\Klondike.X.production.obj
 _sd002 1072 0 STRING 0 strings dist/K16/production\Klondike.X.production.obj
-start 26 0 CODE 0 init C:\Users\form\AppData\Local\Temp\s69k.obj
+start 26 0 CODE 0 init C:\Users\form\AppData\Local\Temp\s4o8.obj
 __end_of_USBCheckVendorRequest 8 0 CODE 0 text58 dist/K16/production\Klondike.X.production.obj
 __size_of_USBCBWakeFromSuspend 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
 ?___ftadd B3 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
@@ -1620,7 +1620,7 @@ _IOCBF 396 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
 _USBBusIsSuspended 1B8 0 BANK3 1 bssBANK3 dist/K16/production\Klondike.X.production.obj
 _RCREG 199 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
 _USBWakeFromSuspend 336E 0 CODE 0 text50 dist/K16/production\Klondike.X.production.obj
-reset_vec 0 0 CODE 0 reset_vec C:\Users\form\AppData\Local\Temp\s69k.obj
+reset_vec 0 0 CODE 0 reset_vec C:\Users\form\AppData\Local\Temp\s4o8.obj
 __size_of_USBWakeFromSuspend 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
 _UADDR E96 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
 _HashTime 126 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
@@ -1921,7 +1921,7 @@ __Lbank2 0 0 ABS 0 bank2 -
 _InitFAN 3414 0 CODE 0 text22 dist/K16/production\Klondike.X.production.obj
 __Hbank3 0 0 ABS 0 bank3 -
 __Lbank3 0 0 ABS 0 bank3 -
-___latbits 2 0 ABS 0 - C:\Users\form\AppData\Local\Temp\s69k.obj
+___latbits 2 0 ABS 0 - C:\Users\form\AppData\Local\Temp\s4o8.obj
 ___ftmul@exp AA 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
 _UpdateClock$2776 144 0 BANK2 1 cstackBANK2 dist/K16/production\Klondike.X.production.obj
 __Hbank4 0 0 ABS 0 bank4 -
@@ -2293,27 +2293,27 @@ __end_of_USBCB_SOF_Handler 2002 0 CODE 0 text60 dist/K16/production\Klondike.X.p
 __size_ofi1___wmul 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
 __end_of_USBCBSuspend 31E8 0 CODE 0 text62 dist/K16/production\Klondike.X.production.obj
 _VerySlowTick 1B9 0 BANK3 1 bssBANK3 dist/K16/production\Klondike.X.production.obj
-intlevel0 0 0 CODE 0 functab C:\Users\form\AppData\Local\Temp\s69k.obj
+intlevel0 0 0 CODE 0 functab C:\Users\form\AppData\Local\Temp\s4o8.obj
 __CFG_WDTE$OFF 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
 __size_of_ISRCode 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
 _configDescriptor1 10DA 0 STRING 0 strings dist/K16/production\Klondike.X.production.obj
-intlevel1 0 0 CODE 0 functab C:\Users\form\AppData\Local\Temp\s69k.obj
+intlevel1 0 0 CODE 0 functab C:\Users\form\AppData\Local\Temp\s4o8.obj
 _USBCBSuspend 31E6 0 CODE 0 text62 dist/K16/production\Klondike.X.production.obj
 _ProcessIO 2282 0 CODE 0 text1 dist/K16/production\Klondike.X.production.obj
-intlevel2 0 0 CODE 0 functab C:\Users\form\AppData\Local\Temp\s69k.obj
+intlevel2 0 0 CODE 0 functab C:\Users\form\AppData\Local\Temp\s4o8.obj
 __end_of___awtoft 3612 0 CODE 0 text31 dist/K16/production\Klondike.X.production.obj
 ___lltoft@exp 65 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
 __end_of_USBCBCheckOtherReq FFE 0 CODE 0 text57 dist/K16/production\Klondike.X.production.obj
-intlevel3 0 0 CODE 0 functab C:\Users\form\AppData\Local\Temp\s69k.obj
+intlevel3 0 0 CODE 0 functab C:\Users\form\AppData\Local\Temp\s4o8.obj
 __size_of_InitWorkTick 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
 __size_of___lmul 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
 i1SendCmdReply@data 78 0 COMMON 1 cstackCOMMON dist/K16/production\Klondike.X.production.obj
 _USBCtrlTrfTxService 2786 0 CODE 0 text46 dist/K16/production\Klondike.X.production.obj
 __end_of_UpdateClock D4E 0 CODE 0 text15 dist/K16/production\Klondike.X.production.obj
 USBDeviceInit@i 5D 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
-intlevel4 0 0 CODE 0 functab C:\Users\form\AppData\Local\Temp\s69k.obj
+intlevel4 0 0 CODE 0 functab C:\Users\form\AppData\Local\Temp\s4o8.obj
 USBStdFeatureReqHandler@pUEP A8 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
-intlevel5 0 0 CODE 0 functab C:\Users\form\AppData\Local\Temp\s69k.obj
+intlevel5 0 0 CODE 0 functab C:\Users\form\AppData\Local\Temp\s4o8.obj
 __size_of_Send32 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
 _ResultQC 12A 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
 __size_of_USBSuspend 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
