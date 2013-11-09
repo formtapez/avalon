@@ -26,7 +26,7 @@ extern "C" {
 #endif
 
 #define MASTER_ADDRESS      0x00
-#define MAX_WORK_COUNT      4   // must be binary multiple and match driver
+#define MAX_WORK_COUNT      8   // must be binary multiple and match driver
 #define WORKMASK            MAX_WORK_COUNT-1
 #define USB_RECORD_SIZE     15
 
