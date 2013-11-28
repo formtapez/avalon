@@ -29,5 +29,5 @@ This project contains a circuit board, firmware and cgminer/bfgminer patch to ge
 
 
   [Forum thread]: https://bitcointalk.org/index.php?topic=323175.0
-  [avalon2]: irc://chat.au.freenode.net:6667/#avalon2
+  [avalon2]: irc://chat.au.freenode.net:6667/avalon2
   [freenode IRC]: http://freenode.net
