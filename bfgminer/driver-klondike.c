@@ -59,7 +59,7 @@ static const char *msg_reply = "Reply";
 #define MAX_KLINES		1024	// unhandled reply limit
 #define REPLY_WAIT_TIME		100 	// poll interval for a cmd waiting it's reply
 #define CMD_REPLY_RETRIES	8	// how many retries for cmds
-#define MAX_WORK_COUNT		4	// for now, must be binary multiple and match firmware
+#define MAX_WORK_COUNT		8	// for now, must be binary multiple and match firmware
 #define TACH_FACTOR		87890	// fan rpm divisor
 
 #define KLN_KILLWORK_TEMP	53.5
