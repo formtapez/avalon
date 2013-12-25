@@ -4055,7 +4055,7 @@ extern char * strichr(const char *, int);
 extern char * strrchr(const char *, int);
 extern char * strrichr(const char *, int);
 
-# 56 "klondike.h"
+# 57 "klondike.h"
 typedef struct _id {
 BYTE version;
 char product[7];
@@ -4093,7 +4093,7 @@ BYTE Slave : 1;
 BYTE Master : 1;
 } I2CSTATE;
 
-# 97
+# 98
 void ProcessCmd(char *cmd);
 void AsicPushWork(void);
 
@@ -4135,7 +4135,7 @@ BYTE SlaveAddress = 0x00;
 BYTE HashTime;
 volatile WORKSTATUS Status = {'I',0,0,0,0,0,0,0,0, 16384, 0 };
 WORKCFG Cfg = { 500, 143, 0, 0, 0 };
-WORKTASK WorkQue[4];
+WORKTASK WorkQue[8];
 volatile BYTE ResultQue[6];
 DWORD CLOCK_LOW_CHG;
 DWORD ClockCfg[2];
@@ -4153,8 +4153,8 @@ void ProcessCmd(char *cmd)
 
 switch(cmd[0]) {
 case 'W':
-if( Status.WorkQC < 4-1 ) {
-WorkQue[ (WorkNow + Status.WorkQC++) & 4-1 ] = *(WORKTASK *)(cmd+2);
+if( Status.WorkQC < 8-1 ) {
+WorkQue[ (WorkNow + Status.WorkQC++) & 8-1 ] = *(WORKTASK *)(cmd+2);
 if(Status.State == 'R') {
 AsicPushWork();
 }
@@ -4209,7 +4209,7 @@ void AsicPushWork(void)
 AsicPreCalc(&WorkQue[WorkNow]);
 Status.WorkID = WorkQue[WorkNow].WorkID;
 SendAsicData(&WorkQue[WorkNow]);
-WorkNow = (WorkNow+1) & 4-1;
+WorkNow = (WorkNow+1) & 8-1;
 Status.HashCount = 0;
 TMR0 = HashTime;
 Status.State = 'W';
@@ -4218,7 +4218,7 @@ Status.WorkQC--;
 
 void DetectAsics(void)
 {
-Status.ChipCount = 10;
+Status.ChipCount = 16;
 
 
 BankSize = (Status.ChipCount)/2;
@@ -4382,11 +4382,12 @@ RCSTAbits.CREN = 1;
 RCREG = 0xFF;
 }
 
+# 329
 void UpdateClock(DWORD SPEED)
 {
 DWORD CLOCK_R_VALUE, CLOCK_F_VALUE, CLOCK_OD_VALUE;
 
-# 307
+# 348
 if (SPEED > 250 && SPEED <= 500)
 {
 CLOCK_R_VALUE = 2;
@@ -4408,9 +4409,8 @@ CLOCK_LOW_CHG = 0b00000000000000000000000001000111 | ((CLOCK_R_VALUE & 0b11111) 
 
 ClockCfg[0] = CLOCK_LOW_CHG;
 ClockCfg[1] = 0x00;
-HashTime = 256 - ((WORD)40000/Cfg.HashClock);
+HashTime = 256 - ((WORD)20800/Cfg.HashClock);
 
 
 
 }
-

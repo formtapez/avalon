@@ -4793,7 +4793,7 @@ BOOL USBHALInitialize ( unsigned long flags );
 # 251 "../Include\USB/usb_function_generic.h"
 void USBCheckVendorRequest(void);
 
-# 56 "klondike.h"
+# 57 "klondike.h"
 typedef struct _id {
 BYTE version;
 char product[7];
@@ -4831,7 +4831,7 @@ BYTE Slave : 1;
 BYTE Master : 1;
 } I2CSTATE;
 
-# 97
+# 98
 void ProcessCmd(char *cmd);
 void AsicPushWork(void);
 

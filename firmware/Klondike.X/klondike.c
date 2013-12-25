@@ -118,7 +118,7 @@ void AsicPushWork(void)
 
 void DetectAsics(void)
 {
-    Status.ChipCount = 10;
+    Status.ChipCount = 16;
 
     // pre-calc nonce range values
     BankSize = (Status.ChipCount)/2;
@@ -284,6 +284,47 @@ void InitResultRx(void)
     RCSTAbits.CREN = 1;
     RCREG = 0xFF;
 }
+/*
+void UpdateClock(DWORD SPEED)
+{
+    DWORD CLOCK_R_VALUE, CLOCK_F_VALUE, CLOCK_OD_VALUE;
+    CLOCK_R_VALUE = 1;
+
+    if (SPEED >= 62 && SPEED <= 125)
+    {
+        CLOCK_OD_VALUE = 3;
+    }
+
+    else if (SPEED > 125 && SPEED <= 250)
+    {
+        CLOCK_OD_VALUE = 2;
+    }
+
+    else if (SPEED > 250 && SPEED <= 500)
+    {
+        CLOCK_OD_VALUE = 1;
+    }
+
+    else if (SPEED > 500)
+    {
+       CLOCK_OD_VALUE = 0;
+    }
+
+    CLOCK_F_VALUE = (SPEED + 0.5) * ( (CLOCK_R_VALUE+1) * (1 << CLOCK_OD_VALUE) ) / XCLK - 1;
+
+    // Report real speed back to mining software
+    Cfg.HashClock = XCLK * (CLOCK_F_VALUE+1) / ( (CLOCK_R_VALUE+1) * (1 << CLOCK_OD_VALUE) );
+
+    CLOCK_LOW_CHG = 0b00000000000000000000000001000111 | ((CLOCK_R_VALUE & 0b11111) << 16) | ((CLOCK_F_VALUE & 0b1111111) << 21) | ((CLOCK_OD_VALUE & 0b11) << 28);
+
+    ClockCfg[0] = CLOCK_LOW_CHG;
+    ClockCfg[1] = CLOCK_HIGH_CFG;
+//    HashTime = 256 - ((WORD)TICK_TOTAL/Cfg.HashClock);
+
+// for testing: use this for direct-control of timeout-value controlled by cgminer (via temperature value)
+    HashTime = Cfg.TempTarget;
+}
+*/
 
 void UpdateClock(DWORD SPEED)
 {
@@ -330,4 +371,3 @@ void UpdateClock(DWORD SPEED)
 // for testing: use this for direct-control of timeout-value controlled by cgminer (via temperature value)
 //    HashTime = Cfg.TempTarget;
 }
-

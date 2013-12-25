@@ -5,7 +5,7 @@ Linker command line:
 -W9 --edf=C:\Program Files (x86)\Microchip\xc8\v1.21\dat\en_msgs.txt -cs \
   -h+dist/K16/production\Klondike.X.production.sym \
   --cmf=dist/K16/production\Klondike.X.production.cmf -z -Q16LF1459 \
-  -oC:\Users\form\AppData\Local\Temp\s4o8.6 \
+  -oC:\Users\form\AppData\Local\Temp\s5n4.6 \
   -Mdist/K16/production/Klondike.X.production.map -E1 -ver=XC8 \
   -ACONST=00h-0FFhx32 -ACODE=00h-07FFhx4 -ASTRCODE=00h-01FFFh \
   -AENTRY=00h-0FFhx32 -ASTRING=00h-0FFhx32 -ACOMMON=070h-07Fh \
@@ -30,7 +30,7 @@ Linker command line:
   -ppowerup=CODE -pcinit=CODE -pfunctab=CODE -ACONFIG=08007h-08008h \
   -pconfig=CONFIG -DCONFIG=2 -AIDLOC=08000h-08003h -pidloc=IDLOC -DIDLOC=2 \
   -DCODE=2 -DSTRCODE=2 -DSTRING=2 -DCONST=2 -DENTRY=2 -k \
-  C:\Users\form\AppData\Local\Temp\s4o8.obj \
+  C:\Users\form\AppData\Local\Temp\s5n4.obj \
   dist/K16/production\Klondike.X.production.obj 
 
 Object code version is 3.11
@@ -40,7 +40,7 @@ Machine type is 16LF1459
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\form\AppData\Local\Temp\s4o8.obj
+C:\Users\form\AppData\Local\Temp\s5n4.obj
                 end_init                             13       13        2        8       0
                 reset_vec                             0        0        2        0       0
                 config                             8007     8007        2    1000E       0
@@ -286,10 +286,12 @@ TOTAL           Name                               Link     Load   Length     Sp
                 abs_s1                               7E       7E        2         1
                 abs_s1                              220      220       40         1
                 abs_s1                              2A0      2A0       40         1
-                abs_s1                              53C      53C       34         1
+                abs_s1                              428      428       48         1
+                abs_s1                              4A0      4A0       50         1
+                abs_s1                              520      520       50         1
                 abs_s1                              5A0      5A0       50         1
                 abs_s1                              620      620       30         1
-                abs_s1                             233C     233C        0         1
+                abs_s1                             2288     2288        0         1
 
         CLASS   SFR0           
 
@@ -490,13 +492,11 @@ SEGMENTS        Name                           Load    Length   Top    Selector 
 UNUSED ADDRESS RANGES
 
         Name                Unused          Largest block    Delta
-        BANK10           00520-0053B              1C           1
         BANK3            001EA-001EF               6           1
         BANK4            0026C-0026F               4           1
         BANK6            00360-0036F              10           1
         BANK7            003A0-003EF              50           1
-        BANK8            00420-0046F              50           1
-        BANK9            004A0-004EF              50           1
+        BANK8            00420-00427               8           1
         BIGRAM           02000-023EF             3F0           1
         CODE             0181A-018F2              D9           2
         CONST            0181A-018F2              D9           2
@@ -506,9 +506,7 @@ UNUSED ADDRESS RANGES
                          0026C-0026F               4
                          00360-0036F              10
                          003A0-003EF              50
-                         00420-0046F              50
-                         004A0-004EF              50
-                         00520-0053B              1C
+                         00420-00427               8
         SFR0             00000-0001F              20           1
         SFR1             00080-0009F              20           1
         SFR10            00500-0051F              20           1
@@ -790,7 +788,7 @@ _VerySlowTick                             bssBANK3     001B9
 _WQI                                      bssBANK2     00142
 _WQX                                      bssBANK2     00143
 _WorkNow                                  bssBANK2     00133
-_WorkQue                                  (abs)        0233C
+_WorkQue                                  (abs)        02288
 _WorkTick                                 text25       01F41
 __CFG_CPUDIV$NOCLKDIV                     (abs)        00000
 __CFG_FCMEN$OFF                           (abs)        00000
@@ -1167,7 +1165,7 @@ __pbssBANK2                               bssBANK2     00120
 __pbssBANK3                               bssBANK3     001A0
 __pbssBANK5                               bssBANK5     002E0
 __pbssBANK6                               bssBANK6     00320
-__pbssBIGRAM                              (abs)        0233C
+__pbssBIGRAM                              (abs)        02288
 __pcstackBANK0                            cstackBANK0  00050
 __pcstackBANK1                            cstackBANK1  000A0
 __pcstackBANK2                            cstackBANK2  00144
@@ -1629,7 +1627,7 @@ Total ram usage:        6 bytes
 		line 318 in file "asic.c"
  Parameters:    Size  Location     Type
   work            2    0[BANK1 ] PTR struct _worktask
-		 -> WorkQue(180), 
+		 -> WorkQue(360), 
  Auto vars:     Size  Location     Type
   m              32   24[BANK1 ] unsigned long [8]
   K              12   12[BANK1 ] unsigned long [3]
@@ -1696,7 +1694,7 @@ Total ram usage:       13 bytes
 		line 36 in file "asic.c"
  Parameters:    Size  Location     Type
   work            2   14[BANK0 ] PTR struct _worktask
-		 -> WorkQue(180), 
+		 -> WorkQue(360), 
  Auto vars:     Size  Location     Type
 		None
  Return value:  Size  Location     Type
@@ -1879,7 +1877,7 @@ Total ram usage:        0 bytes
 
  *************** function _UpdateClock *****************
  Defined at:
-		line 289 in file "klondike.c"
+		line 330 in file "klondike.c"
  Parameters:    Size  Location     Type
   SPEED           4   62[BANK1 ] unsigned long 
  Auto vars:     Size  Location     Type

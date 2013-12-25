@@ -1,7 +1,7 @@
 Version 3.2 HI-TECH Software Intermediate Code
 "4046 C:\Program Files (x86)\Microchip\xc8\v1.21\include\pic16lf1459.h
 [v _IOCBF `Vuc ~T0 @X0 0 e@918 ]
-"102 klondike.h
+"103 klondike.h
 [v _ResultRx `(v ~T0 @X0 0 ef ]
 [p mainexit ]
 "61 main.c
@@ -10,14 +10,14 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _USBDeviceTasks `(v ~T0 @X0 0 ef ]
 "6713 C:\Program Files (x86)\Microchip\xc8\v1.21\include\pic16lf1459.h
 [v _TMR0IF `Vb ~T0 @X0 0 e@90 ]
-"103 klondike.h
+"104 klondike.h
 [v _WorkTick `(v ~T0 @X0 0 ef ]
-"73
+"74
 [s S399 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `us 1 `us 1 `uc 1 ]
 [n S399 _workstatus State ChipCount SlaveCount WorkQC WorkID Temp FanSpeed ErrorCount HashCount MaxCount Noise ]
 "55 main.c
 [v _Status `S399 ~T0 @X0 0 e ]
-"98 klondike.h
+"99 klondike.h
 [v _AsicPushWork `(v ~T0 @X0 0 ef ]
 "62 main.c
 [v _ProcessIO `(v ~T0 @X0 0 ef ]
@@ -53,15 +53,15 @@ Version 3.2 HI-TECH Software Intermediate Code
 [n S126 . . ]
 "1827
 [v _LATAbits `VS126 ~T0 @X0 0 e@268 ]
-"116 klondike.h
+"117 klondike.h
 [v _InitTempSensor `(v ~T0 @X0 0 ef ]
-"115
+"116
 [v _InitFAN `(v ~T0 @X0 0 ef ]
-"117
-[v _InitWorkTick `(v ~T0 @X0 0 ef ]
 "118
+[v _InitWorkTick `(v ~T0 @X0 0 ef ]
+"119
 [v _InitResultRx `(v ~T0 @X0 0 ef ]
-"100
+"101
 [v _DetectAsics `(v ~T0 @X0 0 ef ]
 "184 main.c
 [c E3477 0 1 2 4 8 16 32 .. ]
@@ -97,7 +97,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 "309
 [u S391 `S392 1 `S393 1 `ul 1 `uc -> 4 `i ]
 [n S391 __BDT . . Val v ]
-"97 klondike.h
+"98 klondike.h
 [v _ProcessCmd `(v ~T0 @X0 0 ef1`*uc ]
 "502 ../Include\USB/usb_device.h
 [v _USBTransferOnePacket `(*v ~T0 @X0 0 ef4`uc`uc`*uc`uc ]
@@ -3640,61 +3640,61 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;usb_hal.h: 597: BOOL USBHALSetEpConfiguration ( BYTE ep_num, UINT16 max_pkt_size, UINT16 flags );
 [; ;usb_hal.h: 647: BOOL USBHALInitialize ( unsigned long flags );
 [; ;usb_function_generic.h: 251: void USBCheckVendorRequest(void);
-[; ;klondike.h: 56: typedef struct _id {
-[; ;klondike.h: 57: BYTE version;
-[; ;klondike.h: 58: char product[7];
-[; ;klondike.h: 59: DWORD serial;
-[; ;klondike.h: 60: } IDENTITY;
-[; ;klondike.h: 62: typedef struct _workstatus {
-[; ;klondike.h: 63: BYTE State;
-[; ;klondike.h: 64: BYTE ChipCount;
-[; ;klondike.h: 65: BYTE SlaveCount;
-[; ;klondike.h: 66: BYTE WorkQC;
-[; ;klondike.h: 67: BYTE WorkID;
-[; ;klondike.h: 68: BYTE Temp;
-[; ;klondike.h: 69: BYTE FanSpeed;
-[; ;klondike.h: 70: BYTE ErrorCount;
-[; ;klondike.h: 71: WORD HashCount, MaxCount;
-[; ;klondike.h: 72: BYTE Noise;
-[; ;klondike.h: 73: } WORKSTATUS;
-[; ;klondike.h: 75: typedef struct _workcfg {
-[; ;klondike.h: 76: WORD HashClock;
-[; ;klondike.h: 77: BYTE TempTarget, Future1;
-[; ;klondike.h: 78: BYTE Future2, Future3;
-[; ;klondike.h: 79: } WORKCFG;
-[; ;klondike.h: 81: typedef struct _worktask {
-[; ;klondike.h: 82: BYTE WorkID;
-[; ;klondike.h: 83: DWORD MidState[8];
-[; ;klondike.h: 84: DWORD Merkle[3];
-[; ;klondike.h: 85: } WORKTASK;
-[; ;klondike.h: 87: typedef struct _i2c {
-[; ;klondike.h: 88: BYTE Next : 5;
-[; ;klondike.h: 89: BYTE Slave : 1;
-[; ;klondike.h: 90: BYTE Master : 1;
-[; ;klondike.h: 91: } I2CSTATE;
-[; ;klondike.h: 97: void ProcessCmd(char *cmd);
-[; ;klondike.h: 98: void AsicPushWork(void);
-[; ;klondike.h: 100: void DetectAsics(void);
-[; ;klondike.h: 102: void ResultRx(void);
-[; ;klondike.h: 103: void WorkTick(void);
-[; ;klondike.h: 104: void UpdateFanLevel(void);
-[; ;klondike.h: 106: void I2CRelay(char *data, BYTE count);
-[; ;klondike.h: 107: void I2CPoll(void);
-[; ;klondike.h: 108: void I2CDetect(void);
-[; ;klondike.h: 109: void I2CRead(void);
-[; ;klondike.h: 110: void I2CWrite(void);
-[; ;klondike.h: 111: void I2CSlave(void);
-[; ;klondike.h: 113: void InitI2CSlave(void);
-[; ;klondike.h: 114: void InitI2CMaster(void);
-[; ;klondike.h: 115: void InitFAN(void);
-[; ;klondike.h: 116: void InitTempSensor(void);
-[; ;klondike.h: 117: void InitWorkTick(void);
-[; ;klondike.h: 118: void InitResultRx(void);
-[; ;klondike.h: 120: void SendAsicData(WORKTASK *work);
-[; ;klondike.h: 121: void Send32(void);
-[; ;klondike.h: 122: void AsicPreCalc(WORKTASK *work);
-[; ;klondike.h: 124: void SendCmdReply(char *cmd, BYTE *ReplyBuf, BYTE count);
-[; ;klondike.h: 126: void UpdateClock(DWORD SPEED);
+[; ;klondike.h: 57: typedef struct _id {
+[; ;klondike.h: 58: BYTE version;
+[; ;klondike.h: 59: char product[7];
+[; ;klondike.h: 60: DWORD serial;
+[; ;klondike.h: 61: } IDENTITY;
+[; ;klondike.h: 63: typedef struct _workstatus {
+[; ;klondike.h: 64: BYTE State;
+[; ;klondike.h: 65: BYTE ChipCount;
+[; ;klondike.h: 66: BYTE SlaveCount;
+[; ;klondike.h: 67: BYTE WorkQC;
+[; ;klondike.h: 68: BYTE WorkID;
+[; ;klondike.h: 69: BYTE Temp;
+[; ;klondike.h: 70: BYTE FanSpeed;
+[; ;klondike.h: 71: BYTE ErrorCount;
+[; ;klondike.h: 72: WORD HashCount, MaxCount;
+[; ;klondike.h: 73: BYTE Noise;
+[; ;klondike.h: 74: } WORKSTATUS;
+[; ;klondike.h: 76: typedef struct _workcfg {
+[; ;klondike.h: 77: WORD HashClock;
+[; ;klondike.h: 78: BYTE TempTarget, Future1;
+[; ;klondike.h: 79: BYTE Future2, Future3;
+[; ;klondike.h: 80: } WORKCFG;
+[; ;klondike.h: 82: typedef struct _worktask {
+[; ;klondike.h: 83: BYTE WorkID;
+[; ;klondike.h: 84: DWORD MidState[8];
+[; ;klondike.h: 85: DWORD Merkle[3];
+[; ;klondike.h: 86: } WORKTASK;
+[; ;klondike.h: 88: typedef struct _i2c {
+[; ;klondike.h: 89: BYTE Next : 5;
+[; ;klondike.h: 90: BYTE Slave : 1;
+[; ;klondike.h: 91: BYTE Master : 1;
+[; ;klondike.h: 92: } I2CSTATE;
+[; ;klondike.h: 98: void ProcessCmd(char *cmd);
+[; ;klondike.h: 99: void AsicPushWork(void);
+[; ;klondike.h: 101: void DetectAsics(void);
+[; ;klondike.h: 103: void ResultRx(void);
+[; ;klondike.h: 104: void WorkTick(void);
+[; ;klondike.h: 105: void UpdateFanLevel(void);
+[; ;klondike.h: 107: void I2CRelay(char *data, BYTE count);
+[; ;klondike.h: 108: void I2CPoll(void);
+[; ;klondike.h: 109: void I2CDetect(void);
+[; ;klondike.h: 110: void I2CRead(void);
+[; ;klondike.h: 111: void I2CWrite(void);
+[; ;klondike.h: 112: void I2CSlave(void);
+[; ;klondike.h: 114: void InitI2CSlave(void);
+[; ;klondike.h: 115: void InitI2CMaster(void);
+[; ;klondike.h: 116: void InitFAN(void);
+[; ;klondike.h: 117: void InitTempSensor(void);
+[; ;klondike.h: 118: void InitWorkTick(void);
+[; ;klondike.h: 119: void InitResultRx(void);
+[; ;klondike.h: 121: void SendAsicData(WORKTASK *work);
+[; ;klondike.h: 122: void Send32(void);
+[; ;klondike.h: 123: void AsicPreCalc(WORKTASK *work);
+[; ;klondike.h: 125: void SendCmdReply(char *cmd, BYTE *ReplyBuf, BYTE count);
+[; ;klondike.h: 127: void UpdateClock(DWORD SPEED);
 "35 main.c
 [p x FOSC=INTOSC ]
 [p x WDTE=OFF ]

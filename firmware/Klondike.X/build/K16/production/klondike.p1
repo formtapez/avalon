@@ -1,21 +1,21 @@
 Version 3.2 HI-TECH Software Intermediate Code
-"60 klondike.h
+"61 klondike.h
 [s S353 `uc 1 `uc -> 7 `i `ul 1 ]
 [n S353 _id version product serial ]
-"73
+"74
 [s S354 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `us 1 `us 1 `uc 1 ]
 [n S354 _workstatus State ChipCount SlaveCount WorkQC WorkID Temp FanSpeed ErrorCount HashCount MaxCount Noise ]
-"79
+"80
 [s S355 `us 1 `uc 1 `uc 1 `uc 1 `uc 1 ]
 [n S355 _workcfg HashClock TempTarget Future1 Future2 Future3 ]
-"85
+"86
 [s S356 `uc 1 `ul -> 8 `i `ul -> 3 `i ]
 [n S356 _worktask WorkID MidState Merkle ]
-"98
+"99
 [v _AsicPushWork `(v ~T0 @X0 0 ef ]
-"124
+"125
 [v _SendCmdReply `(v ~T0 @X0 0 ef3`*uc`*uc`uc ]
-"126
+"127
 [v _UpdateClock `(v ~T0 @X0 0 ef1`ul ]
 "1821 C:\Program Files (x86)\Microchip\xc8\v1.21\include\pic16lf1459.h
 [s S127 :4 `uc 1 :1 `uc 1 :1 `uc 1 ]
@@ -25,9 +25,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [n S126 . . ]
 "1827
 [v _LATAbits `VS126 ~T0 @X0 0 e@268 ]
-"122 klondike.h
+"123 klondike.h
 [v _AsicPreCalc `(v ~T0 @X0 0 ef1`*S356 ]
-"120
+"121
 [v _SendAsicData `(v ~T0 @X0 0 ef1`*S356 ]
 "659 C:\Program Files (x86)\Microchip\xc8\v1.21\include\pic16lf1459.h
 [v _TMR0 `Vuc ~T0 @X0 0 e@21 ]
@@ -49,7 +49,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [n S116 . . . . ]
 "1655
 [v _ADCON0bits `VS116 ~T0 @X0 0 e@157 ]
-"104 klondike.h
+"105 klondike.h
 [v _UpdateFanLevel `(v ~T0 @X0 0 ef ]
 "6581 C:\Program Files (x86)\Microchip\xc8\v1.21\include\pic16lf1459.h
 [v _RCIF `Vb ~T0 @X0 0 e@141 ]
@@ -3254,61 +3254,61 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;string.h: 57: extern char * strichr(const char *, int);
 [; ;string.h: 58: extern char * strrchr(const char *, int);
 [; ;string.h: 59: extern char * strrichr(const char *, int);
-[; ;klondike.h: 56: typedef struct _id {
-[; ;klondike.h: 57: BYTE version;
-[; ;klondike.h: 58: char product[7];
-[; ;klondike.h: 59: DWORD serial;
-[; ;klondike.h: 60: } IDENTITY;
-[; ;klondike.h: 62: typedef struct _workstatus {
-[; ;klondike.h: 63: BYTE State;
-[; ;klondike.h: 64: BYTE ChipCount;
-[; ;klondike.h: 65: BYTE SlaveCount;
-[; ;klondike.h: 66: BYTE WorkQC;
-[; ;klondike.h: 67: BYTE WorkID;
-[; ;klondike.h: 68: BYTE Temp;
-[; ;klondike.h: 69: BYTE FanSpeed;
-[; ;klondike.h: 70: BYTE ErrorCount;
-[; ;klondike.h: 71: WORD HashCount, MaxCount;
-[; ;klondike.h: 72: BYTE Noise;
-[; ;klondike.h: 73: } WORKSTATUS;
-[; ;klondike.h: 75: typedef struct _workcfg {
-[; ;klondike.h: 76: WORD HashClock;
-[; ;klondike.h: 77: BYTE TempTarget, Future1;
-[; ;klondike.h: 78: BYTE Future2, Future3;
-[; ;klondike.h: 79: } WORKCFG;
-[; ;klondike.h: 81: typedef struct _worktask {
-[; ;klondike.h: 82: BYTE WorkID;
-[; ;klondike.h: 83: DWORD MidState[8];
-[; ;klondike.h: 84: DWORD Merkle[3];
-[; ;klondike.h: 85: } WORKTASK;
-[; ;klondike.h: 87: typedef struct _i2c {
-[; ;klondike.h: 88: BYTE Next : 5;
-[; ;klondike.h: 89: BYTE Slave : 1;
-[; ;klondike.h: 90: BYTE Master : 1;
-[; ;klondike.h: 91: } I2CSTATE;
-[; ;klondike.h: 97: void ProcessCmd(char *cmd);
-[; ;klondike.h: 98: void AsicPushWork(void);
-[; ;klondike.h: 100: void DetectAsics(void);
-[; ;klondike.h: 102: void ResultRx(void);
-[; ;klondike.h: 103: void WorkTick(void);
-[; ;klondike.h: 104: void UpdateFanLevel(void);
-[; ;klondike.h: 106: void I2CRelay(char *data, BYTE count);
-[; ;klondike.h: 107: void I2CPoll(void);
-[; ;klondike.h: 108: void I2CDetect(void);
-[; ;klondike.h: 109: void I2CRead(void);
-[; ;klondike.h: 110: void I2CWrite(void);
-[; ;klondike.h: 111: void I2CSlave(void);
-[; ;klondike.h: 113: void InitI2CSlave(void);
-[; ;klondike.h: 114: void InitI2CMaster(void);
-[; ;klondike.h: 115: void InitFAN(void);
-[; ;klondike.h: 116: void InitTempSensor(void);
-[; ;klondike.h: 117: void InitWorkTick(void);
-[; ;klondike.h: 118: void InitResultRx(void);
-[; ;klondike.h: 120: void SendAsicData(WORKTASK *work);
-[; ;klondike.h: 121: void Send32(void);
-[; ;klondike.h: 122: void AsicPreCalc(WORKTASK *work);
-[; ;klondike.h: 124: void SendCmdReply(char *cmd, BYTE *ReplyBuf, BYTE count);
-[; ;klondike.h: 126: void UpdateClock(DWORD SPEED);
+[; ;klondike.h: 57: typedef struct _id {
+[; ;klondike.h: 58: BYTE version;
+[; ;klondike.h: 59: char product[7];
+[; ;klondike.h: 60: DWORD serial;
+[; ;klondike.h: 61: } IDENTITY;
+[; ;klondike.h: 63: typedef struct _workstatus {
+[; ;klondike.h: 64: BYTE State;
+[; ;klondike.h: 65: BYTE ChipCount;
+[; ;klondike.h: 66: BYTE SlaveCount;
+[; ;klondike.h: 67: BYTE WorkQC;
+[; ;klondike.h: 68: BYTE WorkID;
+[; ;klondike.h: 69: BYTE Temp;
+[; ;klondike.h: 70: BYTE FanSpeed;
+[; ;klondike.h: 71: BYTE ErrorCount;
+[; ;klondike.h: 72: WORD HashCount, MaxCount;
+[; ;klondike.h: 73: BYTE Noise;
+[; ;klondike.h: 74: } WORKSTATUS;
+[; ;klondike.h: 76: typedef struct _workcfg {
+[; ;klondike.h: 77: WORD HashClock;
+[; ;klondike.h: 78: BYTE TempTarget, Future1;
+[; ;klondike.h: 79: BYTE Future2, Future3;
+[; ;klondike.h: 80: } WORKCFG;
+[; ;klondike.h: 82: typedef struct _worktask {
+[; ;klondike.h: 83: BYTE WorkID;
+[; ;klondike.h: 84: DWORD MidState[8];
+[; ;klondike.h: 85: DWORD Merkle[3];
+[; ;klondike.h: 86: } WORKTASK;
+[; ;klondike.h: 88: typedef struct _i2c {
+[; ;klondike.h: 89: BYTE Next : 5;
+[; ;klondike.h: 90: BYTE Slave : 1;
+[; ;klondike.h: 91: BYTE Master : 1;
+[; ;klondike.h: 92: } I2CSTATE;
+[; ;klondike.h: 98: void ProcessCmd(char *cmd);
+[; ;klondike.h: 99: void AsicPushWork(void);
+[; ;klondike.h: 101: void DetectAsics(void);
+[; ;klondike.h: 103: void ResultRx(void);
+[; ;klondike.h: 104: void WorkTick(void);
+[; ;klondike.h: 105: void UpdateFanLevel(void);
+[; ;klondike.h: 107: void I2CRelay(char *data, BYTE count);
+[; ;klondike.h: 108: void I2CPoll(void);
+[; ;klondike.h: 109: void I2CDetect(void);
+[; ;klondike.h: 110: void I2CRead(void);
+[; ;klondike.h: 111: void I2CWrite(void);
+[; ;klondike.h: 112: void I2CSlave(void);
+[; ;klondike.h: 114: void InitI2CSlave(void);
+[; ;klondike.h: 115: void InitI2CMaster(void);
+[; ;klondike.h: 116: void InitFAN(void);
+[; ;klondike.h: 117: void InitTempSensor(void);
+[; ;klondike.h: 118: void InitWorkTick(void);
+[; ;klondike.h: 119: void InitResultRx(void);
+[; ;klondike.h: 121: void SendAsicData(WORKTASK *work);
+[; ;klondike.h: 122: void Send32(void);
+[; ;klondike.h: 123: void AsicPreCalc(WORKTASK *work);
+[; ;klondike.h: 125: void SendCmdReply(char *cmd, BYTE *ReplyBuf, BYTE count);
+[; ;klondike.h: 127: void UpdateClock(DWORD SPEED);
 "25 klondike.c
 [v _ID `CS353 ~T0 @X0 1 e ]
 [i _ID
@@ -3396,8 +3396,8 @@ Version 3.2 HI-TECH Software Intermediate Code
 ]
 [; ;klondike.c: 33: WORKCFG Cfg = { 500, 143, 0, 0, 0 };
 "34
-[v _WorkQue `S356 ~T0 @X0 -> 4 `i e ]
-[; ;klondike.c: 34: WORKTASK WorkQue[4];
+[v _WorkQue `S356 ~T0 @X0 -> 8 `i e ]
+[; ;klondike.c: 34: WORKTASK WorkQue[8];
 "35
 [v _ResultQue `Vuc ~T0 @X0 -> 6 `i e ]
 [; ;klondike.c: 35: volatile BYTE ResultQue[6];
@@ -3432,13 +3432,13 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;klondike.c: 51: case 'W':
 "51
 [e :U 361 ]
-[; ;klondike.c: 52: if( Status.WorkQC < 4-1 ) {
+[; ;klondike.c: 52: if( Status.WorkQC < 8-1 ) {
 "52
-[e $ ! < -> . _Status 3 `i - -> 4 `i -> 1 `i 362  ]
+[e $ ! < -> . _Status 3 `i - -> 8 `i -> 1 `i 362  ]
 {
-[; ;klondike.c: 53: WorkQue[ (WorkNow + Status.WorkQC++) & 4-1 ] = *(WORKTASK *)(cmd+2);
+[; ;klondike.c: 53: WorkQue[ (WorkNow + Status.WorkQC++) & 8-1 ] = *(WORKTASK *)(cmd+2);
 "53
-[e = *U + &U _WorkQue * -> -> & + -> _WorkNow `i -> ++ . _Status 3 -> -> 1 `i `uc `i - -> 4 `i -> 1 `i `ui `ux -> -> # *U &U _WorkQue `ui `ux *U -> + _cmd * -> -> 2 `i `x -> -> # *U _cmd `i `x `*S356 ]
+[e = *U + &U _WorkQue * -> -> & + -> _WorkNow `i -> ++ . _Status 3 -> -> 1 `i `uc `i - -> 8 `i -> 1 `i `ui `ux -> -> # *U &U _WorkQue `ui `ux *U -> + _cmd * -> -> 2 `i `x -> -> # *U _cmd `i `x `*S356 ]
 [; ;klondike.c: 54: if(Status.State == 'R') {
 "54
 [e $ ! == -> . _Status 0 `ui -> 82 `ui 363  ]
@@ -3615,9 +3615,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;klondike.c: 111: SendAsicData(&WorkQue[WorkNow]);
 "111
 [e ( _SendAsicData (1 &U *U + &U _WorkQue * -> _WorkNow `ux -> -> # *U &U _WorkQue `ui `ux ]
-[; ;klondike.c: 112: WorkNow = (WorkNow+1) & 4-1;
+[; ;klondike.c: 112: WorkNow = (WorkNow+1) & 8-1;
 "112
-[e = _WorkNow -> & + -> _WorkNow `i -> 1 `i - -> 4 `i -> 1 `i `uc ]
+[e = _WorkNow -> & + -> _WorkNow `i -> 1 `i - -> 8 `i -> 1 `i `uc ]
 [; ;klondike.c: 113: Status.HashCount = 0;
 "113
 [e = . _Status 8 -> -> 0 `i `us ]
@@ -3641,9 +3641,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;klondike.c: 120: {
 [e :U _DetectAsics ]
 [f ]
-[; ;klondike.c: 121: Status.ChipCount = 10;
+[; ;klondike.c: 121: Status.ChipCount = 16;
 "121
-[e = . _Status 1 -> -> 10 `i `uc ]
+[e = . _Status 1 -> -> 16 `i `uc ]
 [; ;klondike.c: 124: BankSize = (Status.ChipCount)/2;
 "124
 [e = _BankSize -> / -> . _Status 1 `i -> 2 `i `uc ]
@@ -4102,75 +4102,75 @@ Version 3.2 HI-TECH Software Intermediate Code
 "286
 [e :UE 406 ]
 }
-"289
+"330
 [v _UpdateClock `(v ~T0 @X0 1 ef1`ul ]
 {
-[; ;klondike.c: 288: void UpdateClock(DWORD SPEED)
-[; ;klondike.c: 289: {
+[; ;klondike.c: 329: void UpdateClock(DWORD SPEED)
+[; ;klondike.c: 330: {
 [e :U _UpdateClock ]
 [v _SPEED `ul ~T0 @X0 1 r1 ]
 [f ]
-"290
+"331
 [v _CLOCK_R_VALUE `ul ~T0 @X0 1 a ]
 [v _CLOCK_F_VALUE `ul ~T0 @X0 1 a ]
 [v _CLOCK_OD_VALUE `ul ~T0 @X0 1 a ]
-[; ;klondike.c: 290: DWORD CLOCK_R_VALUE, CLOCK_F_VALUE, CLOCK_OD_VALUE;
-[; ;klondike.c: 307: if (SPEED > 250 && SPEED <= 500)
-"307
+[; ;klondike.c: 331: DWORD CLOCK_R_VALUE, CLOCK_F_VALUE, CLOCK_OD_VALUE;
+[; ;klondike.c: 348: if (SPEED > 250 && SPEED <= 500)
+"348
 [e $ ! && > _SPEED -> -> -> 250 `i `l `ul <= _SPEED -> -> -> 500 `i `l `ul 408  ]
-[; ;klondike.c: 308: {
-"308
+[; ;klondike.c: 349: {
+"349
 {
-[; ;klondike.c: 309: CLOCK_R_VALUE = 2;
-"309
+[; ;klondike.c: 350: CLOCK_R_VALUE = 2;
+"350
 [e = _CLOCK_R_VALUE -> -> -> 2 `i `l `ul ]
-[; ;klondike.c: 310: CLOCK_F_VALUE = (SPEED + 3.125) / 6.25;
-"310
+[; ;klondike.c: 351: CLOCK_F_VALUE = (SPEED + 3.125) / 6.25;
+"351
 [e = _CLOCK_F_VALUE -> / + -> _SPEED `d .3.125 .6.25 `ul ]
-[; ;klondike.c: 311: CLOCK_OD_VALUE = 1;
-"311
+[; ;klondike.c: 352: CLOCK_OD_VALUE = 1;
+"352
 [e = _CLOCK_OD_VALUE -> -> -> 1 `i `l `ul ]
-"312
+"353
 }
-[; ;klondike.c: 312: }
+[; ;klondike.c: 353: }
 [e $U 409  ]
-"314
+"355
 [e :U 408 ]
-[; ;klondike.c: 314: else if (SPEED > 500)
+[; ;klondike.c: 355: else if (SPEED > 500)
 [e $ ! > _SPEED -> -> -> 500 `i `l `ul 410  ]
-[; ;klondike.c: 315: {
-"315
+[; ;klondike.c: 356: {
+"356
 {
-[; ;klondike.c: 316: CLOCK_R_VALUE = 2;
-"316
+[; ;klondike.c: 357: CLOCK_R_VALUE = 2;
+"357
 [e = _CLOCK_R_VALUE -> -> -> 2 `i `l `ul ]
-[; ;klondike.c: 317: CLOCK_F_VALUE = (SPEED + 6.25) / 12.5;
-"317
+[; ;klondike.c: 358: CLOCK_F_VALUE = (SPEED + 6.25) / 12.5;
+"358
 [e = _CLOCK_F_VALUE -> / + -> _SPEED `d .6.25 .12.5 `ul ]
-[; ;klondike.c: 318: CLOCK_OD_VALUE = 0;
-"318
+[; ;klondike.c: 359: CLOCK_OD_VALUE = 0;
+"359
 [e = _CLOCK_OD_VALUE -> -> -> 0 `i `l `ul ]
-"319
+"360
 }
 [e :U 410 ]
-"322
+"363
 [e :U 409 ]
-[; ;klondike.c: 319: }
-[; ;klondike.c: 322: Cfg.HashClock = 25 * CLOCK_F_VALUE / CLOCK_R_VALUE / (1 << CLOCK_OD_VALUE);
+[; ;klondike.c: 360: }
+[; ;klondike.c: 363: Cfg.HashClock = 25 * CLOCK_F_VALUE / CLOCK_R_VALUE / (1 << CLOCK_OD_VALUE);
 [e = . _Cfg 0 -> / / * -> -> -> 25 `i `l `ul _CLOCK_F_VALUE _CLOCK_R_VALUE -> -> << -> 1 `i _CLOCK_OD_VALUE `l `ul `us ]
-[; ;klondike.c: 324: CLOCK_LOW_CHG = 0b00000000000000000000000001000111 | ((CLOCK_R_VALUE & 0b11111) << 16) | ((CLOCK_F_VALUE & 0b1111111) << 21) | ((CLOCK_OD_VALUE & 0b11) << 28);
-"324
+[; ;klondike.c: 365: CLOCK_LOW_CHG = 0b00000000000000000000000001000111 | ((CLOCK_R_VALUE & 0b11111) << 16) | ((CLOCK_F_VALUE & 0b1111111) << 21) | ((CLOCK_OD_VALUE & 0b11) << 28);
+"365
 [e = _CLOCK_LOW_CHG | | | -> -> -> 71 `i `l `ul << & _CLOCK_R_VALUE -> -> -> 31 `i `l `ul -> 16 `i << & _CLOCK_F_VALUE -> -> -> 127 `i `l `ul -> 21 `i << & _CLOCK_OD_VALUE -> -> -> 3 `i `l `ul -> 28 `i ]
-[; ;klondike.c: 326: ClockCfg[0] = CLOCK_LOW_CHG;
-"326
+[; ;klondike.c: 367: ClockCfg[0] = CLOCK_LOW_CHG;
+"367
 [e = *U + &U _ClockCfg * -> -> -> 0 `i `ui `ux -> -> # *U &U _ClockCfg `ui `ux _CLOCK_LOW_CHG ]
-[; ;klondike.c: 327: ClockCfg[1] = 0x00;
-"327
+[; ;klondike.c: 368: ClockCfg[1] = 0x00;
+"368
 [e = *U + &U _ClockCfg * -> -> -> 1 `i `ui `ux -> -> # *U &U _ClockCfg `ui `ux -> -> -> 0 `i `l `ul ]
-[; ;klondike.c: 328: HashTime = 256 - ((WORD)40000/Cfg.HashClock);
-"328
-[e = _HashTime -> - -> -> 256 `i `ui / -> -> -> 40000 `l `us `ui -> . _Cfg 0 `ui `uc ]
-[; ;klondike.c: 332: }
-"332
+[; ;klondike.c: 369: HashTime = 256 - ((WORD)20800/Cfg.HashClock);
+"369
+[e = _HashTime -> - -> -> 256 `i `ui / -> -> -> 20800 `i `us `ui -> . _Cfg 0 `ui `uc ]
+[; ;klondike.c: 373: }
+"373
 [e :UE 407 ]
 }
