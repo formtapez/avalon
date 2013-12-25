@@ -29,16 +29,8 @@ This project contains a circuit board, firmware and cgminer/bfgminer patch to ge
 
 **Get a board:**
 
-I can offer bare pcb's and ready-to-mine units. But first i have to see how much demand here is, to get an idea of how many boards i should order - which is turning the screw of pricing.
+Someone is selling some boards in the [Forum thread] soon.
 
-If you want to order a board, send me a message with the following information:
-- ammount of bare PCBs you want
-- ammount of ready-to-mine boards you want
-- destination country
-
-At december 8th i will make a summary, get prices at the distributors, pcb-fab and assy and will reply to your mails with an offer you can't refuse.
-
-Be aware that i don't sell Avalon chips. If you want an assembled board, you have to supply the chips on tape or reel to me in germany.
 
 
   [Forum thread]: https://bitcointalk.org/index.php?topic=323175.0
